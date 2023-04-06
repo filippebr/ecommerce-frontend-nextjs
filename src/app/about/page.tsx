@@ -1,5 +1,10 @@
+import Link from 'next/link';
+
 export default function About() {
   return (
-    <h1 className="text-3xl flex justify-center">Hello World from About!</h1>
+    <div className="text-3xl flex flex-col justify-center items-center">
+      <Link href="/">Main</Link>
+      Hello from About
+    </div>
   );
 }
