@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 import '../common/globals.css';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Ecommerce NextJS 13',
@@ -10,10 +11,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <h1 className="text-3xl flex justify-center items-center">
-          Hello from Layout
-        </h1>
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,3 +1,5 @@
 export default function About() {
-  return <h1 className="text-3xl flex justify-center">Hello World!</h1>;
+  return (
+    <h1 className="text-3xl flex justify-center">Hello World from About!</h1>
+  );
 }

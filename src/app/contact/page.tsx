@@ -1,9 +1,7 @@
-import React from 'react';
-
-export default function Footer() {
+export default function Contact() {
   return (
     <div className="text-3xl flex justify-center items-center">
-      Hello from Footer
+      Hello from Contact
     </div>
   );
 }
