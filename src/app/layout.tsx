@@ -1,7 +1,8 @@
 import { ReactNode } from 'react';
+import { Rubik } from 'next/font/google';
 import '../common/globals.css';
 import Footer from '@/components/Footer';
-import { Rubik } from 'next/font/google';
+import Header from '@/views/Header/index';
 
 export const metadata = {
   title: 'Ecommerce NextJS 13',
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body>
         <div className={`${rubik.variable} font-sans`}>
+          <Header />
           {children}
           <Footer />
         </div>
