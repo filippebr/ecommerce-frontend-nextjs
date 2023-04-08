@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import { Rubik } from 'next/font/google';
 import '../common/globals.css';
 import Footer from '@/components/Footer';
-import Header from '@/views/Header/index';
+import Header from '@/views/Header';
 
 export const metadata = {
   title: 'Ecommerce NextJS 13',
