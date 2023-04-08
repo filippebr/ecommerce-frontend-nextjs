@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import { IoSearchOutline } from 'react-icons/io5';
 
 export default function Header() {
   return (
@@ -32,22 +33,24 @@ export default function Header() {
               </Link>
             </h2>
           </div>
-          <div className="col-span-5">
-            <div className="flex flex-row mb-3">
+          <div className="col-span-5 mb-2">
+            <div className="flex flex-row">
               <input
                 type="search"
                 className={
-                  `w-full py-2 pl-3 pr-10 leading-5 rounded-l-lg border-2 border-white ` +
-                  `placeholder-waterloo focus:outline-none focus:ring-blue-500 focus:border-contessa sm:text-sm`
+                  `w-full py-2 pl-3 pr-10 leading-5 rounded-l-sm border-white placeholder-waterloo sm:text-sm border-2 ` +
+                  `border-white focus:outline-none focus:ring-spunpearl focus:border-spunpearl transition duration-500`
                 }
                 placeholder="Recipient's username"
                 aria-label="Recipient's username"
                 aria-describedby="basic-addon2"
               />
-              <div className="bg-white inset-y-0 right-0 flex items-center px-2 pointer-events-none border-2 rounded-r-lg border-white">
-                <span className="text-contessa sm:text-sm" id="basic-addon2">
-                  @example.com
-                </span>
+              <div className="bg-spunpearl inset-y-0 right-0 flex items-center px-2 pointer-events-none rounded-r-sm">
+                <a href="#" className="">
+                  <div className="text-3xl text-black">
+                    <IoSearchOutline />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
