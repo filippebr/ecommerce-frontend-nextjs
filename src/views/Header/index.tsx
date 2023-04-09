@@ -115,6 +115,31 @@ export default function Header() {
           </div>
         </div>
       </header>
+      <header className="bg-jacarta">
+        <div className="grid grid-cols-12 gap-4 p-4 items-center">
+          <div className="col-span-12">
+            <div className="flex flex-row items-center">
+              <div></div>
+              <div className="">
+                <div className="flex flex-row items-center justify-between">
+                  <Link className="text-white" href="/">
+                    Home
+                  </Link>
+                  <Link className="text-white" href="/store">
+                    Our Store
+                  </Link>
+                  <Link className="text-white" href="/blogs">
+                    Blogs
+                  </Link>
+                  <Link className="text-white" href="/contact">
+                    Contact
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
       <h1 className="text-3xl flex justify-center items-center">
         Hello from Head
       </h1>
