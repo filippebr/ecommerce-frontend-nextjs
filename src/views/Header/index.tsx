@@ -1,7 +1,12 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { BsSearch } from 'react-icons/bs';
+import { MdCompareArrows } from 'react-icons/md';
+import {
+  AiOutlineHeart,
+  AiOutlineShoppingCart,
+  AiOutlineUser,
+} from 'react-icons/ai';
 
 export default function Header() {
   return (
@@ -25,6 +30,7 @@ export default function Header() {
           </div>
         </div>
       </header>
+      <hr className="text-waterloo" />
       <header className="bg-jacarta">
         <div className="grid grid-cols-12 gap-4 p-4 align-middle items-center">
           <div className="col-span-2 flex justify-center items-center">
@@ -55,19 +61,14 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div className="col-span-5">
+          <div className="col-span-5 mr-24">
             <div className="flex flex-row items-center justify-between mx-8">
               <div>
                 <Link
                   className="flex flex-row items-center justify-center"
                   href=""
                 >
-                  <Image
-                    width="35"
-                    height="35"
-                    src="/images/compare.svg"
-                    alt="compare"
-                  />
+                  <MdCompareArrows className="text-5xl text-deco" />
                   <div className="flex flex-col items-center justify-center text-white ml-2">
                     <span>Compare</span>
                     <span>Products</span>
@@ -79,12 +80,7 @@ export default function Header() {
                   className="flex flex-row items-center justify-center"
                   href=""
                 >
-                  <Image
-                    width="35"
-                    height="35"
-                    src="/images/wishlist.svg"
-                    alt="wishlist"
-                  />
+                  <AiOutlineHeart className="text-5xl text-stiletto" />
                   <div className="flex flex-col items-center justify-center text-white ml-2">
                     <span>Favorite</span>
                     <span>Wishlist</span>
@@ -96,12 +92,7 @@ export default function Header() {
                   className="flex flex-row items-center justify-center"
                   href=""
                 >
-                  <Image
-                    width="35"
-                    height="35"
-                    src="/images/user.svg"
-                    alt="user"
-                  />
+                  <AiOutlineUser className="text-5xl text-deco" />
                   <div className="flex flex-col items-center justify-center text-white ml-2">
                     <span>Login</span>
                     <span>My account</span>
@@ -113,34 +104,10 @@ export default function Header() {
                   className="flex flex-row items-center justify-center"
                   href=""
                 >
-                  <Image
-                    width="35"
-                    height="35"
-                    src="/images/cart.svg"
-                    alt="cart"
-                  />
-                  <div className="flex flex-col items-center justify-center text-white ml-2">
-                    <span className="bg-stiletto px-2 rounded-full ml-2">
-                      0
-                    </span>
-                    {/* <span>Products</span> */}
-                  </div>
-                </Link>
-              </div>
-              <div>
-                <Link
-                  className="flex flex-row items-center justify-center"
-                  href=""
-                >
-                  <Image
-                    width="35"
-                    height="35"
-                    src="/images/compare.svg"
-                    alt=""
-                  />
-                  <div className="flex flex-col items-center justify-center text-white ml-2">
-                    <span>Compare</span>
-                    <span>Products</span>
+                  <AiOutlineShoppingCart className="text-5xl text-deco" />
+                  <div className="flex flex-col items-center justify-center text-black ml-2">
+                    <span className="bg-white px-2 rounded-full ml-2">100</span>
+                    <span className="text-white">$ 500</span>
                   </div>
                 </Link>
               </div>
