@@ -11,10 +11,10 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+        <Menu.Button className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-sm bg-jacarta text-white px-3 py-2 text-xl font-semibold shadow-sm hover:bg-luckypoint">
           Options
           <ChevronDownIcon
-            className="-mr-1 h-5 w-5 text-gray-400"
+            className="-mr-1 h-5 w-5 text-white"
             aria-hidden="true"
           />
         </Menu.Button>
@@ -29,16 +29,14 @@ export default function Example() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute z-10 w-56 origin-top-right rounded-md bg-luckypoint shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-          <div className="py-1">
+        <Menu.Items className="absolute align-middle z-10 w-56 origin-top-right rounded-sm bg-jacarta shadow-lg focus:outline-none">
+          <div className="py-0">
             <Menu.Item>
               {({ active }) => (
                 <a
                   href="#"
                   className={classNames(
-                    active
-                      ? 'bg-amethystsmoke text-eminence'
-                      : 'text-trendypink',
+                    active ? 'bg-luckypoint text-white' : 'text-white',
                     'block px-4 py-2 text-md'
                   )}
                 >
@@ -51,9 +49,7 @@ export default function Example() {
                 <a
                   href="#"
                   className={classNames(
-                    active
-                      ? 'bg-amethystsmoke text-eminence'
-                      : 'text-trendypink',
+                    active ? 'bg-luckypoint text-white' : 'text-white',
                     'block px-4 py-2 text-md'
                   )}
                 >
@@ -66,9 +62,7 @@ export default function Example() {
                 <a
                   href="#"
                   className={classNames(
-                    active
-                      ? 'bg-amethystsmoke text-eminence'
-                      : 'text-trendypink',
+                    active ? 'bg-luckypoint text-white' : 'text-white',
                     'block px-4 py-2 text-md'
                   )}
                 >
@@ -76,23 +70,19 @@ export default function Example() {
                 </a>
               )}
             </Menu.Item>
-            <form method="POST" action="#">
-              <Menu.Item>
-                {({ active }) => (
-                  <button
-                    type="submit"
-                    className={classNames(
-                      active
-                        ? 'bg-amethystsmoke text-eminence'
-                        : 'text-trendypink',
-                      'block px-4 py-2 text-md'
-                    )}
-                  >
-                    Sign out
-                  </button>
-                )}
-              </Menu.Item>
-            </form>
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  href="#"
+                  className={classNames(
+                    active ? 'bg-luckypoint text-white' : 'text-white',
+                    'block px-4 py-2 text-md'
+                  )}
+                >
+                  Sign out
+                </a>
+              )}
+            </Menu.Item>
           </div>
         </Menu.Items>
       </Transition>

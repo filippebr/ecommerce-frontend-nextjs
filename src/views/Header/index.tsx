@@ -120,7 +120,7 @@ export default function Header() {
       <header className="bg-eastbay">
         <div className="grid grid-cols-12 items-center">
           <div className="col-span-12 justify-center px-4">
-            <div className="flex flex-row items-center ml-32 p-0">
+            <div className="flex flex-row items-center p-0">
               <div></div>
               {/* dropdown menu */}
               <Dropdown />
