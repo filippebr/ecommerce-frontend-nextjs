@@ -115,13 +115,13 @@ export default function Header() {
           </div>
         </div>
       </header>
-      <header className="bg-jacarta">
-        <div className="grid grid-cols-12 gap-4 p-4 items-center">
-          <div className="col-span-12">
+      <header className="bg-eastbay">
+        <div className="grid grid-cols-12 p-4 gap-4 items-center ">
+          <div className="col-span-12 justify-between">
             <div className="flex flex-row items-center">
               <div></div>
-              <div className="">
-                <div className="flex flex-row items-center justify-between">
+              <div className="w-full">
+                <div className="flex flex-row items-center justify-between uppercase">
                   <Link className="text-white" href="/">
                     Home
                   </Link>
