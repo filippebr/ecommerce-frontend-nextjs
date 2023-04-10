@@ -29,7 +29,7 @@ module.exports = {
       hintofyellow: '#FAFCE0',
     },
     fontFamily: {
-      sans: ['var(--font-rubik)', ...defaultTheme.fontFamily.sans],
+      sans: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
     },
     extend: {},
   },

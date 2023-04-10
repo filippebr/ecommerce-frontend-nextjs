@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { BsSearch } from 'react-icons/bs';
-import { MdCompareArrows, MdKeyboardArrowDown } from 'react-icons/md';
+import { MdCompareArrows } from 'react-icons/md';
 import {
   AiOutlineHeart,
   AiOutlineShoppingCart,

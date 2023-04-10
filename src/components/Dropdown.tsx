@@ -12,7 +12,7 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center items-center gap-x-10 rounded-sm bg-eastbay text-white px-3 py-2 text-xl font-semibold shadow-sm hover:bg-jacarta">
+        <Menu.Button className="inline-flex w-full justify-center items-center gap-x-6 bg-eastbay text-white px-3 py-2 text-xl font-semibold shadow-sm hover:bg-jacarta">
           <TbGridDots />
           Shop Categories
           <ChevronDownIcon
@@ -31,7 +31,7 @@ export default function Example() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute align-middle z-10 w-56 origin-top-right rounded-sm bg-eastbay shadow-lg focus:outline-none">
+        <Menu.Items className="absolute align-middle z-10 w-64 origin-top-right bg-eastbay shadow-lg focus:outline-none">
           <div className="py-0">
             <Menu.Item>
               {({ active }) => (
