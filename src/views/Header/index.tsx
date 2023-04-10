@@ -119,11 +119,14 @@ export default function Header() {
       </header>
       <header className="bg-eastbay">
         <div className="grid grid-cols-12 items-center">
-          <div className="col-span-12 justify-center px-4">
+          {/* dropdown menu */}
+          <div className="col-span-3">
+            <Dropdown />
+          </div>
+          <div className="col-span-9 justify-center px-4">
             <div className="flex flex-row items-center p-0">
               <div></div>
-              {/* dropdown menu */}
-              <Dropdown />
+
               <div className="w-full">
                 <div className="flex flex-row items-center justify-between uppercase">
                   <Link className="text-white" href="/">
