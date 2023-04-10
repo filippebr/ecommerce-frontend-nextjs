@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -27,9 +29,9 @@ module.exports = {
       hintofyellow: '#FAFCE0',
     },
     fontFamily: {
-      sans: ['var(--font-rubik)'],
+      sans: ['var(--font-rubik)', ...defaultTheme.fontFamily.sans],
     },
     extend: {},
   },
-  plugins: [require('daisyui')],
+  plugins: [],
 };

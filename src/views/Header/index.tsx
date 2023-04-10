@@ -1,12 +1,14 @@
 import Link from 'next/link';
 import React from 'react';
 import { BsSearch } from 'react-icons/bs';
-import { MdCompareArrows } from 'react-icons/md';
+import { MdCompareArrows, MdKeyboardArrowDown } from 'react-icons/md';
 import {
   AiOutlineHeart,
   AiOutlineShoppingCart,
   AiOutlineUser,
 } from 'react-icons/ai';
+
+import Dropdown from '../../components/Dropdown';
 
 export default function Header() {
   return (
@@ -45,7 +47,7 @@ export default function Header() {
               <input
                 type="search"
                 className={
-                  `w-full py-2 pl-3 pr-10 leading-5 border-2 rounded-l-sm border-white placeholder-waterloo sm:text-sm ` +
+                  `w-full bg-white py-2 pl-3 pr-10 leading-5 border-2 rounded-l-sm border-white placeholder-waterloo sm:text-sm ` +
                   `border-white focus:outline-none focus:ring-spunpearl focus:border-spunpearl transition duration-500`
                 }
                 placeholder="Search Product Here..."
@@ -116,10 +118,12 @@ export default function Header() {
         </div>
       </header>
       <header className="bg-eastbay">
-        <div className="grid grid-cols-12 p-4 gap-4 items-center ">
-          <div className="col-span-12 justify-between">
-            <div className="flex flex-row items-center">
+        <div className="grid grid-cols-12 items-center">
+          <div className="col-span-12 justify-center px-4">
+            <div className="flex flex-row items-center ml-32 p-0">
               <div></div>
+              {/* dropdown menu */}
+              <Dropdown />
               <div className="w-full">
                 <div className="flex flex-row items-center justify-between uppercase">
                   <Link className="text-white" href="/">
