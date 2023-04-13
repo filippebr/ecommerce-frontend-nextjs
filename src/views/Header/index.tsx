@@ -34,9 +34,9 @@ export default function Header() {
       </header>
       <hr className="text-waterloo" />
       <header className="bg-jacarta">
-        <div className="grid grid-cols-12 gap-4 p-4 align-middle items-center">
-          <div className="col-span-2 flex justify-center items-center">
-            <h2 className="text-4xl">
+        <div className="grid grid-cols-12 gap-4 py-5 align-middle items-center px-6 sm:px-12 lg:px-24">
+          <div className="col-span-2 flex">
+            <h2 className="sm:xl md:2xl lg:text-4xl">
               <Link href="" className="text-white">
                 Dev Corner
               </Link>
@@ -63,8 +63,8 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div className="col-span-5 mr-24">
-            <div className="flex flex-row items-center justify-between mx-8">
+          <div className="col-span-5 px-6">
+            <div className="flex flex-row items-center justify-between">
               <div>
                 <Link
                   className="flex flex-row items-center justify-center"
@@ -118,7 +118,7 @@ export default function Header() {
         </div>
       </header>
       <header className="bg-eastbay">
-        <div className="grid grid-cols-12 items-center">
+        <div className="grid grid-cols-12 items-center px-6 sm:px-12 lg:px-24">
           {/* dropdown menu */}
           <div className="col-span-3">
             <Dropdown />
