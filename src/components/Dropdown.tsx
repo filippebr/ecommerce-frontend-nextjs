@@ -37,10 +37,12 @@ export default function Example() {
               {({ active }) => (
                 <a
                   href="#"
-                  className={classNames(
-                    active ? 'bg-jacarta text-white' : 'text-white',
-                    'block px-4 py-2 text-md'
-                  )}
+                  className={
+                    classNames(
+                      active ? 'bg-jacarta text-white' : 'text-white',
+                      'block px-4 py-2 text-md'
+                    ) + 'border-b-2 border-white'
+                  }
                 >
                   Account settings
                 </a>
