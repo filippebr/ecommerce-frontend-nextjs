@@ -33,59 +33,52 @@ export default function Example() {
       >
         <Menu.Items className="absolute align-middle z-10 w-64 origin-top-right bg-eastbay shadow-lg focus:outline-none">
           <div className="py-0">
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="#"
-                  className={
-                    classNames(
-                      active ? 'bg-jacarta text-white' : 'text-white',
-                      'block px-4 py-2 text-md'
-                    ) + 'border-b-2 border-white'
-                  }
-                >
-                  Account settings
-                </a>
-              )}
+            <Menu.Item
+              as="a"
+              href="#"
+              className="ui-active:bg-jacarta \
+              ui-active:text-white \
+              ui-not-active:bg-eastbay \
+              ui-not-active:text-white \
+                block border-b-2 border-jacarta \
+                px-4 py-2 text-md"
+            >
+              Account setting
             </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="#"
-                  className={classNames(
-                    active ? 'bg-jacarta text-white' : 'text-white',
-                    'block px-4 py-2 text-md'
-                  )}
-                >
-                  Support
-                </a>
-              )}
+            <Menu.Item
+              as="a"
+              href="#"
+              className="ui-active:bg-jacarta \
+              ui-active:text-white \
+              ui-not-active:bg-eastbay \
+              ui-not-active:text-white \
+                block border-b-2 border-jacarta \
+                px-4 py-2 text-md"
+            >
+              Support
             </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="#"
-                  className={classNames(
-                    active ? 'bg-jacarta text-white' : 'text-white',
-                    'block px-4 py-2 text-md'
-                  )}
-                >
-                  License
-                </a>
-              )}
+            <Menu.Item
+              as="a"
+              href="#"
+              className="ui-active:bg-jacarta \
+              ui-active:text-white \
+              ui-not-active:bg-eastbay \
+              ui-not-active:text-white \
+                block border-b-2 border-jacarta \
+                px-4 py-2 text-md"
+            >
+              License
             </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="#"
-                  className={classNames(
-                    active ? 'bg-jacarta text-white' : 'text-white',
-                    'block px-4 py-2 text-md'
-                  )}
-                >
-                  Sign out
-                </a>
-              )}
+            <Menu.Item
+              as="a"
+              href="#"
+              className="ui-active:bg-jacarta \
+              ui-active:text-white \
+              ui-not-active:bg-eastbay \
+              ui-not-active:text-white \
+                block px-4 py-2 text-md"
+            >
+              Sign-out
             </Menu.Item>
           </div>
         </Menu.Items>

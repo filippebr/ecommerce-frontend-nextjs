@@ -33,5 +33,5 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@headlessui/tailwindcss')],
 };
