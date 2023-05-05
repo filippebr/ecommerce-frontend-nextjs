@@ -6,7 +6,9 @@ export default function Footer() {
   return (
     <>
       <FooterTop />
+      <hr className="text-waterloo" />
       <FooterMiddle />
+      <hr className="text-waterloo" />
       <FooterBottom />
     </>
   );

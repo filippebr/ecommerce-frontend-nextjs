@@ -1,6 +1,6 @@
 export default function HeaderTop() {
   return (
-    <header className="bg-jacarta">
+    <header className="bg-jacarta border-b border-waterloo">
       <div className="w-full mx-auto py-3 px-6 sm:px-12 lg:px-24">
         <div className="grid grid-cols-2 gap-4">
           <div>

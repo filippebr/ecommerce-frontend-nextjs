@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <>
       <HeaderTop />
-      <hr className="text-waterloo" />
+      {/* <hr className="text-waterloo" /> */}
       <HeaderMiddle />
       <HeaderBottom />
     </>
