@@ -1,9 +1,13 @@
+import FooterTop from '@/components/FooterTop';
+import FooterMiddle from '@/components/FooterMiddle';
+import FooterBottom from '@/components/FooterBottom';
+
 export default function Footer() {
   return (
     <>
-      <footer className="py-3 bg-jacarta"></footer>
-      <footer className="py-3 bg-jacarta"></footer>
-      <footer className="py-3 bg-jacarta"></footer>
+      <FooterTop />
+      <FooterMiddle />
+      <FooterBottom />
     </>
   );
 }

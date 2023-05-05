@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import { Inter } from 'next/font/google';
 
 import '../common/globals.css';
-import Footer from '@/components/Footer';
+import Footer from '@/views/Footer';
 import Header from '@/views/Header';
 
 export const metadata = {
