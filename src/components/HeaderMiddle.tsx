@@ -15,7 +15,7 @@ export default function HeaderMiddle() {
         <div className="col-span-2 flex">
           <h2 className="sm:xl md:2xl lg:text-4xl">
             <Link href="" className="text-white">
-              Dev Corner
+              Nefelibata Web
             </Link>
           </h2>
         </div>
@@ -25,7 +25,7 @@ export default function HeaderMiddle() {
               type="search"
               className={
                 `w-full bg-white py-2 pl-3 pr-10 leading-5 border-2 rounded-l-sm border-white placeholder-waterloo sm:text-sm ` +
-                `border-white focus:outline-none focus:ring-spunpearl focus:border-spunpearl transition duration-500`
+                `border-white focus:outline-none focus:ring-petiteorchid focus:border-petiteorchid transition duration-300`
               }
               placeholder="Search Product Here..."
               aria-label="search Product Here..."
