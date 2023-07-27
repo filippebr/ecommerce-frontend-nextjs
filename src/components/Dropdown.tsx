@@ -1,11 +1,11 @@
-'use client';
-import { Fragment } from 'react';
-import { Menu, Transition } from '@headlessui/react';
-import { ChevronDownIcon } from '@heroicons/react/20/solid';
-import { TbGridDots } from 'react-icons/tb';
+'use client'
+import { Menu, Transition } from '@headlessui/react'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { Fragment } from 'react'
+import { TbGridDots } from 'react-icons/tb'
 
 function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(' ')
 }
 
 export default function Example() {
@@ -43,7 +43,7 @@ export default function Example() {
                 block border-b-2 border-jacarta \
                 px-4 py-2 text-md"
             >
-              Account setting
+              Account settings
             </Menu.Item>
             <Menu.Item
               as="a"
@@ -84,5 +84,5 @@ export default function Example() {
         </Menu.Items>
       </Transition>
     </Menu>
-  );
+  )
 }

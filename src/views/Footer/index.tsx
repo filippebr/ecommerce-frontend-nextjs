@@ -1,6 +1,6 @@
-import FooterTop from '@/components/FooterTop';
-import FooterMiddle from '@/components/FooterMiddle';
-import FooterBottom from '@/components/FooterBottom';
+import FooterBottom from '@/components/FooterBottom'
+import FooterMiddle from '@/components/FooterMiddle'
+import FooterTop from '@/components/FooterTop'
 
 export default function Footer() {
   return (
@@ -11,5 +11,5 @@ export default function Footer() {
       <hr className="text-waterloo" />
       <FooterBottom />
     </>
-  );
+  )
 }

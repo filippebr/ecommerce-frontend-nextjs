@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import { BsSearch } from 'react-icons/bs';
+import Image from 'next/image'
 
 export default function FooterTop() {
   return (
@@ -45,5 +44,5 @@ export default function FooterTop() {
         </div>
       </footer>
     </>
-  );
+  )
 }

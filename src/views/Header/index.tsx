@@ -1,8 +1,6 @@
-import React from 'react';
-
-import HeaderTop from '@/components/HeaderTop';
-import HeaderMiddle from '@/components/HeaderMiddle';
-import HeaderBottom from '@/components/HeaderBottom';
+import HeaderBottom from '@/components/HeaderBottom'
+import HeaderMiddle from '@/components/HeaderMiddle'
+import HeaderTop from '@/components/HeaderTop'
 
 export default function Header() {
   return (
@@ -12,5 +10,5 @@ export default function Header() {
       <HeaderMiddle />
       <HeaderBottom />
     </>
-  );
+  )
 }

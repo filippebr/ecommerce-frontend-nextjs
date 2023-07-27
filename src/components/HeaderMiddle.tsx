@@ -1,12 +1,12 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
-import { BsSearch } from 'react-icons/bs';
-import { MdCompareArrows } from 'react-icons/md';
 import {
   AiOutlineHeart,
   AiOutlineShoppingCart,
   AiOutlineUser,
-} from 'react-icons/ai';
+} from 'react-icons/ai'
+import { BsSearch } from 'react-icons/bs'
+import { MdCompareArrows } from 'react-icons/md'
 
 export default function HeaderMiddle() {
   return (
@@ -94,5 +94,5 @@ export default function HeaderMiddle() {
         </div>
       </div>
     </header>
-  );
+  )
 }

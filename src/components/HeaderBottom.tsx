@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Dropdown from './Dropdown';
+import Link from 'next/link'
+import Dropdown from './Dropdown'
 
 export default function HeaderBottom() {
   return (
@@ -45,5 +45,5 @@ export default function HeaderBottom() {
         </div>
       </div>
     </header>
-  );
+  )
 }

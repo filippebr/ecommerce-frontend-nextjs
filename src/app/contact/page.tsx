@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 export default function Contact() {
   return (
@@ -6,5 +6,5 @@ export default function Contact() {
       <Link href="/">Main</Link>
       Hello from Contact
     </div>
-  );
+  )
 }
