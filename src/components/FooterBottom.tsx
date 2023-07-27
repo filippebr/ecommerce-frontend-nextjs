@@ -6,7 +6,7 @@ export default function FooterBottom() {
           <div className="flex justify-center">
             <div className="">
               <p className="text-center mb-0 text-white">
-                &copy; {new Date().getFullYear()}; Powered by Developer`&apos;`s
+                &copy; {new Date().getFullYear()} Powered by Developer&apos;s
                 Web
               </p>
             </div>
