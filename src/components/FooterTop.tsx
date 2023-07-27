@@ -4,9 +4,9 @@ export default function FooterTop() {
   return (
     <>
       <footer className="bg-jacarta py-4 border-b border-waterloo">
-        <div className="max-w-screen-2xl mx-auto">
+        <div className="w-full mx-auto py-3 px-6 sm:px-12 lg:px-24">
           <div className="grid grid-cols-12 items-center">
-            <div className="col-span-5">
+            <div className="col-span-4">
               <div className="flex gap-5">
                 <Image
                   src="/images/newsletter.png"
@@ -19,7 +19,7 @@ export default function FooterTop() {
                 </h2>
               </div>
             </div>
-            <div className="col-span-7">
+            <div className="col-span-8">
               <div className="text-center mb-0 text-white">
                 <div className="flex flex-row">
                   <input
