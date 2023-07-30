@@ -16,13 +16,17 @@ export default function Main() {
                   src="/images/main-banner.jpg"
                   alt="main banner"
                 ></Image>
-                <div className="absolute top-8 left-8 space-y-4">
-                  <h4>SUPERCHARGED FOR PROS.</h4>
-                  <h5>iPad S13+ Pro.</h5>
+                <div className="absolute top-16 left-8 space-y-4">
+                  <h4 className="font-bold text-luckypoint">
+                    SUPERCHARGED FOR PROS
+                  </h4>
+                  <h5 className="text-5xl font-semibold">iPad S13+ Pro</h5>
                   <p>From $999.00 or $41.62/mo.</p>
-                  <Link href="" className="font-bold">
-                    BUY NOW
-                  </Link>
+                  <p>
+                    <Link href="" className="text-stiletto font-bold">
+                      BUY NOW
+                    </Link>
+                  </p>
                 </div>
               </div>
             </div>
