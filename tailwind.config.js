@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
@@ -34,4 +34,4 @@ module.exports = {
     extend: {},
   },
   plugins: [require('@headlessui/tailwindcss')],
-};
+}

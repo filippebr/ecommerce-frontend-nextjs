@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Main() {
   return (
@@ -16,7 +16,7 @@ export default function Main() {
                   src="/images/main-banner.jpg"
                   alt="main banner"
                 ></Image>
-                <div className="absolute top-16 left-8">
+                <div className="absolute left-8 top-16">
                   <h4 className="mb-4 font-bold text-luckypoint">
                     SUPERCHARGED FOR PROS
                   </h4>
@@ -26,7 +26,7 @@ export default function Main() {
                   <p className="mb-4">From $999.00 or $41.62/mo.</p>
                   <Link
                     href=""
-                    className="text-xs bg-jacarta rounded-2xl px-6 py-2 text-white font-semibold"
+                    className="rounded-2xl bg-jacarta px-6 py-2 text-xs font-semibold text-white hover:bg-luckypoint"
                   >
                     BUY NOW
                   </Link>
