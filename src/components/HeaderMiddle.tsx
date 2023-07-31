@@ -15,7 +15,7 @@ export default function HeaderMiddle() {
         <div className="col-span-2 flex">
           <h2 className="sm:xl md:2xl lg:text-4xl">
             <Link href="" className="text-white">
-              Nefelibata Web
+              Developer's Web
             </Link>
           </h2>
         </div>
