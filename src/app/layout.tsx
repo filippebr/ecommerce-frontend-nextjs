@@ -1,4 +1,4 @@
-import { Inter } from 'next/font/google'
+import { Inter, Roboto } from 'next/font/google'
 import { ReactNode } from 'react'
 
 import Footer from '@/views/Footer'
@@ -16,11 +16,16 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <div className={`${inter.variable} font-sans`}>
+        <div className={`${roboto.className} font-sans`}>
           <Header />
           <Main />
           {children}
