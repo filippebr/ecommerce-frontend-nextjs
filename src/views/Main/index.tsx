@@ -6,12 +6,14 @@ export default function Main() {
     <>
       <section>
         <div className="py-5">
-          <div className="grid grid-cols-12 items-center px-6 sm:px-12 lg:px-24">
-            <div className="col-span-6">
-              <div className="relative p-4">
+          <div className="grid grid-cols-4 grid-rows-2 gap-4 items-center px-6 sm:px-12 lg:px-24">
+            <div className="col-span-2 row-span-2">
+              <div className="relative">
                 <Image
-                  width="830"
-                  height="550"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto' }}
                   className="rounded-lg"
                   src="/images/main-banner.jpg"
                   alt="main banner"
@@ -33,23 +35,25 @@ export default function Main() {
                 </div>
               </div>
             </div>
-            <div className="col-span-6">
-              <div className="grid grid-cols-12">
+            <div className="col-span-2 row-span-2">
+              <div className="grid grid-cols-12 gap-2">
 
                 <div className="col-span-6">
-                  <div className="relative p-3">
+                  <div className="relative">
                     <Image
-                      width="405"
-                      height="265"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto' }}
                       className="rounded-lg"
                       src="/images/catbanner-01.jpg"
                       alt="small banner"
                     ></Image>
                     <div className="absolute left-2 top-8">
                       <h4 className="mb-2 font-bold text-luckypoint">
-                        SUPERCHARGED FOR PROS
+                        SMALL IMAGE 01
                       </h4>
-                      <h5 className="mb-2 text-4xl font-semibold">
+                      <h5 className="mb-2 text-xl font-semibold">
                         iPad S13+ Pro.
                       </h5>
                       <p className="mb-2">From $999.00 or $41.62/mo.</p>
@@ -61,19 +65,21 @@ export default function Main() {
                       </Link>
                     </div>
                   </div>
-                  <div className="relative p-3">
+                  <div className="relative">
                     <Image
-                      width="405"
-                      height="265"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto' }}
                       className="rounded-lg"
                       src="/images/catbanner-01.jpg"
                       alt="small banner"
                     ></Image>
                     <div className="absolute left-4 top-8">
                       <h4 className="mb-2 font-bold text-luckypoint">
-                        SUPERCHARGED FOR PROS
+                        SMALL IMAGE 02
                       </h4>
-                      <h5 className="mb-2 text-4xl font-semibold">
+                      <h5 className="mb-2 text-xl font-semibold">
                         iPad S13+ Pro.
                       </h5>
                       <p className="mb-2">From $999.00 or $41.62/mo.</p>
@@ -88,19 +94,21 @@ export default function Main() {
                 </div>
 
                 <div className="col-span-6">
-                  <div className="relative p-3">
+                  <div className="relative">
                     <Image
-                      width="405"
-                      height="265"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto' }}
                       className="rounded-lg"
                       src="/images/catbanner-01.jpg"
                       alt="small banner"
                     ></Image>
-                    <div className="absolute left-4 top-8">
+                    <div className="absolute left-2 top-8">
                       <h4 className="mb-2 font-bold text-luckypoint">
-                        SUPERCHARGED FOR PROS
+                        SMALL IMAGE 03
                       </h4>
-                      <h5 className="mb-2 text-4xl font-semibold">
+                      <h5 className="mb-2 text-xl font-semibold">
                         iPad S13+ Pro.
                       </h5>
                       <p className="mb-2">From $999.00 or $41.62/mo.</p>
@@ -112,19 +120,21 @@ export default function Main() {
                       </Link>
                     </div>
                   </div>
-                  <div className="relative p-3">
+                  <div className="relative">
                     <Image
-                      width="405"
-                      height="265"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto' }}
                       className="rounded-lg"
                       src="/images/catbanner-01.jpg"
                       alt="small banner"
                     ></Image>
                     <div className="absolute left-4 top-8">
                       <h4 className="mb-2 font-bold text-luckypoint">
-                        SUPERCHARGED FOR PROS
+                        SMALL IMAGE 04
                       </h4>
-                      <h5 className="mb-2 text-4xl font-semibold">
+                      <h5 className="mb-2 text-xl font-semibold">
                         iPad S13+ Pro.
                       </h5>
                       <p className="mb-2">From $999.00 or $41.62/mo.</p>
