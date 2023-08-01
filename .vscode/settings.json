@@ -8,7 +8,7 @@
     "source.fixAll.eslint": true,
     "source.fixAll.format": true
   },
-  "prettier.configPath": ".prettierrc.js",
+  "prettier.configPath": "prettier.config.js",
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   }

@@ -17,16 +17,16 @@ const inter = Inter({
 })
 
 const roboto = Roboto({
-  weight: '400',
+  variable: '--font-roboto',
+  weight: ['100', '300', '400', '500', '700', '900'],
   subsets: ['latin'],
-  variable: '--font-roboto'
 })
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <div className={`${roboto.className} font-sans`}>
+        <div className={roboto.variable}>
           <Header />
           <Main />
           {children}
