@@ -26,7 +26,7 @@ export default function Main() {
                   <h5 className="mb-4 text-4xl font-semibold">
                     IPad S13+ Pro
                   </h5>
-                  <p className="mb-4 text-sm font-semibold">From $999.00 or $41.62/mo</p>
+                  <p className="mb-4 text-sm">From $999.00 or $41.62/mo</p>
                   <Link
                     href=""
                     className="rounded-3xl bg-jacarta px-6 py-3 text-xs font-semibold text-white hover:bg-luckypoint"
@@ -55,7 +55,7 @@ export default function Main() {
                   <h5 className="mb-2 text-xl font-semibold">
                     Laptops Max
                   </h5>
-                  <p className="mb-2 text-sm font-semibold">From $1699.00 <br />or $41.62/mo.</p>
+                  <p className="mb-2 text-sm">From $1699.00 <br />or $41.62/mo.</p>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function Main() {
                   <h5 className="mb-2 text-xl font-semibold">
                     Smartwatch 7
                   </h5>
-                  <p className="mb-2 text-sm font-semibold">Shop the latest band <br />styles and colors</p>
+                  <p className="mb-2 text-sm">Shop the latest band <br />styles and colors</p>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function Main() {
                   <h5 className="mb-2 text-xl font-semibold">
                     Buy IPad Air
                   </h5>
-                  <p className="mb-2 text-sm font-semibold">From $599 or<br />$49.91/mo. for 12 mo. *</p>
+                  <p className="mb-2 text-sm">From $599 or<br />$49.91/mo. for 12 mo. *</p>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function Main() {
                   <h5 className="mb-2 text-xl font-semibold">
                     AirPods Max
                   </h5>
-                  <p className="mb-2 text-sm font-semibold">High-fidelity playback & <br /> ultra-low distortion</p>
+                  <p className="mb-2 text-sm">High-fidelity playback & <br /> ultra-low distortion</p>
                 </div>
               </div>
             </div>

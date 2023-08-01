@@ -19,6 +19,7 @@ const inter = Inter({
 const roboto = Roboto({
   weight: '400',
   subsets: ['latin'],
+  variable: '--font-roboto'
 })
 
 export default function RootLayout({ children }: { children: ReactNode }) {
