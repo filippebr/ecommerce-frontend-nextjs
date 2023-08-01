@@ -28,7 +28,7 @@ export default function Main() {
                   <p className="mb-4">From $999.00 or $41.62/mo</p>
                   <Link
                     href=""
-                    className="rounded-2xl bg-jacarta px-6 py-2 text-xs font-semibold text-white hover:bg-luckypoint"
+                    className="rounded-3xl bg-jacarta px-6 py-3 text-xs font-semibold text-white hover:bg-luckypoint"
                   >
                     BUY NOW
                   </Link>
@@ -47,7 +47,7 @@ export default function Main() {
                   src="/images/catbanner-01.jpg"
                   alt="small banner"
                 ></Image>
-                <div className="absolute left-2 top-8">
+                <div className="absolute left-6 top-8">
                   <h4 className="mb-2 text-sm font-bold text-luckypoint">
                     BEST SALE
                   </h4>
@@ -73,46 +73,17 @@ export default function Main() {
                   sizes="100vw"
                   style={{ width: '100%', height: 'auto' }}
                   className="rounded-lg"
-                  src="/images/catbanner-01.jpg"
+                  src="/images/catbanner-02.jpg"
                   alt="small banner"
                 ></Image>
-                <div className="absolute left-2 top-8">
-                  <h4 className="mb-2 text-xs font-bold text-luckypoint">
-                    NEW ARRIVAL
-                  </h4>
-                  <h5 className="mb-2 text-xl font-semibold">
-                    Buy IPad Air
-                  </h5>
-                  <p className="mb-2 text-sm font-semibold">From $599.00 or <br />$49.91/mo.</p>
-                  <Link
-                    href=""
-                    className="rounded-2xl bg-jacarta px-6 py-2 text-xs font-semibold text-white hover:bg-luckypoint"
-                  >
-                    BUY NOW
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-span-1 row-span-1">
-              <div className="relative">
-                <Image
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto' }}
-                  className="rounded-lg"
-                  src="/images/catbanner-01.jpg"
-                  alt="small banner"
-                ></Image>
-                <div className="absolute left-2 top-8">
+                <div className="absolute left-6 top-8">
                   <h4 className="mb-2 text-xs font-bold text-luckypoint">
                     15% OFF
                   </h4>
                   <h5 className="mb-2 text-xl font-semibold">
                     Smartwatch 7
                   </h5>
-                  <p className="mb-2 text-sm font-semibold">Shop the latest band<br /> styles and colors</p>
+                  <p className="mb-2 text-sm font-semibold">Shop the latest band <br />styles and colors</p>
                   <Link
                     href=""
                     className="rounded-2xl bg-jacarta px-6 py-2 text-xs font-semibold text-white hover:bg-luckypoint"
@@ -131,10 +102,39 @@ export default function Main() {
                   sizes="100vw"
                   style={{ width: '100%', height: 'auto' }}
                   className="rounded-lg"
-                  src="/images/catbanner-01.jpg"
+                  src="/images/catbanner-03.jpg"
                   alt="small banner"
                 ></Image>
-                <div className="absolute left-2 top-8">
+                <div className="absolute left-6 top-8">
+                  <h4 className="mb-2 text-xs font-bold text-luckypoint">
+                    NEW ARRIVAL
+                  </h4>
+                  <h5 className="mb-2 text-xl font-semibold">
+                    Buy IPad Air
+                  </h5>
+                  <p className="mb-2 text-sm font-semibold">From $599 or<br />$49.91/mo. for 12 mo. *</p>
+                  <Link
+                    href=""
+                    className="rounded-2xl bg-jacarta px-6 py-2 text-xs font-semibold text-white hover:bg-luckypoint"
+                  >
+                    BUY NOW
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-span-1 row-span-1">
+              <div className="relative">
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto' }}
+                  className="rounded-lg"
+                  src="/images/catbanner-04.jpg"
+                  alt="small banner"
+                ></Image>
+                <div className="absolute left-6 top-8">
                   <h4 className="mb-2 text-xs font-bold text-luckypoint">
                     FREE ENGRAVING
                   </h4>
