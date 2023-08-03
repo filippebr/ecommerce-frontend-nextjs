@@ -63,7 +63,7 @@ export default function MainCategories() {
             sizes="100vw"
             style={{ width: 'auto', height: 'auto' }}
             className="rounded-lg"
-            src="/images/smartwatches.jpg"
+            src="/images/smartwatch.jpg"
             alt="service"
           ></Image>
         </div>
@@ -95,7 +95,7 @@ export default function MainCategories() {
             sizes="100vw"
             style={{ width: 'auto', height: 'auto' }}
             className="rounded-lg"
-            src="/images/smartphone_01.jpg"
+            src="/images/mobile.jpg"
             alt="service"
           ></Image>
         </div>

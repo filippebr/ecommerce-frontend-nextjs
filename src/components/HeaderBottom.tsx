@@ -23,19 +23,19 @@ export default function HeaderBottom() {
                 </Link>
                 <Link
                   className="text-white font-semibold shadow-sm hover:text-spunpearl"
-                  href="/store"
+                  href="/"
                 >
                   Our Store
                 </Link>
                 <Link
                   className="text-white font-semibold shadow-sm hover:text-spunpearl"
-                  href="/blogs"
+                  href="/"
                 >
                   Blogs
                 </Link>
                 <Link
                   className="text-white font-semibold shadow-sm hover:text-spunpearl"
-                  href="/contact"
+                  href="/"
                 >
                   Contact
                 </Link>

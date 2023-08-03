@@ -16,6 +16,7 @@ export default function MainBanner() {
               className="rounded-lg"
               src="/images/main-banner.jpg"
               alt="main banner"
+              priority
             ></Image>
             <div className="absolute left-8 top-16">
               <h4 className="mb-4 font-bold text-luckypoint">
