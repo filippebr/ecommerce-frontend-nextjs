@@ -33,7 +33,7 @@ module.exports = {
       hintofyellow: "#FAFCE0",
     },
     fontFamily: {
-      roboto: ["var(--font-roboto)", ...defaultTheme.fontFamily.sans],
+      sans: ["var(--font-roboto)", ...defaultTheme.fontFamily.sans],
     },
     extend: {},
   },

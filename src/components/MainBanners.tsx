@@ -98,7 +98,7 @@ export default function MainBanner() {
                 NEW ARRIVAL
               </h4>
               <h5 className="mb-2 text-xl font-semibold">
-                Buy IPad Air
+                Buy iPad Air
               </h5>
               <p className="mb-2 text-sm">From $599 or<br />$49.91/mo. for 12 mo. *</p>
             </div>

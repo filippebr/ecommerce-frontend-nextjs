@@ -1,4 +1,4 @@
-import { Roboto } from 'next/font/google'
+import { Roboto_Flex as Roboto } from 'next/font/google'
 import { ReactNode } from 'react'
 
 import Footer from '@/views/Footer'
@@ -16,17 +16,13 @@ export const metadata = {
 //   variable: '--font-inter',
 // })
 
-const roboto = Roboto({
-  variable: "--roboto-font",
-  weight: ['100', '300', '400', '500', '700', '900'],
-  subsets: ['latin'],
-})
+const roboto = Roboto({ subsets: ['latin'], variable: "--font-roboto" })
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <div className={roboto.variable}>
+      <body className={`${roboto.variable} font-sans`}>
+        <div >
           <Header />
           <Main />
           {children}
