@@ -25,7 +25,7 @@ export default function MainBanner() {
               <h5 className="mb-4 text-4xl font-semibold">
                 iPad S13+ Pro
               </h5>
-              <p className="mb-4 text-sm">From $999.00 or $41.62/mo</p>
+              <p className="mb-4 text-sm font-semibold">From $999.00 or $41.62/mo.</p>
               <Link
                 href=""
                 className="rounded-3xl bg-jacarta px-6 py-3 text-xs font-semibold text-white hover:bg-luckypoint"
@@ -54,7 +54,7 @@ export default function MainBanner() {
               <h5 className="mb-2 text-xl font-semibold">
                 Laptops Max
               </h5>
-              <p className="mb-2 text-sm">From $1699.00 <br />or $41.62/mo.</p>
+              <p className="mb-2 text-sm font-semibold">From $1699.00 <br />or $41.62/mo.</p>
             </div>
           </div>
         </div>
@@ -71,13 +71,13 @@ export default function MainBanner() {
               alt="small banner"
             ></Image>
             <div className="absolute left-6 top-12">
-              <h4 className="mb-2 text-xs font-bold text-luckypoint">
+              <h4 className="mb-2 text-sm font-bold text-luckypoint">
                 15% OFF
               </h4>
               <h5 className="mb-2 text-xl font-semibold">
                 Smartwatch 7
               </h5>
-              <p className="mb-2 text-sm">Shop the latest band <br />styles and colors</p>
+              <p className="mb-2 text-sm font-semibold">Shop the latest band <br />styles and colors</p>
             </div>
           </div>
         </div>
@@ -94,13 +94,13 @@ export default function MainBanner() {
               alt="small banner"
             ></Image>
             <div className="absolute left-6 top-12">
-              <h4 className="mb-2 text-xs font-bold text-luckypoint">
+              <h4 className="mb-2 text-sm font-bold text-luckypoint">
                 NEW ARRIVAL
               </h4>
               <h5 className="mb-2 text-xl font-semibold">
                 Buy iPad Air
               </h5>
-              <p className="mb-2 text-sm">From $599 or<br />$49.91/mo. for 12 mo. *</p>
+              <p className="mb-2 text-sm font-semibold">From $599 or<br />$49.91/mo. for 12 mo. *</p>
             </div>
           </div>
         </div>
@@ -117,13 +117,13 @@ export default function MainBanner() {
               alt="small banner"
             ></Image>
             <div className="absolute left-6 top-12">
-              <h4 className="mb-2 text-xs font-bold text-luckypoint">
+              <h4 className="mb-2 text-sm font-bold text-luckypoint">
                 FREE ENGRAVING
               </h4>
               <h5 className="mb-2 text-xl font-semibold">
                 AirPods Max
               </h5>
-              <p className="mb-2 text-sm">High-fidelity playback & <br /> ultra-low distortion</p>
+              <p className="mb-2 text-sm font-semibold">High-fidelity playback & <br /> ultra-low distortion</p>
             </div>
           </div>
         </div>
