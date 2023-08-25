@@ -1,4 +1,5 @@
 'use client'
+import dropdownMenuItemsData from '@/data/dropdownMenuItemsData'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Fragment } from 'react'
@@ -33,53 +34,21 @@ export default function Example() {
       >
         <Menu.Items className="absolute align-middle z-10 w-64 origin-top-right bg-eastbay shadow-lg focus:outline-none">
           <div className="py-0">
-            <Menu.Item
-              as="a"
-              href="#"
-              className="ui-active:bg-jacarta \
+            {dropdownMenuItemsData.map((data) => (
+              <Menu.Item
+                key={data.id}
+                as="a"
+                href="#"
+                className="ui-active:bg-jacarta \
               ui-active:text-white \
               ui-not-active:bg-eastbay \
               ui-not-active:text-white \
                 block border-b-2 border-jacarta \
                 px-4 py-2 text-md"
-            >
-              Account settings
-            </Menu.Item>
-            <Menu.Item
-              as="a"
-              href="#"
-              className="ui-active:bg-jacarta \
-              ui-active:text-white \
-              ui-not-active:bg-eastbay \
-              ui-not-active:text-white \
-                block border-b-2 border-jacarta \
-                px-4 py-2 text-md"
-            >
-              Support
-            </Menu.Item>
-            <Menu.Item
-              as="a"
-              href="#"
-              className="ui-active:bg-jacarta \
-              ui-active:text-white \
-              ui-not-active:bg-eastbay \
-              ui-not-active:text-white \
-                block border-b-2 border-jacarta \
-                px-4 py-2 text-md"
-            >
-              License
-            </Menu.Item>
-            <Menu.Item
-              as="a"
-              href="#"
-              className="ui-active:bg-jacarta \
-              ui-active:text-white \
-              ui-not-active:bg-eastbay \
-              ui-not-active:text-white \
-                block px-4 py-2 text-md"
-            >
-              Sign-out
-            </Menu.Item>
+              >
+                {data.text}
+              </Menu.Item>
+            ))}
           </div>
         </Menu.Items>
       </Transition>
