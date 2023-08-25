@@ -1,5 +1,7 @@
+import mainBannerData from "@/data/mainBannersData"
 import Image from "next/image"
 import Link from "next/link"
+import React from "react"
 
 export default function MainBanner() {
   return (
@@ -36,97 +38,37 @@ export default function MainBanner() {
           </div>
         </div>
 
-        <div className="col-span-1 row-span-1">
-          <div className="relative">
-            <Image
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto' }}
-              className="rounded-lg"
-              src="/images/catbanner-01.jpg"
-              alt="small banner"
-            ></Image>
-            <div className="absolute left-6 top-12">
-              <h4 className="mb-2 text-sm font-bold text-luckypoint">
-                BEST SALE
-              </h4>
-              <h5 className="mb-2 text-xl font-semibold">
-                Laptops Max
-              </h5>
-              <p className="mb-2 text-sm font-semibold">From $1699.00 <br />or $41.62/mo.</p>
+        {mainBannerData.map((data) => (
+          <div key={data.id} className="col-span-1 row-span-1">
+            <div className="relative">
+              <Image
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: 'auto' }}
+                className="rounded-lg"
+                src={data.imageSrc}
+                alt="small banner"
+              ></Image>
+              <div className="absolute left-6 top-12">
+                <h4 className="mb-2 text-sm font-bold text-luckypoint">
+                  {data.title1}
+                </h4>
+                <h5 className="mb-2 text-xl font-semibold">
+                  {data.title2}
+                </h5>
+                <p className="mb-2 text-sm font-semibold">
+                  {data.text.split('\n').map((line, index) => (
+                    <React.Fragment key={index}>
+                      {line}
+                      <br />
+                    </React.Fragment>
+                  ))}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className="col-span-1 row-span-1">
-          <div className="relative">
-            <Image
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto' }}
-              className="rounded-lg"
-              src="/images/catbanner-02.jpg"
-              alt="small banner"
-            ></Image>
-            <div className="absolute left-6 top-12">
-              <h4 className="mb-2 text-sm font-bold text-luckypoint">
-                15% OFF
-              </h4>
-              <h5 className="mb-2 text-xl font-semibold">
-                Smartwatch 7
-              </h5>
-              <p className="mb-2 text-sm font-semibold">Shop the latest band <br />styles and colors</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-1 row-span-1">
-          <div className="relative">
-            <Image
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto' }}
-              className="rounded-lg"
-              src="/images/catbanner-03.jpg"
-              alt="small banner"
-            ></Image>
-            <div className="absolute left-6 top-12">
-              <h4 className="mb-2 text-sm font-bold text-luckypoint">
-                NEW ARRIVAL
-              </h4>
-              <h5 className="mb-2 text-xl font-semibold">
-                Buy iPad Air
-              </h5>
-              <p className="mb-2 text-sm font-semibold">From $599 or<br />$49.91/mo. for 12 mo. *</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-1 row-span-1">
-          <div className="relative">
-            <Image
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto' }}
-              className="rounded-lg"
-              src="/images/catbanner-04.jpg"
-              alt="small banner"
-            ></Image>
-            <div className="absolute left-6 top-12">
-              <h4 className="mb-2 text-sm font-bold text-luckypoint">
-                FREE ENGRAVING
-              </h4>
-              <h5 className="mb-2 text-xl font-semibold">
-                AirPods Max
-              </h5>
-              <p className="mb-2 text-sm font-semibold">High-fidelity playback & <br /> ultra-low distortion</p>
-            </div>
-          </div>
-        </div>
+        ))}
 
       </div>
     </section>
