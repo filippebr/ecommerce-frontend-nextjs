@@ -39,7 +39,7 @@ const mainCategoriesData = [
     id: 7,
     title: 'Headphones',
     quantity: '19 items',
-    src: '/images/headphones.jpg'
+    src: '/images/headphone.jpg'
   },
   {
     id: 8,
