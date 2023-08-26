@@ -21,7 +21,7 @@ const mainCategoriesData = [
     id: 4,
     title: 'Smartwatches',
     quantity: '15 items',
-    src: '/images/smartwatches.jpg'
+    src: '/images/smartwatch.jpg'
   },
   {
     id: 5,
