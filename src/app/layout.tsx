@@ -2,6 +2,7 @@ import { Roboto_Flex as Roboto } from 'next/font/google'
 import { ReactNode } from 'react'
 
 import Footer from '@/views/Footer'
+import Main from '@/views/Main'
 import '../common/globals.css'
 
 export const metadata = {
@@ -17,7 +18,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className={`${roboto.variable} font-sans`}>
         <div >
           {/* <Header /> */}
-          {/* <Main /> */}
+          <Main />
           {children}
           <Footer />
         </div>
