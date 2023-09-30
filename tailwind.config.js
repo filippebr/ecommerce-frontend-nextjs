@@ -35,7 +35,11 @@ module.exports = {
     fontFamily: {
       sans: ["var(--font-roboto)", ...defaultTheme.fontFamily.sans],
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        marquee: "0 0 10px 10px #0000001A",
+      },
+    },
   },
   plugins: [require("@headlessui/tailwindcss")],
 };
