@@ -9,7 +9,7 @@ export default function MainMarquee() {
         <div className="bg-white p-4 shadow-marquee">
           <Marquee className="flex flex-col" gradient={true} gradientColor={[248, 250, 253]} gradientWidth={300} speed={30}>
             {mainMarqueeData.map((data) => (
-              <div className="mx-8 w-28">
+              <div key={data.id} className="mx-8 w-28">
                 <Image
                   width={0}
                   height={0}
