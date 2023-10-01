@@ -1,5 +1,4 @@
 // import MainBanner from "@/components/MainBanners"
-import '@/common/gradient.css'
 import MainCategories from '@/components/MainCategories'
 import Image from 'next/image'
 import Marquee from 'react-fast-marquee'
