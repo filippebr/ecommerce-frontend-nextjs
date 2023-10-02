@@ -27,7 +27,7 @@ export default function BlogCard() {
           </p>
           <Link
             href="/"
-            className="bg-jacarta rounded-2xl text-lg text-white p-2"
+            className="bg-jacarta rounded-3xl text-lg text-white py-2 px-4"
           >
             Read More
           </Link>
