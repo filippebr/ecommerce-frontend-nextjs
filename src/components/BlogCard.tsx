@@ -16,8 +16,8 @@ export default function BlogCard() {
         >
         </Image>
         <div className="p-4">
-          <p className="data">1 Dec, 2022</p>
-          <h5 className="title text-xl text-eastbay">
+          <p className="text-sm text-gray">01 Sep, 2022</p>
+          <h5 className="title text-xl text-bold text-eastbay">
             A beautiful sunday morning renaissance
           </h5>
           <p className="text-sm leading-6 text-luckypoint">
@@ -27,7 +27,7 @@ export default function BlogCard() {
           </p>
           <Link
             href="/"
-            className="button"
+            className="bg-jacarta rounded-2xl text-lg text-white p-2"
           >
             Read More
           </Link>
