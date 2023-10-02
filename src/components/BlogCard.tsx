@@ -16,11 +16,11 @@ export default function BlogCard() {
         >
         </Image>
         <div className="p-4">
-          <p className="text-sm text-gray">01 Sep, 2022</p>
-          <h5 className="title text-xl text-bold text-eastbay">
+          <p className="text-sm text-lightgray">01 Sep, 2023</p>
+          <h5 className="title text-xl font-bold">
             A beautiful sunday morning renaissance
           </h5>
-          <p className="text-sm leading-6 text-luckypoint">
+          <p className="text-sm leading-6 text-lightgray ">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, id ab. Perspiciatis culpa
             iste quia commodi quibusdam, provident animi excepturi! Atque cumque et nulla porro illum quo,
             similique itaque fuga?
