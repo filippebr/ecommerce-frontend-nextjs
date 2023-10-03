@@ -1,19 +1,19 @@
 const dropdownMenuItemsData = [
   {
     id: 1,
-    text: 'Account Settings'
+    text: 'Account Settings',
   },
   {
     id: 2,
-    text: 'Support'
+    text: 'Support',
   },
   {
     id: 3,
-    text: 'License'
+    text: 'License',
   },
   {
     id: 4,
-    text: 'Sign-out'
+    text: 'Sign-out',
   },
 ]
 
