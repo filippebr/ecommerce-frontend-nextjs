@@ -3,14 +3,14 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <h1 className={`text-3xl flex justify-center items-center`}>
+      <h1 className={`flex items-center justify-center text-3xl`}>
         Hello from Home!
       </h1>
-      <Link className="text-3xl flex justify-center items-center" href="/about">
+      <Link className="flex items-center justify-center text-3xl" href="/about">
         About
       </Link>
       <Link
-        className="text-3xl flex justify-center items-center"
+        className="flex items-center justify-center text-3xl"
         href="/contact"
       >
         Contact
