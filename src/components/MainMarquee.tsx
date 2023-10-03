@@ -15,7 +15,7 @@ export default function MainMarquee() {
             speed={30}
           >
             {mainMarqueeData.map((data) => (
-              <div key={data.id} className="mx-8 w-32">
+              <div key={data.id} className="mx-8 w-28">
                 <Image
                   width={0}
                   height={0}
