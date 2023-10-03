@@ -16,25 +16,25 @@ export default function HeaderBottom() {
             <div className="w-full">
               <div className="flex flex-row items-center justify-between uppercase">
                 <Link
-                  className="text-white font-semibold shadow-sm hover:text-spunpearl"
+                  className="font-semibold text-white shadow-sm hover:text-spunpearl"
                   href="/"
                 >
                   Home
                 </Link>
                 <Link
-                  className="text-white font-semibold shadow-sm hover:text-spunpearl"
+                  className="font-semibold text-white shadow-sm hover:text-spunpearl"
                   href="/"
                 >
                   Our Store
                 </Link>
                 <Link
-                  className="text-white font-semibold shadow-sm hover:text-spunpearl"
+                  className="font-semibold text-white shadow-sm hover:text-spunpearl"
                   href="/"
                 >
                   Blogs
                 </Link>
                 <Link
-                  className="text-white font-semibold shadow-sm hover:text-spunpearl"
+                  className="font-semibold text-white shadow-sm hover:text-spunpearl"
                   href="/"
                 >
                   Contact

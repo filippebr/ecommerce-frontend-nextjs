@@ -1,11 +1,10 @@
-import mainServicesData from "@/data/mainServicesData"
-import Image from "next/image"
+import mainServicesData from '@/data/mainServicesData'
+import Image from 'next/image'
 
 export default function MainServices() {
   return (
     <section className="py-5">
       <div className="grid grid-cols-5 items-center px-4 sm:px-8 lg:px-16">
-
         {mainServicesData.map((data) => (
           <div key={data.id} className="col-span-1 flex items-center gap-2">
             <Image
@@ -23,7 +22,6 @@ export default function MainServices() {
             </div>
           </div>
         ))}
-
       </div>
     </section>
   )
