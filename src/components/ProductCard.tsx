@@ -1,3 +1,4 @@
+import RatingStars from '@/lib/RatingStars'
 import Image from 'next/image'
 
 export default function ProductCard() {
@@ -18,6 +19,7 @@ export default function ProductCard() {
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
+            <RatingStars />
             <p className="text-lg text-darkgray">$100.00</p>
           </div>
         </div>
