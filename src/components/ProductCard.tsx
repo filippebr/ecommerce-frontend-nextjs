@@ -10,9 +10,16 @@ export default function ProductCard() {
             height={0}
             sizes="100vw"
             style={{ width: 'auto', height: 'auto' }}
-            src="/images/blog-1.jpg"
-            alt="blog"
+            src="/images/watch.jpg"
+            alt="product image"
           ></Image>
+          <div className="">
+            <h6 className="text-lg text-petiteorchid">Havels</h6>
+            <h5 className="text-base text-darkgray">
+              Kids headphones bulk 10 pack multi colored for students
+            </h5>
+            <p className="text-lg text-darkgray">$100.00</p>
+          </div>
         </div>
       </div>
     </div>
