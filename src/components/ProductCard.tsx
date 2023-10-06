@@ -25,7 +25,7 @@ export default function ProductCard() {
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            <div className="flex flex-col">
+            <div className="grid grid-rows-1 grid-cols-5">
               {[...Array(5)].map((_, index) => (
                 <label className="" htmlFor="" key={index}>
                   <FaStar
