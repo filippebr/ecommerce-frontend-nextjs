@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use client'
 
 import Image from 'next/image'
@@ -33,6 +34,8 @@ export default function ProductCard() {
                     <input type="radio" name="rate" />
                     <label htmlFor="">
                       <FaStar
+                        className={`${index <= selectedStarCount ? 'text-wildwillow' : ''
+                          }`}
                         onClick={() => {
                           setSelectedStarCount(index + 1)
                         }}
