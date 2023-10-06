@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { FaStar } from 'react-icons/fa'
 
 export default function ProductCard() {
   return (
@@ -18,6 +19,17 @@ export default function ProductCard() {
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
+            {[
+              ...Array(5).map((star, index) => {
+                const currentRating = index + 1
+                return (
+                  <label key={index}>
+                    <input type="radio" name="rating" value={currentRating} />
+                    <FaStar size={25} />
+                  </label>
+                )
+              }),
+            ]}
             <p className="text-lg text-darkgray">$100.00</p>
           </div>
         </div>
