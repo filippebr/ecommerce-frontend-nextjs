@@ -27,10 +27,10 @@ export default function ProductCard() {
             </h5>
             <div className="grid grid-rows-1 grid-cols-5">
               {[...Array(5)].map((_, index) => (
-                <label className="cursor-pointer" htmlFor="" key={index}>
+                <label htmlFor="" key={index}>
                   <FaStar
                     className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
-                      }`}
+                      } cursor-pointer`}
                     onClick={() => {
                       setSelectedStarCount(index + 1)
                     }}
