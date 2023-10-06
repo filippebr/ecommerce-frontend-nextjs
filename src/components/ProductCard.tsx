@@ -6,8 +6,6 @@ import { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
 
 export default function ProductCard() {
-  // const [rating, setRating] = useState<number | null>(null) // Use number as the type for rating
-  // const [hover, setHover] = useState<number | null>(null) // Use number as the type for hover
   const [selectedStarCount, setSelectedStarCount] = useState(0)
 
   return (
@@ -27,22 +25,19 @@ export default function ProductCard() {
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            {[...Array(5)].map((_, index) => {
-              return (
-                <>
-                  <label className="flex flex-col" htmlFor="">
-                    <FaStar
-                      className={`${index <= (selectedStarCount - 1) ? 'text-wildwillow' : ''
-                        }`}
-                      onClick={() => {
-                        setSelectedStarCount(index + 1)
-                      }}
-                      key={index}
-                    />
-                  </label>
-                </>
-              )
-            })}
+            <div className="flex flex-col">
+              {[...Array(5)].map((_, index) => (
+                <label className="" htmlFor="" key={index}>
+                  <FaStar
+                    className={`${index <= selectedStarCount - 1 ? 'text-wildwillow' : ''
+                      }`}
+                    onClick={() => {
+                      setSelectedStarCount(index + 1)
+                    }}
+                  />
+                </label>
+              ))}
+            </div>
             <p>Your rating is {selectedStarCount}</p>
             <p className="text-lg text-darkgray">$100.00</p>
           </div>
