@@ -25,11 +25,11 @@ export default function ProductCard() {
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            <div className="grid grid-rows-1 grid-cols-5 items-start">
+            <div className="grid grid-rows-1 grid-cols-5">
               {[...Array(5)].map((_, index) => (
-                <label className="" htmlFor="" key={index}>
+                <label className="flex items-start justify-start" htmlFor="" key={index}>
                   <FaStar
-                    className={`${index <= selectedStarCount - 1 ? 'text-wildwillow' : ''
+                    className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
                       }`}
                     onClick={() => {
                       setSelectedStarCount(index + 1)
