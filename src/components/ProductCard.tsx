@@ -27,26 +27,22 @@ export default function ProductCard() {
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            <div className="flex flex-col">
-              {[...Array(5)].map((_, index) => {
-                return (
-                  <>
-                    <input type="radio" name="rate" />
-                    <label htmlFor="">
-                      <FaStar
-                        className={`${index <= selectedStarCount ? 'text-wildwillow' : ''
-                          }`}
-                        onClick={() => {
-                          setSelectedStarCount(index + 1)
-                        }}
-                        key={index}
-                      />
-                    </label>
-                  </>
-                )
-              })}
-            </div>
-
+            {[...Array(5)].map((_, index) => {
+              return (
+                <>
+                  <label className="flex flex-col" htmlFor="">
+                    <FaStar
+                      className={`${index <= selectedStarCount ? 'text-wildwillow' : ''
+                        }`}
+                      onClick={() => {
+                        setSelectedStarCount(index + 1)
+                      }}
+                      key={index}
+                    />
+                  </label>
+                </>
+              )
+            })}
             <p>Your rating is {selectedStarCount}</p>
             <p className="text-lg text-darkgray">$100.00</p>
           </div>
