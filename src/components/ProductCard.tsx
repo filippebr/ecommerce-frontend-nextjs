@@ -32,7 +32,7 @@ export default function ProductCard() {
                 <>
                   <label className="flex flex-col" htmlFor="">
                     <FaStar
-                      className={`${index <= selectedStarCount ? 'text-wildwillow' : ''
+                      className={`${index <= (selectedStarCount - 1) ? 'text-wildwillow' : ''
                         }`}
                       onClick={() => {
                         setSelectedStarCount(index + 1)
