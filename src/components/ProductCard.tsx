@@ -1,7 +1,10 @@
 import Image from 'next/image'
+import { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
 
 export default function ProductCard() {
+  const [rating, setRating] = useState<number>(0)
+
   return (
     <div className="col-span-3">
       <div className="rounded-lg bg-white p-4">
@@ -24,8 +27,14 @@ export default function ProductCard() {
                 const currentRating = index + 1
                 return (
                   <label key={index}>
-                    <input type="radio" name="rating" value={currentRating} />
-                    <FaStar size={25} />
+                    <input
+                      type="radio"
+                      name="rating"
+                      value={currentRating}
+                      onClick={() => setRating(currentRating)}
+                      className="hidden"
+                    />
+                    <FaStar className="cursor-pointer" size={25} />
                   </label>
                 )
               }),
