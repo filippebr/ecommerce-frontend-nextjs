@@ -10,7 +10,7 @@ export default function ProductCard() {
   const [selectedHoverStarCount, setSelectedHoverStarCount] = useState(0)
 
   return (
-    <div className="col-span-3">
+    <div className="col-span-3 justify-start">
       <div className="rounded-lg bg-white p-4">
         <div>
           <Image
@@ -26,7 +26,7 @@ export default function ProductCard() {
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            <div className="grid grid-rows-1 grid-cols-5 justify-start items-start">
+            <div className="grid grid-rows-1 grid-cols-5">
               {[...Array(5)].map((_, index) => (
                 <label htmlFor="" key={index}>
                   <FaStar
