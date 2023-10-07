@@ -10,7 +10,7 @@ export default function ProductCard() {
   const [selectedHoverStarCount, setSelectedHoverStarCount] = useState(0)
 
   return (
-    <div className="col-span-3 justify-start">
+    <div className="col-span-3 grid grid-cols-5 grid-rows-1 justify-start">
       <div className="rounded-lg bg-white p-4">
         <div>
           <Image
@@ -26,12 +26,13 @@ export default function ProductCard() {
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            <div className="grid grid-rows-1 grid-cols-5">
+            <div className="">
               {[...Array(5)].map((_, index) => (
                 <label htmlFor="" key={index}>
                   <FaStar
                     className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
-                      } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
+                      } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''
+                      }`}
                     onMouseOver={() => {
                       setSelectedHoverStarCount(index + 1)
                     }}
