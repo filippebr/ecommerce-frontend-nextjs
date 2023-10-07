@@ -26,7 +26,7 @@ export default function ProductCard() {
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            <div className="grid grid-rows-1 grid-cols-5 justify-items-start">
+            <div className="grid grid-rows-1 grid-cols-5">
               {[...Array(5)].map((_, index) => (
                 <label htmlFor="" key={index}>
                   <FaStar
@@ -45,8 +45,8 @@ export default function ProductCard() {
                 </label>
               ))}
             </div>
-            <p>Rating Count: {selectedStarCount}</p>
-            <p>Hover Rating Count: {selectedHoverStarCount}</p>
+            {/* <p>Rating Count: {selectedStarCount}</p>
+            <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
             <p className="text-lg text-darkgray">$100.00</p>
           </div>
         </div>

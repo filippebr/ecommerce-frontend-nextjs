@@ -13,10 +13,12 @@ export default function Main() {
           <div className="col-span-12">
             <h3 className="mb-8 text-2xl font-semibold">Featured Collection</h3>
           </div>
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          <div className="col-span-12">
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+          </div>
         </div>
       </section>
       {/* <section className="py-5">
