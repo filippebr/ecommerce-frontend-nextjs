@@ -12,7 +12,7 @@ export default function ProductCard() {
   return (
     <div className="col-span-3">
       <div className="rounded-lg bg-white p-4">
-        <div>
+        <div className="flex justify-center">
           <Image
             width={0}
             height={0}
@@ -21,36 +21,36 @@ export default function ProductCard() {
             src="/images/watch.jpg"
             alt="product image"
           ></Image>
-          <div className="grid ">
-            <h6 className="text-lg text-petiteorchid">Havels</h6>
-            <h5 className="text-base text-darkgray">
-              Kids headphones bulk 10 pack multi colored for students
-            </h5>
-            <div className="grid grid-cols-5">
-              <div className="flex justify-start">
-                {[...Array(5)].map((_, index) => (
-                  <label htmlFor="" key={index}>
-                    <FaStar
-                      className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
-                        } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
-                      onMouseOver={() => {
-                        setSelectedHoverStarCount(index + 1)
-                      }}
-                      onMouseOut={() => {
-                        setSelectedHoverStarCount(0)
-                      }}
-                      onClick={() => {
-                        setSelectedStarCount(index + 1)
-                      }}
-                    />
-                  </label>
-                ))}
-              </div>
+        </div>
+        <div className="grid ">
+          <h6 className="text-lg text-petiteorchid">Havels</h6>
+          <h5 className="text-base text-darkgray">
+            Kids headphones bulk 10 pack multi colored for students
+          </h5>
+          <div className="grid grid-cols-5">
+            <div className="flex justify-start">
+              {[...Array(5)].map((_, index) => (
+                <label htmlFor="" key={index}>
+                  <FaStar
+                    className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
+                      } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
+                    onMouseOver={() => {
+                      setSelectedHoverStarCount(index + 1)
+                    }}
+                    onMouseOut={() => {
+                      setSelectedHoverStarCount(0)
+                    }}
+                    onClick={() => {
+                      setSelectedStarCount(index + 1)
+                    }}
+                  />
+                </label>
+              ))}
             </div>
-            {/* <p>Rating Count: {selectedStarCount}</p>
-            <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
-            <p className="text-lg text-darkgray">$100.00</p>
           </div>
+          {/* <p>Rating Count: {selectedStarCount}</p>
+            <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
+          <p className="text-lg text-darkgray">$100.00</p>
         </div>
       </div>
     </div>
