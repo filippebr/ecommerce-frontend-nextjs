@@ -7,6 +7,7 @@ import { FaStar } from 'react-icons/fa'
 
 export default function ProductCard() {
   const [selectedStarCount, setSelectedStarCount] = useState(0)
+  const [selectedHoverStarCount, setSelectedHoverStarCount] = useState(0)
 
   return (
     <div className="col-span-3">
@@ -30,12 +31,12 @@ export default function ProductCard() {
                 <label htmlFor="" key={index}>
                   <FaStar
                     className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
-                      } cursor-pointer`}
+                      } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
                     onMouseOver={() => {
-                      setSelectedStarCount(index + 1)
+                      setSelectedHoverStarCount(index + 1)
                     }}
                     onMouseOut={() => {
-                      setSelectedStarCount(selectedStarCount - 1)
+                      setSelectedHoverStarCount(0)
                     }}
                     onClick={() => {
                       setSelectedStarCount(index + 1)
@@ -44,7 +45,8 @@ export default function ProductCard() {
                 </label>
               ))}
             </div>
-            <p>Your rating is {selectedStarCount}</p>
+            <p>Rating Count: {selectedStarCount}</p>
+            <p>Hover Rating Count: {selectedHoverStarCount}</p>
             <p className="text-lg text-darkgray">$100.00</p>
           </div>
         </div>
