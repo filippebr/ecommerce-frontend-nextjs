@@ -31,6 +31,12 @@ export default function ProductCard() {
                   <FaStar
                     className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
                       } cursor-pointer`}
+                    onMouseOver={() => {
+                      setSelectedStarCount(index + 1)
+                    }}
+                    onMouseOut={() => {
+                      setSelectedStarCount(selectedStarCount - 1)
+                    }}
                     onClick={() => {
                       setSelectedStarCount(index + 1)
                     }}
