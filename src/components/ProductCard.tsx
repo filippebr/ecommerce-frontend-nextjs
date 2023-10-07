@@ -26,24 +26,26 @@ export default function ProductCard() {
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            <div className="flex flex-col justify-center">
-              {[...Array(5)].map((_, index) => (
-                <label htmlFor="" key={index}>
-                  <FaStar
-                    className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
-                      } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
-                    onMouseOver={() => {
-                      setSelectedHoverStarCount(index + 1)
-                    }}
-                    onMouseOut={() => {
-                      setSelectedHoverStarCount(0)
-                    }}
-                    onClick={() => {
-                      setSelectedStarCount(index + 1)
-                    }}
-                  />
-                </label>
-              ))}
+            <div className="grid grid-cols-5">
+              <div className="flex justify-start">
+                {[...Array(5)].map((_, index) => (
+                  <label htmlFor="" key={index}>
+                    <FaStar
+                      className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
+                        } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
+                      onMouseOver={() => {
+                        setSelectedHoverStarCount(index + 1)
+                      }}
+                      onMouseOut={() => {
+                        setSelectedHoverStarCount(0)
+                      }}
+                      onClick={() => {
+                        setSelectedStarCount(index + 1)
+                      }}
+                    />
+                  </label>
+                ))}
+              </div>
             </div>
             {/* <p>Rating Count: {selectedStarCount}</p>
             <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
