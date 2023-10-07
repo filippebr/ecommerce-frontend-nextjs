@@ -21,12 +21,12 @@ export default function ProductCard() {
             src="/images/watch.jpg"
             alt="product image"
           ></Image>
-          <div className="">
+          <div className="grid ">
             <h6 className="text-lg text-petiteorchid">Havels</h6>
             <h5 className="text-base text-darkgray">
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            <div className="grid grid-rows-1 grid-cols-5 gap-1">
+            <div className="grid grid-rows-1 grid-cols-5 justify-start items-start">
               {[...Array(5)].map((_, index) => (
                 <label htmlFor="" key={index}>
                   <FaStar
