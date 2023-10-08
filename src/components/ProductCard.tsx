@@ -12,7 +12,7 @@ export default function ProductCard() {
 
   return (
     <div className="col-span-3">
-      <div className="rounded-lg bg-white p-4 relative">
+      <div className="rounded-lg bg-white p-4 relative group">
         {/* Product Image */}
         <div className="flex justify-center">
           <Image
@@ -55,7 +55,7 @@ export default function ProductCard() {
             <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
           <p className="text-lg text-darkgray">$100.00</p>
         </div>
-        <div className="top-10 right-[-5px] absolute">
+        <div className="top-10 right-[-2px] absolute group-hover:right-5">
           <div className="flex flex-col">
             <Link
               href={'/'}
@@ -65,7 +65,7 @@ export default function ProductCard() {
                 height={0}
                 sizes="100vw"
                 style={{ width: 'auto', height: 'auto' }}
-                src="/images/add-cart.svg"
+                src="/images/prodcompare.svg"
                 alt="addcart"
               >
               </Image>
