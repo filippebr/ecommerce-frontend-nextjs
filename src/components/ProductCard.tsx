@@ -11,7 +11,7 @@ export default function ProductCard() {
 
   return (
     <div className="col-span-3">
-      <div className="rounded-lg bg-white p-4">
+      <div className="rounded-lg bg-white p-4 space-y-2">
         <div className="flex justify-center">
           <Image
             width={0}
