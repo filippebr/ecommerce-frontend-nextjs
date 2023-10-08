@@ -55,7 +55,7 @@ export default function ProductCard() {
             <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
           <p className="text-lg text-darkgray">$100.00</p>
         </div>
-        <div className="top-10 right-[-2px] absolute group-hover:right-5">
+        <div className="top-10 right-[-30px] absolute group-hover:right-5 transition-right duration-300 ease-in-out">
           <div className="flex flex-col">
             <Link
               href={'/'}
