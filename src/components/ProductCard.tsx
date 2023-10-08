@@ -2,6 +2,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
 
@@ -51,11 +52,26 @@ export default function ProductCard() {
           {/* <p>Rating Count: {selectedStarCount}</p>
             <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
           <p className="text-lg text-darkgray">$100.00</p>
-          <div className="top ">
-
-          </div>
         </div>
-        <div className="top-1/4 right-[-30px] absolute "></div>
+        <div className="top-1/4 right-[-30px] absolute ">
+          <div className="flex flex-col">
+            <Link
+              href={'/'}
+            >
+              <Image
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: 'auto', height: 'auto' }}
+                src="/images/add-cart.svg"
+                alt="addcart"
+              >
+
+              </Image>
+            </Link>
+          </div>
+
+        </div>
       </div>
     </div>
   )
