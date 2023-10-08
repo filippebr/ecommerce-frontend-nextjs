@@ -53,20 +53,17 @@ export default function ProductCard() {
             <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
           <p className="text-lg text-darkgray">$100.00</p>
         </div>
-        <div className="top-1/4 right-[-30px] absolute ">
+        <div className="top-10 right-[-30px] absolute ">
           <div className="flex flex-col">
             <Link
               href={'/'}
             >
               <Image
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: 'auto', height: 'auto' }}
+                width={50}
+                height={50}
                 src="/images/add-cart.svg"
                 alt="addcart"
               >
-
               </Image>
             </Link>
           </div>

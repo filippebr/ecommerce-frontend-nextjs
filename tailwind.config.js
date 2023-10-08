@@ -42,6 +42,9 @@ module.exports = {
       boxShadow: {
         marquee: '0 0 10px 10px #0000001A',
       },
+      top: {
+        '1/5': '20%',
+      },
     },
   },
   plugins: [require('@headlessui/tailwindcss')],
