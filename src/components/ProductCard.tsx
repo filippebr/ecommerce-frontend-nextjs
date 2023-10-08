@@ -11,7 +11,7 @@ export default function ProductCard() {
 
   return (
     <div className="col-span-3">
-      <div className="rounded-lg bg-white p-4">
+      <div className="rounded-lg bg-white p-4 position-relative">
         <div className="flex justify-center">
           <Image
             width={0}
@@ -22,7 +22,7 @@ export default function ProductCard() {
             alt="product image"
           ></Image>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 product-details">
           <h6 className="text-lg text-petiteorchid">Havels</h6>
           <h5 className="text-base text-darkgray">
             Kids headphones bulk 10 pack multi colored for students
@@ -33,7 +33,7 @@ export default function ProductCard() {
                 <label htmlFor="" key={index}>
                   <FaStar
                     className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
-                      } cursor-pointer text-sm ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
+                      } cursor-pointer text-base ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
                     onMouseOver={() => {
                       setSelectedHoverStarCount(index + 1)
                     }}
@@ -51,7 +51,11 @@ export default function ProductCard() {
           {/* <p>Rating Count: {selectedStarCount}</p>
             <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
           <p className="text-lg text-darkgray">$100.00</p>
+          <div className="top ">
+
+          </div>
         </div>
+        <div className="top-1/4 right-[-30px] absolute "></div>
       </div>
     </div>
   )
