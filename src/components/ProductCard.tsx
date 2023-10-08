@@ -12,7 +12,7 @@ export default function ProductCard() {
 
   return (
     <div className="col-span-3">
-      <div className="rounded-lg bg-white p-4 position-relative">
+      <div className="rounded-lg bg-white p-4 relative">
         {/* Product Image */}
         <div className="flex justify-center">
           <Image
@@ -55,7 +55,7 @@ export default function ProductCard() {
             <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
           <p className="text-lg text-darkgray">$100.00</p>
         </div>
-        <div className="top-10 right-[-30px]">
+        <div className="top-10 right-[-30px] absolute">
           <div className="flex flex-col">
             <Link
               href={'/'}
