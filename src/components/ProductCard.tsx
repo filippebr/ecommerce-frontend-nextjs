@@ -11,7 +11,7 @@ export default function ProductCard() {
 
   return (
     <div className="col-span-3">
-      <div className="rounded-lg bg-white p-4 space-y-2">
+      <div className="rounded-lg bg-white p-4">
         <div className="flex justify-center">
           <Image
             width={0}
@@ -22,7 +22,7 @@ export default function ProductCard() {
             alt="product image"
           ></Image>
         </div>
-        <div className="grid ">
+        <div className="grid space-y-2">
           <h6 className="text-lg text-petiteorchid">Havels</h6>
           <h5 className="text-base text-darkgray">
             Kids headphones bulk 10 pack multi colored for students
