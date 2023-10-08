@@ -56,7 +56,7 @@ export default function ProductCard() {
           <p className="text-lg text-darkgray">$100.00</p>
         </div>
         <div className="top-10 right-[-30px] absolute group-hover:right-5 transition-right duration-300 ease-in-out">
-          <div className="flex flex-col">
+          <div className="flex flex-col space-y-4">
             <Link
               href={'/'}
             >
