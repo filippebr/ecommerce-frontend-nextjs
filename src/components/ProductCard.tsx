@@ -12,7 +12,7 @@ export default function ProductCard() {
 
   return (
     <div className="col-span-3">
-      <div className="rounded-lg bg-white p-4 relative group">
+      <div className="rounded-lg bg-white p-4 relative group overflow-hidden">
         {/* Product Image */}
         <div className="flex justify-center">
           <Image
@@ -66,6 +66,32 @@ export default function ProductCard() {
                 sizes="100vw"
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/prodcompare.svg"
+                alt="prodcompare"
+              >
+              </Image>
+            </Link>
+            <Link
+              href={'/'}
+            >
+              <Image
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: 'auto', height: 'auto' }}
+                src="/images/view.svg"
+                alt="view"
+              >
+              </Image>
+            </Link>
+            <Link
+              href={'/'}
+            >
+              <Image
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: 'auto', height: 'auto' }}
+                src="/images/add-cart.svg"
                 alt="addcart"
               >
               </Image>
