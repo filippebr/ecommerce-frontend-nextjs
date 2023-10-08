@@ -13,6 +13,7 @@ export default function ProductCard() {
   return (
     <div className="col-span-3">
       <div className="rounded-lg bg-white p-4 position-relative">
+        {/* Product Image */}
         <div className="flex justify-center">
           <Image
             width={0}
@@ -23,7 +24,8 @@ export default function ProductCard() {
             alt="product image"
           ></Image>
         </div>
-        <div className="space-y-4 product-details">
+        {/* Product Details */}
+        <div className="space-y-4">
           <h6 className="text-lg text-petiteorchid">Havels</h6>
           <h5 className="text-base text-darkgray">
             Kids headphones bulk 10 pack multi colored for students
@@ -53,7 +55,7 @@ export default function ProductCard() {
             <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
           <p className="text-lg text-darkgray">$100.00</p>
         </div>
-        <div className="top-10 right-[-30px] absolute ">
+        <div className="top-10 right-[-30px]">
           <div className="flex flex-col">
             <Link
               href={'/'}
