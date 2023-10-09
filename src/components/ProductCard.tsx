@@ -12,11 +12,9 @@ export default function ProductCard() {
 
   return (
     <div className="col-span-3">
-      <div className="rounded-lg bg-white p-4 relative group overflow-hidden">
-        <div className="absolute top-0 right-5">
-          <Link
-            href={'/'}
-          >
+      <div className="group relative overflow-hidden rounded-lg bg-white p-4">
+        <div className="absolute right-5 top-0">
+          <Link href={'/'}>
             <Image
               width={0}
               height={0}
@@ -24,7 +22,7 @@ export default function ProductCard() {
               style={{ width: 'auto', height: 'auto' }}
               src="/images/wish.svg"
               alt="wishlist"
-              className="hover:bg-petiteorchid rounded-full p-1"
+              className="rounded-full p-1 hover:bg-petiteorchid"
             ></Image>
           </Link>
         </div>
@@ -37,7 +35,7 @@ export default function ProductCard() {
             style={{ width: 'auto', height: 'auto' }}
             src="/images/watch.jpg"
             alt="product image"
-            className="group-hover:hidden block"
+            className="block cursor-pointer group-hover:hidden"
           ></Image>
           <Image
             width={0}
@@ -46,7 +44,7 @@ export default function ProductCard() {
             style={{ width: 'auto', height: 'auto' }}
             src="/images/smartwatch_square.jpg"
             alt="product image"
-            className="group-hover:block hidden"
+            className="hidden cursor-pointer group-hover:block"
           ></Image>
         </div>
         {/* Product Details */}
@@ -61,7 +59,9 @@ export default function ProductCard() {
                 <label htmlFor="" key={index}>
                   <FaStar
                     className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
-                      } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
+                      } 
+                      cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''
+                      } `}
                     onMouseOver={() => {
                       setSelectedHoverStarCount(index + 1)
                     }}
@@ -81,11 +81,9 @@ export default function ProductCard() {
             <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
           <p className="text-lg text-darkgray">$100.00</p>
         </div>
-        <div className="top-10 right-[-30px] absolute group-hover:right-5 transition-right duration-300 ease-in-out">
+        <div className="transition-right absolute right-[-30px] top-10 duration-300 ease-in-out group-hover:right-5">
           <div className="flex flex-col space-y-4">
-            <Link
-              href={'/'}
-            >
+            <Link href={'/'}>
               <Image
                 width={0}
                 height={0}
@@ -93,13 +91,10 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/prodcompare.svg"
                 alt="prodcompare"
-                className="hover:bg-wildwillow rounded-full p-1"
-              >
-              </Image>
+                className="rounded-full p-1 hover:bg-wildwillow"
+              ></Image>
             </Link>
-            <Link
-              href={'/'}
-            >
+            <Link href={'/'}>
               <Image
                 width={0}
                 height={0}
@@ -107,13 +102,10 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/view.svg"
                 alt="view"
-                className="hover:bg-wildwillow rounded-full p-1"
-              >
-              </Image>
+                className="rounded-full p-1 hover:bg-wildwillow"
+              ></Image>
             </Link>
-            <Link
-              href={'/'}
-            >
+            <Link href={'/'}>
               <Image
                 width={0}
                 height={0}
@@ -121,9 +113,8 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/add-cart.svg"
                 alt="addcart"
-                className="hover:bg-wildwillow rounded-full p-1"
-              >
-              </Image>
+                className="rounded-full p-1 hover:bg-wildwillow"
+              ></Image>
             </Link>
           </div>
         </div>
