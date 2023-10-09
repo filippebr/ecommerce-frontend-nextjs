@@ -29,15 +29,25 @@ export default function ProductCard() {
           </Link>
         </div>
         {/* Product Image */}
-        <div className="flex justify-center w-12 h-12 bg-[url('/images/watch.jpg')]">
-          {/* <Image
+        <div className="flex justify-center">
+          <Image
             width={0}
             height={0}
             sizes="100vw"
             style={{ width: 'auto', height: 'auto' }}
             src="/images/watch.jpg"
             alt="product image"
-          ></Image> */}
+            className="hover:hidden block"
+          ></Image>
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: 'auto', height: 'auto' }}
+            src="/images/smartwatch_square.jpg"
+            alt="product image"
+            className="hover:block hidden"
+          ></Image>
         </div>
         {/* Product Details */}
         <div className="space-y-4">
