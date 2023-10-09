@@ -13,7 +13,7 @@ export default function ProductCard() {
   return (
     <div className="col-span-3">
       <div className="rounded-lg bg-white p-4 relative group overflow-hidden">
-        <div className="top-2 right-4">
+        <div className="top-2 right-[-2px]">
           <Link
             href={'/'}
           >
