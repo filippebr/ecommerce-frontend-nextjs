@@ -36,7 +36,7 @@ export default function ProductCard() {
                 <label htmlFor="" key={index}>
                   <FaStar
                     className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
-                      } cursor-pointer text-base ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
+                      } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''} `}
                     onMouseOver={() => {
                       setSelectedHoverStarCount(index + 1)
                     }}
@@ -46,6 +46,7 @@ export default function ProductCard() {
                     onClick={() => {
                       setSelectedStarCount(index + 1)
                     }}
+                    size={25}
                   />
                 </label>
               ))}
@@ -67,6 +68,7 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/prodcompare.svg"
                 alt="prodcompare"
+                className="hover:bg-contessa rounded-3xl"
               >
               </Image>
             </Link>
@@ -80,6 +82,7 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/view.svg"
                 alt="view"
+                className="hover:bg-contessa rounded-3xl"
               >
               </Image>
             </Link>
@@ -93,6 +96,7 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/add-cart.svg"
                 alt="addcart"
+                className="hover:bg-contessa rounded-3xl"
               >
               </Image>
             </Link>
