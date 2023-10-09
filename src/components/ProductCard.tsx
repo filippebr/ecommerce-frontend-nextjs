@@ -46,7 +46,7 @@ export default function ProductCard() {
                     onClick={() => {
                       setSelectedStarCount(index + 1)
                     }}
-                    size={25}
+                    size={15}
                   />
                 </label>
               ))}
@@ -68,7 +68,7 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/prodcompare.svg"
                 alt="prodcompare"
-                className="hover:bg-contessa rounded-3xl"
+                className="hover:bg-petiteorchid rounded-3xl p-1"
               >
               </Image>
             </Link>
@@ -82,7 +82,7 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/view.svg"
                 alt="view"
-                className="hover:bg-contessa rounded-3xl"
+                className="hover:bg-petiteorchid rounded-3xl p-1"
               >
               </Image>
             </Link>
@@ -96,7 +96,7 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/add-cart.svg"
                 alt="addcart"
-                className="hover:bg-contessa rounded-3xl"
+                className="hover:bg-petiteorchid rounded-3xl p-1"
               >
               </Image>
             </Link>
