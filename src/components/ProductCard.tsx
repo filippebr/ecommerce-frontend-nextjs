@@ -13,6 +13,20 @@ export default function ProductCard() {
   return (
     <div className="col-span-3">
       <div className="rounded-lg bg-white p-4 relative group overflow-hidden">
+        <div className="top-2 right-4">
+          <Link
+            href={'/'}
+          >
+            <Image
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: 'auto', height: 'auto' }}
+              src="/images/wish.svg"
+              alt="wishlist"
+            ></Image>
+          </Link>
+        </div>
         {/* Product Image */}
         <div className="flex justify-center">
           <Image
