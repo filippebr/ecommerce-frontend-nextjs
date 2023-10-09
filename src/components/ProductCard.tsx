@@ -13,7 +13,7 @@ export default function ProductCard() {
   return (
     <div className="col-span-3">
       <div className="rounded-lg bg-white p-4 relative group overflow-hidden">
-        <div className="absolute hover:bg-petiteorchid rounded-full p-1 top-2 right-5">
+        <div className="absolute top-2 right-5">
           <Link
             href={'/'}
           >
@@ -24,6 +24,7 @@ export default function ProductCard() {
               style={{ width: 'auto', height: 'auto' }}
               src="/images/wish.svg"
               alt="wishlist"
+              className="hover:bg-petiteorchid rounded-full p-1"
             ></Image>
           </Link>
         </div>
