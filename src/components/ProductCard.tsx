@@ -13,7 +13,7 @@ export default function ProductCard() {
   return (
     <div className="col-span-3">
       <div className="rounded-lg bg-white p-4 relative group overflow-hidden">
-        <div className="absolute top-1 right-5">
+        <div className="absolute top-0 right-5">
           <Link
             href={'/'}
           >
@@ -29,15 +29,15 @@ export default function ProductCard() {
           </Link>
         </div>
         {/* Product Image */}
-        <div className="flex justify-center">
-          <Image
+        <div className="flex justify-center w-auto h-auto bg-[url('/images/watch.jpg')]">
+          {/* <Image
             width={0}
             height={0}
             sizes="100vw"
             style={{ width: 'auto', height: 'auto' }}
             src="/images/watch.jpg"
             alt="product image"
-          ></Image>
+          ></Image> */}
         </div>
         {/* Product Details */}
         <div className="space-y-4">
@@ -116,7 +116,6 @@ export default function ProductCard() {
               </Image>
             </Link>
           </div>
-
         </div>
       </div>
     </div>
