@@ -37,7 +37,7 @@ export default function ProductCard() {
             style={{ width: 'auto', height: 'auto' }}
             src="/images/watch.jpg"
             alt="product image"
-            className="hover:hidden block"
+            className="group-hover:hidden block"
           ></Image>
           <Image
             width={0}
@@ -46,7 +46,7 @@ export default function ProductCard() {
             style={{ width: 'auto', height: 'auto' }}
             src="/images/smartwatch_square.jpg"
             alt="product image"
-            className="hover:block hidden"
+            className="group-hover:block hidden"
           ></Image>
         </div>
         {/* Product Details */}
