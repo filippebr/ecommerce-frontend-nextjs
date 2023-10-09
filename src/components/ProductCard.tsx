@@ -29,7 +29,7 @@ export default function ProductCard() {
           </Link>
         </div>
         {/* Product Image */}
-        <div className="flex justify-center w-auto h-auto bg-[url('/images/watch.jpg')]">
+        <div className="flex justify-center w-12 h-12 bg-[url('/images/watch.jpg')]">
           {/* <Image
             width={0}
             height={0}
