@@ -13,7 +13,7 @@ export default function ProductCard() {
   return (
     <div className="col-span-3">
       <div className="rounded-lg bg-white p-4 relative group overflow-hidden">
-        <div className="top-2 right-[-2px]">
+        <div className="hover:bg-petiteorchid top-2 right-[-2px]">
           <Link
             href={'/'}
           >
@@ -82,7 +82,7 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/prodcompare.svg"
                 alt="prodcompare"
-                className="hover:bg-petiteorchid rounded-full p-1"
+                className="hover:bg-wildwillow rounded-full p-1"
               >
               </Image>
             </Link>
@@ -96,7 +96,7 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/view.svg"
                 alt="view"
-                className="hover:bg-petiteorchid rounded-full p-1"
+                className="hover:bg-wildwillow rounded-full p-1"
               >
               </Image>
             </Link>
@@ -110,7 +110,7 @@ export default function ProductCard() {
                 style={{ width: 'auto', height: 'auto' }}
                 src="/images/add-cart.svg"
                 alt="addcart"
-                className="hover:bg-petiteorchid rounded-full p-1"
+                className="hover:bg-wildwillow rounded-full p-1"
               >
               </Image>
             </Link>
