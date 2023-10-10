@@ -1,17 +1,13 @@
-/* eslint-disable prettier/prettier */
 'use client'
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
-import { FaStar } from 'react-icons/fa'
+import ProductDetails from './ProductDetails'
 
 export default function ProductCard() {
-  const [selectedStarCount, setSelectedStarCount] = useState(0)
-  const [selectedHoverStarCount, setSelectedHoverStarCount] = useState(0)
-
   return (
     <div className="col-span-3">
+      {/* Wishlist */}
       <div className="group relative overflow-hidden rounded-lg bg-white p-4">
         <div className="absolute right-5 top-0">
           <Link href={'/'}>
@@ -48,7 +44,8 @@ export default function ProductCard() {
           ></Image>
         </div>
         {/* Product Details */}
-        <div className="space-y-4">
+        <ProductDetails />
+        {/* <div className="space-y-4">
           <h6 className="text-lg text-petiteorchid">Havels</h6>
           <h5 className="text-base text-darkgray">
             Kids headphones bulk 10 pack multi colored for students
@@ -76,11 +73,13 @@ export default function ProductCard() {
                 </label>
               ))}
             </div>
-          </div>
-          {/* <p>Rating Count: {selectedStarCount}</p>
-            <p>Hover Rating Count: {selectedHoverStarCount}</p> */}
+          </div> 
+          <p>Rating Count: {selectedStarCount}</p>
+          <p>Hover Rating Count: {selectedHoverStarCount}</p> 
           <p className="text-lg text-darkgray">$100.00</p>
-        </div>
+        </div> */}
+
+        {/* Action Bar */}
         <div className="transition-right absolute right-[-30px] top-10 duration-300 ease-in-out group-hover:right-5">
           <div className="flex flex-col space-y-4">
             <Link href={'/'}>
