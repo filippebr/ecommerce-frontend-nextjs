@@ -8,7 +8,7 @@ export default function ProductDetails() {
   const [selectedHoverStarCount, setSelectedHoverStarCount] = useState(0)
 
   return (
-    <section className="space-y-4">
+    <div className="space-y-4">
       <h6 className="text-lg text-petiteorchid">Havels</h6>
       <h5 className="text-base text-darkgray">
         Kids headphones bulk 10 pack multi colored for students
@@ -39,6 +39,6 @@ export default function ProductDetails() {
       {/* <p>Rating Count: {selectedStarCount}</p> */}
       {/* <p>Hover Rating Count: {selectedHoverStarCount}</p>  */}
       <p className="text-lg text-darkgray">$100.00</p>
-    </section>
+    </div>
   )
 }
