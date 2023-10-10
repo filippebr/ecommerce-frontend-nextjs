@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import ActionBar from './ActionBar'
 import ProductDetails from './ProductDetails'
 
 export default function ProductCard() {
@@ -45,6 +46,7 @@ export default function ProductCard() {
         </div>
         <ProductDetails />
         {/* Action Bar */}
+        <ActionBar />
       </div>
     </div>
   )
