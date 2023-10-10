@@ -7,6 +7,7 @@ export default function Main() {
       {/* <MainBanner />
       <MainServices />
       <MainCategories /> */}
+      <section className=""></section>
       <MainMarquee />
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
