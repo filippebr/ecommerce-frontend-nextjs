@@ -7,9 +7,9 @@ import ProductDetails from './ProductDetails'
 export default function ProductCard() {
   return (
     <div className="col-span-3">
-      {/* Wishlist */}
       <div className="group relative overflow-hidden rounded-lg bg-white p-4">
-        <div className="absolute right-5 top-0">
+        {/* Wishlist */}
+        <section className="absolute right-5 top-0">
           <Link href={'/'}>
             <Image
               width={0}
@@ -21,9 +21,9 @@ export default function ProductCard() {
               className="rounded-full p-1 hover:bg-petiteorchid"
             ></Image>
           </Link>
-        </div>
+        </section>
         {/* Product Image */}
-        <div className="flex justify-center">
+        <section className="flex justify-center">
           <Image
             width={0}
             height={0}
@@ -42,11 +42,10 @@ export default function ProductCard() {
             alt="product image"
             className="hidden cursor-pointer group-hover:block"
           ></Image>
-        </div>
-        {/* Product Details */}
+        </section>
         <ProductDetails />
         {/* Action Bar */}
-        <div className="transition-right absolute right-[-30px] top-10 duration-300 ease-in-out group-hover:right-5">
+        <section className="transition-right absolute right-[-30px] top-10 duration-300 ease-in-out group-hover:right-5">
           <div className="flex flex-col space-y-4">
             <Link href={'/'}>
               <Image
@@ -82,7 +81,7 @@ export default function ProductCard() {
               ></Image>
             </Link>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   )
