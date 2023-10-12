@@ -1,5 +1,6 @@
 import MainMarquee from '@/components/MainMarquee'
 import ProductCard from '@/components/ProductCard'
+import SpecialProduct from '@/components/SpecialProduct'
 
 export default function Main() {
   return (
@@ -7,7 +8,18 @@ export default function Main() {
       {/* <MainBanner />
       <MainServices />
       <MainCategories /> */}
-      <section className=""></section>
+      <section className="special-wrapper home-wrapper-2 py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="section-heading">Special Products</div>
+            </div>
+          </div>
+          <div className="row">
+            <SpecialProduct />
+          </div>
+        </div>
+      </section>
       <MainMarquee />
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
