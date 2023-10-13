@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ActionBar from './ActionBar'
 import ProductDetails from './ProductDetails'
+import ProductImage from './ProductImage'
 
 export default function ProductCard() {
   return (
@@ -24,26 +25,7 @@ export default function ProductCard() {
           </Link>
         </div>
         {/* Product Image */}
-        <div className="flex justify-center">
-          <Image
-            width={0}
-            height={0}
-            sizes="100vw"
-            style={{ width: 'auto', height: 'auto' }}
-            src="/images/watch.jpg"
-            alt="product image"
-            className="block cursor-pointer group-hover:hidden"
-          ></Image>
-          <Image
-            width={0}
-            height={0}
-            sizes="100vw"
-            style={{ width: 'auto', height: 'auto' }}
-            src="/images/smartwatch_square.jpg"
-            alt="product image"
-            className="hidden cursor-pointer group-hover:block"
-          ></Image>
-        </div>
+        <ProductImage />
         <ProductDetails />
         {/* Action Bar */}
         <ActionBar />
