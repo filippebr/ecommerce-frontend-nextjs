@@ -27,6 +27,8 @@ export default function Main() {
           </div>
           <div className="mb-8 text-2xl font-semibold">
             <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
           </div>
         </div>
       </section>

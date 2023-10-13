@@ -24,10 +24,10 @@ export default function SpecialProduct() {
             ></Image>
           </div>
           <div className="">
-            <h6 className="text-lg text-petiteorchid">Havels</h6>
-            <h5 className="text-base text-darkgray">
+            <h5 className="text-lg text-petiteorchid">Havels</h5>
+            <h6 className="text-base text-darkgray">
               Samsung Galaxy Note10+ Mobile Phone; Sim...
-            </h5>
+            </h6>
             <div className="grid grid-cols-5">
               <div className="flex justify-start">
                 {[...Array(5)].map((_, index) => (
@@ -35,7 +35,7 @@ export default function SpecialProduct() {
                     <FaStar
                       className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
                         } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''
-                        } `}
+                        }`}
                       onMouseOver={() => {
                         setSelectedHoverStarCount(index + 1)
                       }}
@@ -53,7 +53,6 @@ export default function SpecialProduct() {
             </div>
             <p className="text-lg text-darkgray">
               <span className="text-stiletto">$100.00</span>
-              {' '}
               <s>$200</s>
             </p>
           </div>
