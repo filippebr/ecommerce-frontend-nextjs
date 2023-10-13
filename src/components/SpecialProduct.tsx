@@ -1,4 +1,5 @@
 /* eslint-disable prettier/prettier */
+'use client'
 import Image from 'next/image'
 import { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
