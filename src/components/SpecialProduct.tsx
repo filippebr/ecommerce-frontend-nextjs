@@ -53,14 +53,14 @@ export default function SpecialProduct() {
             <p className="text-lg text-darkgray">
               <span className="text-stiletto">$100.00</span>{' '}<s>$200</s>
             </p>
-            <div className="text-xs">
+            <div className="text-sm">
               <p>
                 <b>5 days</b>
               </p>
               <div className="flex gap-3">
-                <span className="rounded-full p-1 bg-contessa">1</span>
-                <span className="rounded-full p-1 bg-contessa">1</span>
-                <span className="rounded-full p-1 bg-contessa">1</span>
+                <span className="rounded-full p-2 bg-contessa">1</span>
+                <span className="rounded-full p-2 bg-contessa">1</span>
+                <span className="rounded-full p-2 bg-contessa">1</span>
               </div>
             </div>
           </div>
