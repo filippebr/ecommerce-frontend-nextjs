@@ -1,11 +1,11 @@
 /* eslint-disable prettier/prettier */
 import Image from 'next/image'
-import { useState } from 'react'
-import { FaStar } from 'react-icons/fa'
+// import { useState } from 'react'
+// import { FaStar } from 'react-icons/fa'
 
 export default function SpecialProduct() {
-  const [selectedStarCount, setSelectedStarCount] = useState(0)
-  const [selectedHoverStarCount, setSelectedHoverStarCount] = useState(0)
+  // const [selectedStarCount, setSelectedStarCount] = useState(0)
+  // const [selectedHoverStarCount, setSelectedHoverStarCount] = useState(0)
 
   return (
     <div className="col-span-4">
@@ -27,7 +27,7 @@ export default function SpecialProduct() {
             <h5 className="text-base text-darkgray">
               Samsung Galaxy Note10+ Mobile Phone; Sim...
             </h5>
-            {[...Array(5)].map((_, index) => (
+            {/* {[...Array(5)].map((_, index) => (
               <label htmlFor="" key={index}>
                 <FaStar
                   className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
@@ -47,10 +47,10 @@ export default function SpecialProduct() {
                   size={20}
                 />
               </label>
-            ))}
+            ))} */}
             <p className="text-lg text-darkgray">
               <span className="text-stiletto">$100.00</span>
-              {/* <s>$200</s> */}
+              <s>$200</s>
             </p>
           </div>
         </div>
