@@ -53,7 +53,7 @@ export default function SpecialProduct() {
             <p className="text-lg text-darkgray">
               <span className="text-stiletto">$100.00</span>{' '}<s>$200</s>
             </p>
-            <div className="">
+            <div className="text-xs">
               <p>
                 <b>5 days</b>
               </p>
