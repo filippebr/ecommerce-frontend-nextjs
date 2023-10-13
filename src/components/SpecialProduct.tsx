@@ -66,8 +66,8 @@ export default function SpecialProduct() {
             <div className="flex space-y-4">
               <p>Products: 5</p>
               <div className="progress">
-                <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "25%" }}></div>
+                <div className="w-full bg-lightgray rounded-full h-2.5 dark:bg-darkgray">
+                  <div className="bg-waterloo h-2.5 rounded-full" style={{ width: "25%" }}></div>
                 </div>
               </div>
             </div>
