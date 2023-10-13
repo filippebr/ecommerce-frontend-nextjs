@@ -63,6 +63,14 @@ export default function SpecialProduct() {
                 <span className="py-1 px-3 rounded-full bg-contessa">1</span>
               </div>
             </div>
+            <div className="flex space-y-4">
+              <p>Products: 5</p>
+              <div className="progress">
+                <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: "25%" }}></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
