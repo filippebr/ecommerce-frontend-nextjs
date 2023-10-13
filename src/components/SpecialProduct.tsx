@@ -53,9 +53,9 @@ export default function SpecialProduct() {
             <p className="text-lg text-darkgray">
               <span className="text-stiletto">$100.00</span>{' '}<s>$200</s>
             </p>
-            <div className="text-base font-bold">
-              <p>
-                <b>5 days</b>
+            <div className="flex flex-row items-center text-base font-semibold space-y-4">
+              <p className="mb-0">
+                <b>5 </b>days
               </p>
               <div className="flex gap-3">
                 <span className="py-1 px-3 rounded-full bg-contessa">1</span>
