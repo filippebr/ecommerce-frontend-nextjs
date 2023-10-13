@@ -49,7 +49,8 @@ export default function SpecialProduct() {
               </label>
             ))}
             <p className="text-lg text-darkgray">
-              <span className="text-stiletto">$100.00</span> <s>$200</s>
+              <span className="text-stiletto">$100.00</span>
+              {/* <s>$200</s> */}
             </p>
           </div>
         </div>
