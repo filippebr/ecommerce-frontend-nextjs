@@ -69,13 +69,13 @@ export default function SpecialProduct() {
               <div className="w-1/4 bg-lightgray rounded-full h-4 dark:bg-darkgray">
                 <div className="bg-waterloo h-4 rounded-full" style={{ width: "50%" }}></div>
               </div>
-              <Link
-                href="/"
-                className="w-1/4 rounded-3xl bg-jacarta hover:bg-eastbay px-4 py-2 text-lg text-white"
-              >
-                Add to Cart
-              </Link>
             </div>
+            <Link
+              href="/"
+              className="rounded-3xl bg-jacarta hover:bg-eastbay px-4 py-2 text-lg text-white"
+            >
+              Add to Cart
+            </Link>
           </div>
         </div>
       </div>
