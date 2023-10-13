@@ -58,9 +58,9 @@ export default function SpecialProduct() {
                 <b>5 days</b>
               </p>
               <div className="flex gap-3">
-                <span className="py-1 px-2 bg-contessa" style={{ borderRadius: '50%' }}>1</span>
-                <span className="py-1 px-2 bg-contessa" style={{ borderRadius: '50%' }}>1</span>
-                <span className="py-1 px-2 bg-contessa" style={{ borderRadius: '50%' }}>1</span>
+                <span className="py-1 px-3 bg-contessa" style={{ borderRadius: '50%' }}>1</span>
+                <span className="py-1 px-3 bg-contessa" style={{ borderRadius: '50%' }}>1</span>
+                <span className="py-1 px-3 bg-contessa" style={{ borderRadius: '50%' }}>1</span>
               </div>
             </div>
           </div>
