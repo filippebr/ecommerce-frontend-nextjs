@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import Image from 'next/image'
 import { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
@@ -48,7 +49,7 @@ export default function SpecialProduct() {
               </label>
             ))}
             <p className="text-lg text-darkgray">
-              <span className="text-stiletto">$100.00 </span>
+              <span className="text-stiletto">$100.00</span> <s>$200</s>
             </p>
           </div>
         </div>
