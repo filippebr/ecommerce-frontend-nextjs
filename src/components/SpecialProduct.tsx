@@ -58,9 +58,9 @@ export default function SpecialProduct() {
                 <b>5 days</b>
               </p>
               <div className="flex gap-3">
-                <span className="rounded-full p-2 bg-contessa">1</span>
-                <span className="rounded-full p-2 bg-contessa">1</span>
-                <span className="rounded-full p-2 bg-contessa">1</span>
+                <span className="rounded-full p-4 bg-contessa">1</span>
+                <span className="rounded-full p-4 bg-contessa">1</span>
+                <span className="rounded-full p-4 bg-contessa">1</span>
               </div>
             </div>
           </div>
