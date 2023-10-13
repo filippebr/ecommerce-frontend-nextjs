@@ -9,8 +9,8 @@ export default function ProductDetails() {
 
   return (
     <div className="space-y-4">
-      <h6 className="text-lg text-petiteorchid font-bold">Havels</h6>
-      <h5 className="text-base text-darkgray font-bold">
+      <h6 className="text-lg text-petiteorchid font-semibold">Havels</h6>
+      <h5 className="text-base text-darkgray font-semibold">
         Kids headphones bulk 10 pack multi colored for students
       </h5>
       <div className="grid grid-cols-5">

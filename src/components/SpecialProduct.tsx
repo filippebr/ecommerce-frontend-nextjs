@@ -23,8 +23,8 @@ export default function SpecialProduct() {
             ></Image>
           </div>
           <div className="space-y-4">
-            <h5 className="text-lg text-petiteorchid font-bold">Havels</h5>
-            <h6 className="text-base text-darkgray font-bold">
+            <h5 className="text-lg text-petiteorchid font-semibold">Havels</h5>
+            <h6 className="text-base text-darkgray font-semibold">
               Samsung Galaxy Note10+ Mobile Phone; Sim...
             </h6>
             <div className="grid grid-cols-5">
