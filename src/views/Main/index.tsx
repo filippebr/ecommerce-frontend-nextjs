@@ -8,16 +8,6 @@ export default function Main() {
       {/* <MainBanner />
       <MainServices />
       <MainCategories /> */}
-      <section className="special-wrapper home-wrapper-2 py-5">
-        <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
-          <div className="col-span-12">
-            <div className="mb-8 text-2xl font-semibold">Special Products</div>
-          </div>
-          <div className="mb-8 text-2xl font-semibold">
-            <SpecialProduct />
-          </div>
-        </div>
-      </section>
       <MainMarquee />
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
@@ -28,6 +18,16 @@ export default function Main() {
           <ProductCard />
           <ProductCard />
           <ProductCard />
+        </div>
+      </section>
+      <section className="special-wrapper home-wrapper-2 py-5">
+        <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
+          <div className="col-span-12">
+            <div className="mb-8 text-2xl font-semibold">Special Products</div>
+          </div>
+          <div className="mb-8 text-2xl font-semibold">
+            <SpecialProduct />
+          </div>
         </div>
       </section>
       {/* <section className="py-5">
