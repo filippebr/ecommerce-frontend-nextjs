@@ -22,7 +22,7 @@ export default function SpecialProduct() {
               className="rounded-full p-1 hover:bg-petiteorchid"
             ></Image>
           </div>
-          <div className="special-product-content">
+          <div className="">
             <h6 className="text-lg text-petiteorchid">Havels</h6>
             <h5 className="text-base text-darkgray">
               Samsung Galaxy Note10+ Mobile Phone; Sim...
