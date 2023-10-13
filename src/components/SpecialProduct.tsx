@@ -20,12 +20,11 @@ export default function SpecialProduct() {
               style={{ width: 'auto', height: 'auto' }}
               src="/images/watch.jpg"
               alt="watch"
-              className="rounded-full p-1 hover:bg-petiteorchid"
             ></Image>
           </div>
-          <div className="">
-            <h5 className="text-lg text-petiteorchid">Havels</h5>
-            <h6 className="text-base text-darkgray">
+          <div className="space-y-4">
+            <h5 className="text-lg text-petiteorchid font-bold">Havels</h5>
+            <h6 className="text-base text-darkgray font-bold">
               Samsung Galaxy Note10+ Mobile Phone; Sim...
             </h6>
             <div className="grid grid-cols-5">
@@ -52,8 +51,7 @@ export default function SpecialProduct() {
               </div>
             </div>
             <p className="text-lg text-darkgray">
-              <span className="text-stiletto">$100.00</span>
-              <s>$200</s>
+              <span className="text-stiletto">$100.00</span>{' '}<s>$200</s>
             </p>
           </div>
         </div>
