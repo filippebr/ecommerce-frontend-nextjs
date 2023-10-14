@@ -73,7 +73,7 @@ export default function SpecialProduct() {
             <div className="mt-6">
               <Link
                 href="/"
-                className="rounded-3xl bg-jacarta hover:bg-eastbay px-4 py-2 text-lg text-white"
+                className="rounded-3xl bg-jacarta hover:bg-eastbay px-4 py-2 text-base text-white"
               >
                 Add to Cart
               </Link>
