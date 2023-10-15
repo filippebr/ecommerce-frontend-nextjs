@@ -30,6 +30,15 @@ export default function Main() {
           <SpecialProduct />
         </div>
       </section>
+      {/* Our Popular Products */}
+      <section className="py-5">
+        <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
+          <div className="col-span-12">
+            <h3>Our Popular Products</h3>
+          </div>
+        </div>
+        <div className=""></div>
+      </section>
       {/* <section className="py-5">
         <div className="grid grid-cols-4 items-center justify-center px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-4">
