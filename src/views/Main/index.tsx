@@ -40,12 +40,10 @@ export default function Main() {
           </div>
         </div>
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
-          <div className="col-span-2">
-            <div className="card"></div>
-          </div>
-          <div className="col-span-2">
-            <div className="card"></div>
-          </div>
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
         </div>
       </section>
       {/* <section className="py-5">
