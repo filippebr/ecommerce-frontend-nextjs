@@ -34,10 +34,19 @@ export default function Main() {
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-12">
-            <h3>Our Popular Products</h3>
+            <h3 className="mb-8 text-2xl font-semibold">
+              Our Popular Products
+            </h3>
           </div>
         </div>
-        <div className=""></div>
+        <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
+          <div className="col-span-2">
+            <div className="card"></div>
+          </div>
+          <div className="col-span-2">
+            <div className="card"></div>
+          </div>
+        </div>
       </section>
       {/* <section className="py-5">
         <div className="grid grid-cols-4 items-center justify-center px-4 text-3xl sm:px-8 lg:px-16">
