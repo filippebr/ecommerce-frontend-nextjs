@@ -20,6 +20,21 @@ export default function Main() {
           <ProductCard />
         </div>
       </section>
+      {/* Famous Products */}
+      <section className="py-5">
+        <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
+          <div className="col-span-12">
+            <h3 className="mb-8 text-2xl font-semibold">
+              <div className="col-span-3">
+                <div className="bg-darkgray">
+                  <h5>Big Screen</h5>
+                  <h6></h6>
+                </div>
+              </div>
+            </h3>
+          </div>
+        </div>
+      </section>
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-12">
