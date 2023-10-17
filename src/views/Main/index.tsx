@@ -28,7 +28,8 @@ export default function Main() {
               <div className="col-span-3">
                 <div className="bg-darkgray">
                   <h5>Big Screen</h5>
-                  <h6></h6>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From $399or $16.62/mo. for mo.*</p>
                 </div>
               </div>
             </h3>
