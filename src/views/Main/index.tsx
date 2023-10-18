@@ -25,8 +25,13 @@ export default function Main() {
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-3">
-            <div className="mb-8 text-2xl font-semibold">
-              <div className="bg-darkgray text-white">
+            <div className="relative mb-8 text-2xl font-semibold">
+              <div className="bg-black text-white">
+                <div className="absolute p-2">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From $399or $16.62/mo. for mo.*</p>
+                </div>
                 <Image
                   width={0}
                   height={0}
@@ -35,9 +40,6 @@ export default function Main() {
                   src="/images/smartwatches.jpg"
                   alt="smartwatches"
                 />
-                <h5>Big Screen</h5>
-                <h6>Smart Watch Series 7</h6>
-                <p>From $399or $16.62/mo. for mo.*</p>
               </div>
             </div>
           </div>
