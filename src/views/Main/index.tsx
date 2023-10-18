@@ -24,7 +24,7 @@ export default function Main() {
       {/* Famous Products */}
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
-          <div className="col-span-3 rounded-lg">
+          <div className="col-span-3">
             <div className="relative mb-8 font-semibold">
               <div className="text-white">
                 <div className="absolute left-8 top-8 bg-black">
@@ -38,7 +38,7 @@ export default function Main() {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: 'auto', height: 'auto' }}
+                  style={{ width: 'auto', height: 'auto', borderRadius: '8px' }}
                   src="/images/smartwatches.jpg"
                   alt="smartwatches"
                 />
