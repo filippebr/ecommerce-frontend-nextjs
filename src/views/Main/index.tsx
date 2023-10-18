@@ -1,6 +1,7 @@
 import MainMarquee from '@/components/MainMarquee'
 import ProductCard from '@/components/ProductCard'
 import SpecialProduct from '@/components/SpecialProduct'
+import Image from 'next/image'
 
 export default function Main() {
   return (
@@ -24,13 +25,21 @@ export default function Main() {
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-3">
-            <h3 className="mb-8 text-2xl font-semibold">
-              <div className="bg-darkgray">
+            <div className="mb-8 text-2xl font-semibold">
+              <div className="bg-darkgray text-white">
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: 'auto', height: 'auto' }}
+                  src="/images/smartwatches.jpg"
+                  alt="smartwatches"
+                />
                 <h5>Big Screen</h5>
                 <h6>Smart Watch Series 7</h6>
                 <p>From $399or $16.62/mo. for mo.*</p>
               </div>
-            </h3>
+            </div>
           </div>
         </div>
       </section>
