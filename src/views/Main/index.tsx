@@ -38,7 +38,11 @@ export default function Main() {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: 'auto', height: 'auto', borderRadius: '8px' }}
+                  style={{
+                    width: 'auto',
+                    height: 'auto',
+                    borderRadius: '16px',
+                  }}
                   src="/images/smartwatches.jpg"
                   alt="smartwatches"
                 />
