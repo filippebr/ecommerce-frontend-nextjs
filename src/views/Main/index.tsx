@@ -25,12 +25,12 @@ export default function Main() {
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-3">
-            <div className="relative mb-8 text-2xl font-semibold">
+            <div className="relative mb-8 font-semibold">
               <div className="bg-black text-white">
-                <div className="absolute p-2">
-                  <h5>Big Screen</h5>
-                  <h6>Smart Watch Series 7</h6>
-                  <p>From $399or $16.62/mo. for mo.*</p>
+                <div className="absolute left-8 top-8">
+                  <h5 className="text-sm">BIG SCREEN</h5>
+                  <h6 className="text-xl">Smart Watch Series 7</h6>
+                  <p className="text-base">From $399or $16.62/mo. for mo.*</p>
                 </div>
                 <Image
                   width={0}
