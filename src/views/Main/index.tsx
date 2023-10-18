@@ -26,7 +26,7 @@ export default function Main() {
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-3">
             <div className="relative mb-8 font-semibold">
-              <div className="rounded-lg bg-black text-white">
+              <div className="rounded-t-lg bg-black text-white">
                 <div className="absolute left-8 top-8">
                   <h5 className="text-xs font-light">BIG SCREEN</h5>
                   <h6 className="text-xl">Smart Watch Series 7</h6>
@@ -41,6 +41,7 @@ export default function Main() {
                   style={{ width: 'auto', height: 'auto' }}
                   src="/images/smartwatches.jpg"
                   alt="smartwatches"
+                  className="rounded-b-lg"
                 />
               </div>
             </div>
