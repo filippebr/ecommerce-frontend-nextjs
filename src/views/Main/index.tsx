@@ -27,7 +27,7 @@ export default function Main() {
           <div className="col-span-3">
             <div className="relative mb-8 font-semibold">
               <div className="text-white">
-                <div className="absolute left-8 top-8 bg-black">
+                <div className="absolute left-8 top-8 space-y-4 bg-black">
                   <h5 className="text-xs font-light">BIG SCREEN</h5>
                   <h6 className="text-xl">Smart Watch Series 7</h6>
                   <p className="text-sm font-light">
