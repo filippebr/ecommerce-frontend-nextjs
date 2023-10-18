@@ -23,7 +23,7 @@ export default function Main() {
       </section>
       {/* Famous Products */}
       <section className="py-5">
-        <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
+        <div className="grid grid-cols-12 gap-4 px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-3">
             <div className="relative mb-8 font-semibold">
               <div className="text-white">
@@ -50,9 +50,9 @@ export default function Main() {
             </div>
           </div>
           <div className="col-span-3">
-            <div className="mb-8 font-semibold">
+            <div className="relative mb-8 font-semibold">
               <div className="text-black">
-                <div className="space-y-3 bg-white">
+                <div className="absolute left-8 top-8 space-y-3 bg-white">
                   <h5 className="text-xs font-light">STUDIO DISPLAY</h5>
                   <h6 className="text-2xl">600 nits of brightness.</h6>
                   <p className="text-sm font-light">
@@ -66,6 +66,8 @@ export default function Main() {
                   style={{
                     width: 'auto',
                     height: 'auto',
+                    top: '30%',
+                    left: '2rem',
                   }}
                   src="/images/notebook.jpg"
                   alt="notebook"
