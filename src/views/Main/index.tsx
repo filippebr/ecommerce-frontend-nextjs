@@ -92,7 +92,7 @@ export default function Main() {
                     width: 'auto',
                     height: 'auto',
                   }}
-                  src="/images/smartphones.jpg"
+                  src="/images/smartphones.png"
                   alt="smartphones"
                 />
               </div>
