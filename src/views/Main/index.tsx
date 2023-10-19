@@ -73,6 +73,55 @@ export default function Main() {
               </div>
             </div>
           </div>
+          <div className="col-span-3">
+            <div className="relative mb-8 font-semibold">
+              <div className="text-black">
+                <div className="absolute left-8 top-8 space-y-3 bg-white">
+                  <h5 className="text-xs font-light">SMARTPHONES</h5>
+                  <h6 className="text-2xl">Smartphone 13 Pro.</h6>
+                  <p className="text-sm font-light">
+                    Now in Green. From $999.00 or $41.62/mo. for 24 mo.
+                    Footnote*
+                  </p>
+                </div>
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{
+                    width: 'auto',
+                    height: 'auto',
+                  }}
+                  src="/images/smartphones_simple.jpg"
+                  alt="smartphones"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-span-3">
+            <div className="relative mb-8 font-semibold">
+              <div className="text-black">
+                <div className="absolute left-8 top-8 space-y-3 bg-white">
+                  <h5 className="text-xs font-light">HOME SPEAKERS</h5>
+                  <h6 className="text-2xl">Room-filling sound.</h6>
+                  <p className="text-sm font-light">
+                    From $699 or $116.58/mo. for 12 mo.*
+                  </p>
+                </div>
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{
+                    width: 'auto',
+                    height: 'auto',
+                  }}
+                  src="/images/home_speaker.jpg"
+                  alt="homespeaker"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section className="py-5">
