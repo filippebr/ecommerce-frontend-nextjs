@@ -67,7 +67,7 @@ export default function Main() {
                     width: 'auto',
                     height: 'auto',
                   }}
-                  src="/images/notebook.jpg"
+                  src="/images/notebook.png"
                   alt="notebook"
                 />
               </div>
@@ -116,7 +116,7 @@ export default function Main() {
                     width: 'auto',
                     height: 'auto',
                   }}
-                  src="/images/home_speaker.jpg"
+                  src="/images/homespeaker.png"
                   alt="homespeaker"
                 />
               </div>
