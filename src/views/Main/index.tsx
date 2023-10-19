@@ -66,8 +66,6 @@ export default function Main() {
                   style={{
                     width: 'auto',
                     height: 'auto',
-                    top: '30%',
-                    left: '2rem',
                   }}
                   src="/images/notebook.jpg"
                   alt="notebook"
