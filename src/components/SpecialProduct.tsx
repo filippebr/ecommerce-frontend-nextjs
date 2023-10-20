@@ -1,9 +1,13 @@
+/* eslint-disable prettier/prettier */
 'use client'
 import RatingStar from '@/lib/common-components/RatingStar'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function SpecialProduct() {
+  // const [selectedStarCount, setSelectedStarCount] = useState(0)
+  // const [selectedHoverStarCount, setSelectedHoverStarCount] = useState(0)
+
   return (
     <div className="col-span-4">
       <div className="rounded-lg p-3">
@@ -19,41 +23,57 @@ export default function SpecialProduct() {
             ></Image>
           </div>
           <div className="space-y-4">
-            <h5 className="text-lg font-semibold text-petiteorchid">Havels</h5>
-            <h6 className="text-base font-semibold text-darkgray">
+            <h5 className="text-lg text-petiteorchid font-semibold">Havels</h5>
+            <h6 className="text-base text-darkgray font-semibold">
               Samsung Galaxy Note10+ Mobile Phone; Sim...
             </h6>
             <div className="grid grid-cols-5">
               <div className="flex justify-start">
                 <RatingStar />
+                {/* {[...Array(5)].map((_, index) => (
+                  <label htmlFor="" key={index}>
+                    <FaStar
+                      className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
+                        } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''
+                        }`}
+                      onMouseOver={() => {
+                        setSelectedHoverStarCount(index + 1)
+                      }}
+                      onMouseOut={() => {
+                        setSelectedHoverStarCount(0)
+                      }}
+                      onClick={() => {
+                        setSelectedStarCount(index + 1)
+                      }}
+                      size={20}
+                    />
+                  </label>
+                ))} */}
               </div>
             </div>
             <p className="text-lg text-darkgray">
-              <span className="text-stiletto">$100.00</span> <s>$200.00</s>
+              <span className="text-stiletto">$100.00</span>{' '}<s>$200.00</s>
             </p>
-            <div className="flex flex-row items-center space-x-2 text-base font-semibold">
+            <div className="flex flex-row items-center text-base font-semibold space-x-2">
               <p className="mb-0">
                 <b>5 </b>days
               </p>
-              <div className="flex items-center gap-3">
-                <span className="rounded-full bg-contessa px-3 py-1">1</span>:
-                <span className="rounded-full bg-contessa px-3 py-1">1</span>:
-                <span className="rounded-full bg-contessa px-3 py-1">1</span>
+              <div className="flex gap-3 items-center">
+                <span className="py-1 px-3 rounded-full bg-contessa">1</span>:
+                <span className="py-1 px-3 rounded-full bg-contessa">1</span>:
+                <span className="py-1 px-3 rounded-full bg-contessa">1</span>
               </div>
             </div>
-            <div className="flex flex-col space-y-4 text-base">
+            <div className="flex flex-col text-base space-y-4">
               <p>Products: 5</p>
-              <div className="h-4 w-1/4 rounded-full bg-lightgray dark:bg-darkgray">
-                <div
-                  className="h-4 rounded-full bg-waterloo"
-                  style={{ width: '50%' }}
-                ></div>
+              <div className="w-1/4 bg-lightgray rounded-full h-4 dark:bg-darkgray">
+                <div className="bg-waterloo h-4 rounded-full" style={{ width: "50%" }}></div>
               </div>
             </div>
             <div className="mt-6">
               <Link
                 href="/"
-                className="rounded-3xl bg-jacarta px-4 py-2 text-base text-white hover:bg-eastbay"
+                className="rounded-3xl bg-jacarta hover:bg-eastbay px-4 py-2 text-base text-white"
               >
                 Add to Cart
               </Link>
