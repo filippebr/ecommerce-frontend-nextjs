@@ -9,6 +9,9 @@ export default function Home() {
       <Link className="flex items-center justify-center text-3xl" href="/about">
         About
       </Link>
+      <Link className="flex items-center justify-center text-3xl" href="/store">
+        Our Store
+      </Link>
       <Link
         className="flex items-center justify-center text-3xl"
         href="/contact"
