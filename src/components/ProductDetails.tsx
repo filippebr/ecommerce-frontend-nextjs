@@ -36,8 +36,6 @@ export default function ProductDetails() {
           ))}
         </div>
       </div>
-      {/* <p>Rating Count: {selectedStarCount}</p> */}
-      {/* <p>Hover Rating Count: {selectedHoverStarCount}</p>  */}
       <p className="text-lg text-darkgray">$100.00</p>
     </div>
   )
