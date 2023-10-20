@@ -1,4 +1,5 @@
 import MainBanner from '@/components/MainBanners'
+import MainServices from '@/components/MainServices'
 import ProductCard from '@/components/ProductCard'
 import SpecialProduct from '@/components/SpecialProduct'
 import Image from 'next/image'
@@ -7,7 +8,7 @@ export default function Main() {
   return (
     <>
       <MainBanner />
-      {/* <MainServices /> */}
+      <MainServices />
       {/* <MainCategories /> */}
       {/* <MainMarquee /> */}
       <section className="py-5">
