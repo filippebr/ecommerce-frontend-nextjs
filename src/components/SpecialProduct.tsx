@@ -3,9 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function SpecialProduct() {
-  // const [selectedStarCount, setSelectedStarCount] = useState(0)
-  // const [selectedHoverStarCount, setSelectedHoverStarCount] = useState(0)
-
   return (
     <div className="col-span-4">
       <div className="rounded-lg p-3">
