@@ -28,8 +28,6 @@ export default function RatingStar() {
           />
         </label>
       ))}
-      <p className="text-xs">selectedStarCount: {selectedStarCount}</p>
-      <p className="text-xm">selectedHoverStarCount: {selectedHoverStarCount}</p>
     </>
   )
 }
