@@ -1,4 +1,3 @@
-'use client'
 import RatingStar from '@/lib/common-components/RatingStar'
 
 export default function ProductDetails() {

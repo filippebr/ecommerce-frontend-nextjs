@@ -1,5 +1,4 @@
 /* eslint-disable prettier/prettier */
-'use client'
 import RatingStar from '@/lib/common-components/RatingStar'
 import Image from 'next/image'
 import Link from 'next/link'
