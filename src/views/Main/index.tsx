@@ -1,6 +1,7 @@
 import FamousProducts from '@/components/FamousProducts'
 import MainBanner from '@/components/MainBanners'
 import MainServices from '@/components/MainServices'
+import PopularProducts from '@/components/PopularProducts'
 import ProductCard from '@/components/ProductCard'
 import SpecialProduct from '@/components/SpecialProduct'
 
@@ -24,6 +25,7 @@ export default function Main() {
       </section>
       {/* Famous Products */}
       <FamousProducts />
+      {/* Special Products */}
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-12">
@@ -35,21 +37,7 @@ export default function Main() {
         </div>
       </section>
       {/* Our Popular Products */}
-      <section className="py-5">
-        <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
-          <div className="col-span-12">
-            <h3 className="mb-8 text-2xl font-semibold">
-              Our Popular Products
-            </h3>
-          </div>
-        </div>
-        <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-        </div>
-      </section>
+      <PopularProducts />
       {/* <section className="py-5">
         <div className="grid grid-cols-4 items-center justify-center px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-4">
