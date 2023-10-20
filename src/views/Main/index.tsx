@@ -1,4 +1,7 @@
+import MainBanner from '@/components/MainBanners'
+import MainCategories from '@/components/MainCategories'
 import MainMarquee from '@/components/MainMarquee'
+import MainServices from '@/components/MainServices'
 import ProductCard from '@/components/ProductCard'
 import SpecialProduct from '@/components/SpecialProduct'
 import Image from 'next/image'
@@ -6,9 +9,9 @@ import Image from 'next/image'
 export default function Main() {
   return (
     <>
-      {/* <MainBanner />
+      <MainBanner />
       <MainServices />
-      <MainCategories /> */}
+      <MainCategories />
       <MainMarquee />
       <section className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
