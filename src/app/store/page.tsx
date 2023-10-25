@@ -1,10 +1,5 @@
-import Link from 'next/link'
+import BreadCrumb from '@/components/BreadCrumb'
 
-export default function Contact() {
-  return (
-    <div className="flex flex-col items-center justify-center text-3xl">
-      <Link href="/">Main</Link>
-      Hello from Store
-    </div>
-  )
+export default function OurStore() {
+  return <BreadCrumb title="Our Store" />
 }
