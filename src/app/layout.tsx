@@ -15,12 +15,14 @@ export const metadata = {
 const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
 
 export default function RootLayout({ children }: { children: ReactNode }) {
+  const isStorePage = typeof window !== 'undefined' && window.location.pathname === '/store/page'
+
   return (
     <html lang="en">
       <body className={`${roboto.variable} font-sans`}>
         <div>
           <Header />
-          <Main />
+          {!isStorePage && <Main />}
           {children}
           <Footer />
         </div>
