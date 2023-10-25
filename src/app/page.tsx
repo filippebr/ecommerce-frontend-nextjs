@@ -6,6 +6,9 @@ export default function Home() {
       <h1 className={`flex items-center justify-center text-3xl`}>
         Hello from Home!
       </h1>
+      <Link className="flex items-center justify-center text-3xl" href="/main">
+        Main
+      </Link>
       <Link className="flex items-center justify-center text-3xl" href="/about">
         About
       </Link>
