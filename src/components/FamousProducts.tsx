@@ -93,8 +93,8 @@ export default function FamousProducts() {
                   width: 'auto',
                   height: 'auto',
                 }}
-                src="/images/homespeaker.png"
-                alt="homespeaker"
+                src="/images/homespeakers.png"
+                alt="homespeakers"
               />
             </div>
           </div>
