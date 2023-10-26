@@ -11,9 +11,9 @@ export default function BreadCrumb({ title }: Props) {
         <div className="col-span-12">
           <p className="flex items-center justify-center">
             <Link href="/" className="text-darkgray">
-              Home{' '}
-            </Link>{' '}
-            / {title}
+              Home
+            </Link>
+            &nbsp; / {title}
           </p>
         </div>
       </div>
