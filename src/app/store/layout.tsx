@@ -6,7 +6,6 @@ export default function StoreLayout({
   return (
     <>
       {children}
-      <h2>Featured products</h2>
       {/* Carousel of featured products */}
     </>
   )
