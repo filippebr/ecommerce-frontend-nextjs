@@ -28,11 +28,26 @@ export default function OurStore() {
                 <h5 className="mb-4 text-sm font-semibold text-darkgray">
                   Availability
                 </h5>
-                <div className="mb-6 md:flex md:items-center">
-                  <div className="md:w-1/3"></div>
-                  <label className="text-gray-500 block font-bold md:w-2/3">
-                    <input className="mr-2 leading-tight" type="checkbox" />
-                    <span className="text-sm">Send me your newsletter!</span>
+                <div className="form-check">
+                  <input
+                    className="mr-2 leading-tight"
+                    type="checkbox"
+                    value=""
+                    checked
+                  />
+                  <label className="text-sm" htmlFor="">
+                    In Stock(1)
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="mr-2 leading-tight"
+                    type="checkbox"
+                    value=""
+                    checked
+                  />
+                  <label className="text-sm" htmlFor="">
+                    Out of Stock(0)
                   </label>
                 </div>
               </div>
