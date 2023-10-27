@@ -28,7 +28,7 @@ export default function OurStore() {
                 <h5 className="mb-2 mt-4 text-sm font-semibold text-darkgray">
                   Availability
                 </h5>
-                <div className="">
+                <div className="m-0 text-sm">
                   <input
                     className="mr-2 leading-tight accent-wildwillow shadow-none"
                     type="checkbox"
@@ -41,7 +41,7 @@ export default function OurStore() {
                     In Stock(1)
                   </label>
                 </div>
-                <div className="">
+                <div className="m-0 text-sm">
                   <input
                     className="mr-2 leading-tight accent-wildwillow shadow-none"
                     type="checkbox"
