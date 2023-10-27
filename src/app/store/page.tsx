@@ -35,7 +35,7 @@ export default function OurStore() {
                     value="inStock"
                   />
                   <label
-                    className="mb-4 text-sm font-semibold text-lightgray"
+                    className="mb-2 text-sm font-semibold text-lightgray"
                     htmlFor="inStock"
                   >
                     In Stock(1)
@@ -48,7 +48,7 @@ export default function OurStore() {
                     value="outStock"
                   />
                   <label
-                    className="mb-4 text-sm font-semibold text-lightgray"
+                    className="mb-2 text-sm font-semibold text-lightgray"
                     htmlFor="outStock"
                   >
                     Out of Stock(0)
