@@ -61,8 +61,7 @@ export default function OurStore() {
                   <div className="relative">
                     <input
                       type="email"
-                      className="placeholder:text-transparent peer border-b p-1 text-xs focus:outline-none"
-                      placeholder="From"
+                      className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
                       id="floatingInput1"
                     />
                     <label
@@ -75,8 +74,7 @@ export default function OurStore() {
                   <div className="relative">
                     <input
                       type="email"
-                      className="placeholder:text-transparent peer border-b p-1 text-xs focus:outline-none"
-                      placeholder="To"
+                      className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
                       id="floatingInput2"
                     />
                     <label
