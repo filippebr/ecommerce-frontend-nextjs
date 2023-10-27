@@ -25,7 +25,7 @@ export default function OurStore() {
                 Filter by
               </h3>
               <div>
-                <h5 className="mb-4 text-sm font-semibold text-darkgray">
+                <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
                   Availability
                 </h5>
                 <div className="">
@@ -54,6 +54,9 @@ export default function OurStore() {
                     Out of Stock(0)
                   </label>
                 </div>
+                <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
+                  Availability
+                </h5>
               </div>
             </div>
             <div className="mb-1 rounded-lg bg-white px-3 py-4">
