@@ -61,13 +61,13 @@ export default function OurStore() {
                   <div className="relative mt-6">
                     <input
                       type="email"
-                      className="placeholder:text-transparent peer border-b py-1"
+                      className="placeholder:text-transparent peer border-b py-1 text-xs"
                       placeholder="From"
                       id="floatingInput1"
                     />
                     <label
                       htmlFor="floatingInput1"
-                      className="peer-placeholder-shown:text-gray-500 absolute left-0 ml-1 -translate-y-3 border-0 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-xs"
+                      className="peer-placeholder-shown:text-gray-500 absolute left-0 ml-1 -translate-y-3 bg-opacity-0 px-1 text-xs duration-100 ease-linear focus:border-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-xs"
                     >
                       From
                     </label>
@@ -75,13 +75,13 @@ export default function OurStore() {
                   <div className="relative mt-6">
                     <input
                       type="email"
-                      className="placeholder:text-transparent peer border-b py-1"
+                      className="placeholder:text-transparent peer border-b py-1 text-xs"
                       placeholder="To"
                       id="floatingInput2"
                     />
                     <label
                       htmlFor="floatingInput2"
-                      className="peer-placeholder-shown:text-gray-500 absolute left-0 ml-1 -translate-y-3 border-0 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-xs"
+                      className="peer-placeholder-shown:text-gray-500 absolute left-0 ml-1 -translate-y-3 bg-opacity-0 px-1 text-xs duration-100 ease-linear focus:border-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-xs"
                     >
                       To
                     </label>
