@@ -7,8 +7,5 @@ export default function ShowMain() {
   const pathname = usePathname()
   const showMain = pathname !== '/store'
 
-  console.log('pathname: ', pathname)
-  console.log('showMain', showMain)
-
   return <>{showMain && <Main />}</>
 }
