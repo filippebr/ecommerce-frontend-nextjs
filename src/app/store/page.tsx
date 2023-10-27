@@ -54,7 +54,7 @@ export default function OurStore() {
                     Out of Stock(0)
                   </label>
                 </div>
-                <h5 className="mb-2 mt-2 text-sm font-semibold text-darkgray">
+                <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
                   Price
                 </h5>
                 <div className="flex items-center gap-1 text-base">
