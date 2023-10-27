@@ -57,9 +57,9 @@ export default function OurStore() {
                 <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
                   Price
                 </h5>
-                <div className="flex items-center gap-1 text-base">
+                <div className="flex items-center gap-1 text-sm">
                   <div className="relative">
-                    <span className="text-base">$</span>
+                    <span className="">$</span>
                     <input
                       type="email"
                       className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
@@ -75,7 +75,7 @@ export default function OurStore() {
                     </label>
                   </div>
                   <div className="relative">
-                    <span className="text-base">$</span>
+                    <span className="">$</span>
                     <input
                       type="email"
                       className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
