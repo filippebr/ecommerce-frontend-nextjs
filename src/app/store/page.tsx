@@ -30,7 +30,7 @@ export default function OurStore() {
                 </h5>
                 <div className="form-check">
                   <input
-                    className="mr-2 leading-tight"
+                    className="mr-2 leading-tight shadow-none checked:bg-wildwillow focus:border-lightgray"
                     type="checkbox"
                     value=""
                   />
@@ -43,10 +43,9 @@ export default function OurStore() {
                 </div>
                 <div className="form-check">
                   <input
-                    className="mr-2 leading-tight"
+                    className="mr-2 leading-tight shadow-none checked:bg-wildwillow focus:border-lightgray"
                     type="checkbox"
                     value=""
-                    checked
                   />
                   <label
                     className="mb-4 text-sm font-semibold text-lightgray"
