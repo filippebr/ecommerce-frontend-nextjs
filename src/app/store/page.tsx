@@ -12,9 +12,9 @@ export default function OurStore() {
                 Shop By Categories
               </h3>
               <div>
-                <ul className="list-none text-sm leading-7 text-lightgray">
+                <ul className="cursor-pointer list-none text-sm leading-7 text-lightgray">
                   <li>Watch</li>
-                  <li>Tv</li>
+                  <li>TV</li>
                   <li>Camera</li>
                   <li>Laptop</li>
                 </ul>
@@ -24,6 +24,18 @@ export default function OurStore() {
               <h3 className="mb-5 text-base font-semibold text-gray">
                 Filter by
               </h3>
+              <div>
+                <h5 className="mb-4 text-sm font-semibold text-darkgray">
+                  Availability
+                </h5>
+                <div className="mb-6 md:flex md:items-center">
+                  <div className="md:w-1/3"></div>
+                  <label className="text-gray-500 block font-bold md:w-2/3">
+                    <input className="mr-2 leading-tight" type="checkbox" />
+                    <span className="text-sm">Send me your newsletter!</span>
+                  </label>
+                </div>
+              </div>
             </div>
             <div className="mb-1 rounded-lg bg-white px-3 py-4">
               <h3 className="mb-5 text-base font-semibold text-gray">
