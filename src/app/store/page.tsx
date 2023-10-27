@@ -55,8 +55,21 @@ export default function OurStore() {
                   </label>
                 </div>
                 <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
-                  Availability
+                  Price
                 </h5>
+                <div className="relative mt-6">
+                  <input
+                    type="email"
+                    className="placeholder:text-transparent peer w-full border-b"
+                    placeholder="name"
+                  />
+                  <label
+                    htmlFor="email"
+                    className="peer-placeholder-shown:text-gray-500 absolute left-0 ml-1 -translate-y-3 bg-white px-1 text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-sm"
+                  >
+                    EMAIL
+                  </label>
+                </div>
               </div>
             </div>
             <div className="mb-1 rounded-lg bg-white px-3 py-4">
