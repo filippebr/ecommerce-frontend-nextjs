@@ -65,7 +65,7 @@ export default function OurStore() {
                   />
                   <label
                     htmlFor="email"
-                    className="peer-placeholder-shown:text-gray-500 absolute left-0 ml-1 -translate-y-3 bg-white px-1 text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-sm"
+                    className="peer-placeholder-shown:text-gray-500 bg-opacit-0 absolute left-0 ml-1 -translate-y-3 px-1 text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-sm"
                   >
                     EMAIL
                   </label>
