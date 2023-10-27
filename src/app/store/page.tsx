@@ -59,7 +59,7 @@ export default function OurStore() {
                 </h5>
                 <div className="mt-3 flex items-center gap-3">
                   <div className="relative">
-                    <span className="text-xs">$</span>
+                    <span className="text-sm font-bold">$</span>
                     <input
                       type="email"
                       className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
@@ -74,7 +74,7 @@ export default function OurStore() {
                     </label>
                   </div>
                   <div className="relative">
-                    <span className="text-xs">$</span>
+                    <span className="text-sm font-bold">$</span>
                     <input
                       type="email"
                       className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
