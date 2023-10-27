@@ -62,6 +62,7 @@ export default function OurStore() {
                     <input
                       type="email"
                       className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
+                      placeholder="From"
                       id="floatingInput1"
                     />
                     <label
@@ -75,6 +76,7 @@ export default function OurStore() {
                     <input
                       type="email"
                       className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
+                      placeholder="To"
                       id="floatingInput2"
                     />
                     <label
