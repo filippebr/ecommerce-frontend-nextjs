@@ -25,10 +25,10 @@ export default function OurStore() {
                 Filter by
               </h3>
               <div>
-                <h5 className="mb-2 mt-4 text-sm font-semibold text-darkgray">
+                <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
                   Availability
                 </h5>
-                <div className="m-0 text-sm">
+                <div className="mb-2 text-sm">
                   <input
                     className="mr-2 leading-tight accent-wildwillow shadow-none"
                     type="checkbox"
@@ -57,7 +57,7 @@ export default function OurStore() {
                 <h5 className="mb-2 mt-2 text-sm font-semibold text-darkgray">
                   Price
                 </h5>
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1 text-base">
                   <div className="relative">
                     <span className="text-base">$</span>
                     <input
