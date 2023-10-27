@@ -62,12 +62,12 @@ export default function OurStore() {
                     <input
                       type="email"
                       className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
-                      placeholder="From"
+                      placeholder=""
                       id="floatingInput1"
                     />
                     <label
                       htmlFor="floatingInput1"
-                      className="absolute left-0 ml-0 -translate-y-4 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-lightgray peer-focus:ml-0 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-xs"
+                      className="absolute left-0 ml-0 -translate-y-4 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-lightgray peer-focus:ml-0 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-xs"
                     >
                       From
                     </label>
@@ -76,7 +76,7 @@ export default function OurStore() {
                     <input
                       type="email"
                       className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
-                      placeholder="To"
+                      placeholder=""
                       id="floatingInput2"
                     />
                     <label
