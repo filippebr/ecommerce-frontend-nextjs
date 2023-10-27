@@ -25,7 +25,7 @@ export default function OurStore() {
                 Filter by
               </h3>
               <div>
-                <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
+                <h5 className="mb-2 mt-4 text-sm font-semibold text-darkgray">
                   Availability
                 </h5>
                 <div className="">
@@ -54,10 +54,10 @@ export default function OurStore() {
                     Out of Stock(0)
                   </label>
                 </div>
-                <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
+                <h5 className="mb-2 mt-4 text-sm font-semibold text-darkgray">
                   Price
                 </h5>
-                <div className="mt-3 flex items-center gap-3">
+                <div className="flex items-center gap-1">
                   <div className="relative">
                     <span className="text-base">$</span>
                     <input
@@ -68,7 +68,7 @@ export default function OurStore() {
                     />
                     <label
                       htmlFor="floatingInput1"
-                      className="absolute left-0 ml-2 -translate-y-0 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-lightgray peer-focus:ml-0 peer-focus:-translate-y-2 peer-focus:px-1 peer-focus:text-xs"
+                      className="absolute left-0 ml-2 -translate-y-3 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-lightgray peer-focus:ml-0 peer-focus:-translate-y-2 peer-focus:px-1 peer-focus:text-xs"
                     >
                       From
                     </label>
@@ -83,7 +83,7 @@ export default function OurStore() {
                     />
                     <label
                       htmlFor="floatingInput2"
-                      className="absolute left-0 ml-2 -translate-y-3 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-lightgray peer-focus:ml-0 peer-focus:-translate-y-2 peer-focus:px-1 peer-focus:text-xs"
+                      className="absolute left-0 ml-2 -translate-y-3 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-lightgray peer-focus:ml-0 peer-focus:-translate-y-2 peer-focus:px-1 peer-focus:text-xs"
                     >
                       To
                     </label>
