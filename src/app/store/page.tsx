@@ -33,9 +33,11 @@ export default function OurStore() {
                     className="mr-2 leading-tight"
                     type="checkbox"
                     value=""
-                    checked
                   />
-                  <label className="text-sm" htmlFor="">
+                  <label
+                    className="mb-4 text-sm font-semibold text-lightgray"
+                    htmlFor=""
+                  >
                     In Stock(1)
                   </label>
                 </div>
@@ -46,7 +48,10 @@ export default function OurStore() {
                     value=""
                     checked
                   />
-                  <label className="text-sm" htmlFor="">
+                  <label
+                    className="mb-4 text-sm font-semibold text-lightgray"
+                    htmlFor=""
+                  >
                     Out of Stock(0)
                   </label>
                 </div>
