@@ -57,18 +57,35 @@ export default function OurStore() {
                 <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
                   Price
                 </h5>
-                <div className="relative mt-6">
-                  <input
-                    type="email"
-                    className="placeholder:text-transparent peer w-full border-b"
-                    placeholder="name"
-                  />
-                  <label
-                    htmlFor="email"
-                    className="peer-placeholder-shown:text-gray-500 bg-opacit-0 absolute left-0 ml-1 -translate-y-3 px-1 text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-sm"
-                  >
-                    EMAIL
-                  </label>
+                <div className="flex items-center gap-3">
+                  <div className="relative mt-6">
+                    <input
+                      type="email"
+                      className="placeholder:text-transparent peer border-b"
+                      placeholder="name"
+                      id="floatingInput1"
+                    />
+                    <label
+                      htmlFor="floatingInput1"
+                      className="peer-placeholder-shown:text-gray-500 absolute left-0 ml-1 -translate-y-3 bg-opacity-0 px-1 text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-sm"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <div className="relative mt-6">
+                    <input
+                      type="email"
+                      className="placeholder:text-transparent peer border-b"
+                      placeholder="name"
+                      id="floatingInput2"
+                    />
+                    <label
+                      htmlFor="floatingInput2"
+                      className="peer-placeholder-shown:text-gray-500 absolute left-0 ml-1 -translate-y-3 bg-opacity-0 px-1 text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-sm"
+                    >
+                      To
+                    </label>
+                  </div>
                 </div>
               </div>
             </div>
