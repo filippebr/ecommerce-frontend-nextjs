@@ -30,7 +30,7 @@ export default function OurStore() {
                 </h5>
                 <div className="">
                   <input
-                    className="mr-2 leading-tight accent-wildwillow shadow-none focus:border-lightgray"
+                    className="mr-2 leading-tight accent-wildwillow shadow-none"
                     type="checkbox"
                     value="inStock"
                   />
@@ -43,7 +43,7 @@ export default function OurStore() {
                 </div>
                 <div className="">
                   <input
-                    className="mr-2 leading-tight accent-wildwillow shadow-none focus:border-lightgray"
+                    className="mr-2 leading-tight accent-wildwillow shadow-none"
                     type="checkbox"
                     value="outStock"
                   />
