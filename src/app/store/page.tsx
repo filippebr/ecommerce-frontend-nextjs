@@ -67,7 +67,7 @@ export default function OurStore() {
                     />
                     <label
                       htmlFor="floatingInput1"
-                      className="peer-placeholder-shown:text-gray-500 absolute left-0 ml-0 -translate-y-5 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-4 peer-placeholder-shown:text-base peer-focus:ml-0 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-xs"
+                      className="absolute left-0 ml-0 -translate-y-4 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-lightgray peer-focus:ml-0 peer-focus:-translate-y-3 peer-focus:px-1 peer-focus:text-xs"
                     >
                       From
                     </label>
@@ -81,7 +81,7 @@ export default function OurStore() {
                     />
                     <label
                       htmlFor="floatingInput2"
-                      className="peer-placeholder-shown:text-gray-500 absolute left-0 ml-1 -translate-y-3 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-1 peer-placeholder-shown:text-base peer-focus:ml-0 peer-focus:-translate-y-1 peer-focus:px-1 peer-focus:text-xs"
+                      className="absolute left-0 ml-1 -translate-y-3 bg-opacity-0 px-1 text-xs duration-100 ease-linear peer-placeholder-shown:translate-y-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-lightgray peer-focus:ml-0 peer-focus:-translate-y-1 peer-focus:px-1 peer-focus:text-xs"
                     >
                       To
                     </label>
