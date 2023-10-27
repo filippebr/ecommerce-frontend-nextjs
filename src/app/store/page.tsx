@@ -54,7 +54,7 @@ export default function OurStore() {
                     Out of Stock(0)
                   </label>
                 </div>
-                <h5 className="mb-2 mt-4 text-sm font-semibold text-darkgray">
+                <h5 className="mb-2 mt-2 text-sm font-semibold text-darkgray">
                   Price
                 </h5>
                 <div className="flex items-center gap-1">
@@ -65,6 +65,7 @@ export default function OurStore() {
                       className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
                       placeholder=""
                       id="floatingInput1"
+                      size={10}
                     />
                     <label
                       htmlFor="floatingInput1"
@@ -80,6 +81,7 @@ export default function OurStore() {
                       className="placeholder:text-transparent peer p-1 text-xs focus:outline-none"
                       placeholder=""
                       id="floatingInput2"
+                      size={10}
                     />
                     <label
                       htmlFor="floatingInput2"
