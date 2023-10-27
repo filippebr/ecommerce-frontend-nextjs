@@ -57,11 +57,11 @@ export default function OurStore() {
                 <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
                   Price
                 </h5>
-                <div className="flex items-center gap-3">
-                  <div className="relative mt-6">
+                <div className="mt-3 flex items-center gap-3">
+                  <div className="relative">
                     <input
                       type="email"
-                      className="placeholder:text-transparent peer border-b p-1 text-xs focus:border-0"
+                      className="placeholder:text-transparent peer border-b p-1 text-xs focus:outline-none"
                       placeholder="From"
                       id="floatingInput1"
                     />
@@ -72,10 +72,10 @@ export default function OurStore() {
                       From
                     </label>
                   </div>
-                  <div className="relative mt-6">
+                  <div className="relative">
                     <input
                       type="email"
-                      className="placeholder:text-transparent peer border-b p-1 text-xs focus:border-0"
+                      className="placeholder:text-transparent peer border-b p-1 text-xs focus:outline-none"
                       placeholder="To"
                       id="floatingInput2"
                     />
