@@ -173,7 +173,7 @@ export default function OurStore() {
               </h3>
               <div>
                 <div className="flex ">
-                  <div className="w-20">
+                  <div className="w-36">
                     <Image
                       width={0}
                       height={0}
@@ -184,7 +184,7 @@ export default function OurStore() {
                       className="rounded-full p-1"
                     ></Image>
                   </div>
-                  <div className="w-28"></div>
+                  <div className="w-40"></div>
                 </div>
               </div>
             </div>
