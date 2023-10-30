@@ -149,6 +149,13 @@ export default function OurStore() {
               <h3 className="mb-5 text-base font-semibold text-gray">
                 Product Tags
               </h3>
+              <div>
+                <div className="product-tags flex flex-wrap items-center gap-2">
+                  <span className="rounded-lg bg-gray text-white">
+                    Headphone
+                  </span>
+                </div>
+              </div>
             </div>
             <div className="mb-1 rounded-lg bg-white px-3 py-4">
               <h3 className="mb-5 text-base font-semibold text-gray">
