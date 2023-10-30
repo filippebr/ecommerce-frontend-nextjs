@@ -9,7 +9,7 @@ export default function ProductDetails() {
       </h5>
       <div className="grid grid-cols-5">
         <div className="flex justify-start">
-          <RatingStar />
+          <RatingStar sizeProp={20} />
         </div>
       </div>
       <p className="text-lg text-darkgray">$100.00</p>

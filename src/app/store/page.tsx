@@ -173,7 +173,7 @@ export default function OurStore() {
                 Random Product
               </h3>
               <div>
-                <div className="flex ">
+                <div className="flex flex-col">
                   <div className="w-36">
                     <Image
                       width={0}
@@ -189,7 +189,7 @@ export default function OurStore() {
                     <h5>
                       Kids headphones bulk 10 pack multi colored for students
                     </h5>
-                    <RatingStar />
+                    <RatingStar sizeProp={10} />
                   </div>
                 </div>
               </div>

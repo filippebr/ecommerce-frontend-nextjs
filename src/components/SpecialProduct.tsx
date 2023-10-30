@@ -26,7 +26,7 @@ export default function SpecialProduct() {
             </h6>
             <div className="grid grid-cols-5">
               <div className="flex justify-start">
-                <RatingStar />
+                <RatingStar sizeProp={20} />
                 {/* {[...Array(5)].map((_, index) => (
                   <label htmlFor="" key={index}>
                     <FaStar

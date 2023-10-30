@@ -3,7 +3,11 @@
 import { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
 
-export default function RatingStar() {
+interface RatingStarProps {
+  sizeProp: number
+}
+
+export default function RatingStar({ sizeProp }: RatingStarProps) {
   const [selectedStarCount, setSelectedStarCount] = useState(0)
   const [selectedHoverStarCount, setSelectedHoverStarCount] = useState(0)
 
@@ -24,7 +28,7 @@ export default function RatingStar() {
             onClick={() => {
               setSelectedStarCount(index + 1)
             }}
-            size={20}
+            size={sizeProp}
           />
         </label>
       ))}
