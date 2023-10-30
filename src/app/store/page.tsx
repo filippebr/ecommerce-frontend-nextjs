@@ -1,4 +1,5 @@
 import BreadCrumb from '@/components/BreadCrumb'
+import Image from 'next/image'
 
 export default function OurStore() {
   return (
@@ -151,17 +152,17 @@ export default function OurStore() {
               </h3>
               <div>
                 <div className="product-tags flex flex-wrap items-center gap-2 text-sm">
-                  <span className="rounded-lg bg-lightgray px-2 py-1 text-darkgray">
+                  <span className="rounded-lg bg-white px-2 py-1 text-darkgray">
                     Headphone
                   </span>
-                  <span className="rounded-lg bg-lightgray px-2 py-1 text-darkgray">
-                    Headphone
+                  <span className="rounded-lg bg-white px-2 py-1 text-darkgray">
+                    Laptop
                   </span>
-                  <span className="rounded-lg bg-lightgray px-2 py-1 text-darkgray">
-                    Headphone
+                  <span className="rounded-lg bg-white px-2 py-1 text-darkgray">
+                    Mobile
                   </span>
-                  <span className="rounded-lg bg-lightgray px-2 py-1 text-darkgray">
-                    Headphone
+                  <span className="rounded-lg bg-white px-2 py-1 text-darkgray">
+                    Wire
                   </span>
                 </div>
               </div>
@@ -170,6 +171,22 @@ export default function OurStore() {
               <h3 className="mb-5 text-base font-semibold text-gray">
                 Random Product
               </h3>
+              <div>
+                <div className="flex ">
+                  <div className="w-5">
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: 'auto', height: 'auto' }}
+                      src="/images/watch.jpg"
+                      alt="watch"
+                      className="rounded-full p-1 hover:bg-wildwillow"
+                    ></Image>
+                  </div>
+                  <div className="w-15"></div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-span-9"></div>
