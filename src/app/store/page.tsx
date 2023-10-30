@@ -1,4 +1,5 @@
 import BreadCrumb from '@/components/BreadCrumb'
+import RatingStar from '@/lib/common-components/RatingStar'
 import Image from 'next/image'
 
 export default function OurStore() {
@@ -184,7 +185,12 @@ export default function OurStore() {
                       className="rounded-full p-1"
                     ></Image>
                   </div>
-                  <div className="w-40"></div>
+                  <div className="w-36">
+                    <h5>
+                      Kids headphones bulk 10 pack multi colored for students
+                    </h5>
+                    <RatingStar />
+                  </div>
                 </div>
               </div>
             </div>
