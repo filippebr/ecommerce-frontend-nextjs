@@ -96,7 +96,7 @@ export default function OurStore() {
                 </h5>
                 <div>
                   <div>
-                    <ul className="h-5 w-5 list-none rounded-full bg-red">
+                    <ul className="h-5 w-5 list-none rounded-full bg-red ps-0">
                       <li></li>
                       <li></li>
                       <li></li>
