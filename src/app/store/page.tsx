@@ -173,7 +173,7 @@ export default function OurStore() {
               </h3>
               <div>
                 <div className="flex ">
-                  <div className="w-14">
+                  <div className="w-20">
                     <Image
                       width={0}
                       height={0}
@@ -181,10 +181,10 @@ export default function OurStore() {
                       style={{ width: 'auto', height: 'auto' }}
                       src="/images/watch.jpg"
                       alt="watch"
-                      className="rounded-full p-1 hover:bg-wildwillow"
+                      className="rounded-full p-1"
                     ></Image>
                   </div>
-                  <div className="w-24"></div>
+                  <div className="w-28"></div>
                 </div>
               </div>
             </div>
