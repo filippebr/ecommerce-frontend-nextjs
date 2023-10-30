@@ -186,11 +186,11 @@ export default function OurStore() {
                     ></Image>
                   </div>
                   <div className="w-36">
-                    <h5>
+                    <h5 className="text-xl">
                       Kids headphones bulk 10 pack multi colored for students
                     </h5>
                     <div className="flex flex-row">
-                      <RatingStar sizeProp={10} />
+                      <RatingStar sizeProp={14} />
                     </div>
                   </div>
                 </div>
