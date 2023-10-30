@@ -173,7 +173,7 @@ export default function OurStore() {
               </h3>
               <div>
                 <div className="flex ">
-                  <div className="w-5">
+                  <div className="w-14">
                     <Image
                       width={0}
                       height={0}
@@ -184,7 +184,7 @@ export default function OurStore() {
                       className="rounded-full p-1 hover:bg-wildwillow"
                     ></Image>
                   </div>
-                  <div className="w-15"></div>
+                  <div className="w-24"></div>
                 </div>
               </div>
             </div>
