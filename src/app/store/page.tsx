@@ -112,6 +112,37 @@ export default function OurStore() {
                     </ul>
                   </div>
                 </div>
+                <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
+                  Size
+                </h5>
+                <div className="mb-2 text-sm">
+                  <input
+                    className="mr-2 leading-tight accent-wildwillow shadow-none"
+                    type="checkbox"
+                    value=""
+                    id="color-1"
+                  />
+                  <label
+                    className="text-sm font-semibold text-lightgray"
+                    htmlFor="color-1"
+                  >
+                    S (2)
+                  </label>
+                </div>
+                <div className="mb-2 text-sm">
+                  <input
+                    className="mr-2 leading-tight accent-wildwillow shadow-none"
+                    type="checkbox"
+                    value=""
+                    id="color-2"
+                  />
+                  <label
+                    className="text-sm font-semibold text-lightgray"
+                    htmlFor="color-2"
+                  >
+                    M (2)
+                  </label>
+                </div>
               </div>
             </div>
             <div className="mb-1 rounded-lg bg-white px-3 py-4">
