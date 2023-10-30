@@ -150,8 +150,17 @@ export default function OurStore() {
                 Product Tags
               </h3>
               <div>
-                <div className="product-tags flex flex-wrap items-center gap-2">
-                  <span className="rounded-lg bg-gray text-white">
+                <div className="product-tags flex flex-wrap items-center gap-2 text-sm">
+                  <span className="rounded-lg bg-lightgray px-2 py-1 text-darkgray">
+                    Headphone
+                  </span>
+                  <span className="rounded-lg bg-lightgray px-2 py-1 text-darkgray">
+                    Headphone
+                  </span>
+                  <span className="rounded-lg bg-lightgray px-2 py-1 text-darkgray">
+                    Headphone
+                  </span>
+                  <span className="rounded-lg bg-lightgray px-2 py-1 text-darkgray">
                     Headphone
                   </span>
                 </div>
