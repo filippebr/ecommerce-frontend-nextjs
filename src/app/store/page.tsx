@@ -91,6 +91,20 @@ export default function OurStore() {
                     </label>
                   </div>
                 </div>
+                <h5 className="mb-4 mt-4 text-sm font-semibold text-darkgray">
+                  Colors
+                </h5>
+                <div>
+                  <div className="flex flex-wrap">
+                    <ul className="h-5 w-5 list-none rounded-full bg-red">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="mb-1 rounded-lg bg-white px-3 py-4">

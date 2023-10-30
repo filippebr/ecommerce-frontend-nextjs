@@ -34,6 +34,7 @@ module.exports = {
       sushi: '#99A134',
       deco: '#D9DEA1',
       hintofyellow: '#FAFCE0',
+      red: '#F00',
     },
     fontFamily: {
       sans: ['var(--font-roboto)', ...defaultTheme.fontFamily.sans],
