@@ -95,8 +95,15 @@ export default function OurStore() {
                   Colors
                 </h5>
                 <div>
-                  <div className="flex flex-wrap">
+                  <div>
                     <ul className="h-5 w-5 list-none rounded-full bg-red">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
                       <li></li>
                       <li></li>
                       <li></li>
