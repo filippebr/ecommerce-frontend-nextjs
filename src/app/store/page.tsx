@@ -220,11 +220,11 @@ export default function OurStore() {
               </div>
             </div>
           </div>
-          <div className="col-span-9 text-base">
+          <div className="col-span-9 text-xl">
             <div className="rounded-lg bg-white p-2">
               <div className="flex items-center gap-2">
                 <p className="mb-0">Sort By:</p>
-                <select name="w-full" className="" id="">
+                <select name="" className="w-max" id="">
                   <option value="">Featured</option>
                   <option value="">Best selling</option>
                   <option value="">Alphabetically, A-Z</option>
