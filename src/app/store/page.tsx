@@ -220,7 +220,23 @@ export default function OurStore() {
               </div>
             </div>
           </div>
-          <div className="col-span-9"></div>
+          <div className="col-span-9">
+            <div className="">
+              <div className="flex items-center gap-2">
+                <p className="mb-0">Sort By:</p>
+                <select name="" className="" id="">
+                  <option value="">Featured</option>
+                  <option value="">Best selling</option>
+                  <option value="">Alphabetically, A-Z</option>
+                  <option value="">Alphabetically, Z-A</option>
+                  <option value="">Price, low to high</option>
+                  <option value="">Price, high to low</option>
+                  <option value="">Date, old to new</option>
+                  <option value="">Date, new to old</option>
+                </select>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
