@@ -173,8 +173,8 @@ export default function OurStore() {
                 Random Product
               </h3>
               <div>
-                <div className="flex ">
-                  <div className="w-36">
+                <div className="flex">
+                  <div className="w-36 border-b-[1px] border-darkgray">
                     <Image
                       width={0}
                       height={0}
@@ -186,12 +186,35 @@ export default function OurStore() {
                     ></Image>
                   </div>
                   <div className="w-36">
-                    <h5 className="text-xl">
+                    <h5 className="mb-2 text-base">
                       Kids headphones bulk 10 pack multi colored for students
                     </h5>
                     <div className="flex flex-row">
                       <RatingStar sizeProp={14} />
                     </div>
+                    <b>$ 300</b>
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="w-36 border-b-[1px] border-darkgray">
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: 'auto', height: 'auto' }}
+                      src="/images/watch.jpg"
+                      alt="watch"
+                      className="rounded-full p-1"
+                    ></Image>
+                  </div>
+                  <div className="w-36">
+                    <h5 className="mb-2 text-base">
+                      Kids headphones bulk 10 pack multi colored for students
+                    </h5>
+                    <div className="flex flex-row">
+                      <RatingStar sizeProp={14} />
+                    </div>
+                    <b>$ 300</b>
                   </div>
                 </div>
               </div>
