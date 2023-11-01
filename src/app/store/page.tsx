@@ -225,7 +225,7 @@ export default function OurStore() {
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <p className="mb-0 block">Sort By:</p>
-                  <select name="" className="w-full" id="">
+                  <select name="" className="" id="">
                     <option value="">Featured</option>
                     <option value="">Best selling</option>
                     <option value="">Alphabetically, A-Z</option>
