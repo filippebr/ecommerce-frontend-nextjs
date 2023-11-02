@@ -236,7 +236,47 @@ export default function OurStore() {
                     <option value="">Date, new to old</option>
                   </select>
                 </div>
-                <div className="flex items-center gap-2"></div>
+                <div className="flex items-center gap-2">
+                  <p className="totalproducts">21 Products</p>
+                  <div className="flex items-center gap-2">
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: 'auto', height: 'auto' }}
+                      src="/images/gr2.svg"
+                      alt="grid"
+                      className="rounded-full p-1"
+                    ></Image>
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: 'auto', height: 'auto' }}
+                      src="/images/gr3.svg"
+                      alt="grid"
+                      className="rounded-full p-1"
+                    ></Image>
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: 'auto', height: 'auto' }}
+                      src="/images/gr4.svg"
+                      alt="grid"
+                      className="rounded-full p-1"
+                    ></Image>
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: 'auto', height: 'auto' }}
+                      src="/images/gr.svg"
+                      alt="grid"
+                      className="rounded-full p-1"
+                    ></Image>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
