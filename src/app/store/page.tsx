@@ -4,6 +4,7 @@ import BreadCrumb from '@/components/BreadCrumb'
 
 import ProductTags from '@/components/ProductTags'
 import RandomProduct from '@/components/RandomProduct'
+import ShopByCategories from '@/components/ShopByCategories'
 import FilterBy from '../../components/FilterBy'
 
 export default function OurStore() {
@@ -13,19 +14,7 @@ export default function OurStore() {
       <div className="py-5">
         <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
           <div className="col-span-3">
-            <div className="mb-1 rounded-lg bg-white px-3 py-4">
-              <h3 className="mb-5 text-base font-semibold text-darkgray">
-                Shop By Categories
-              </h3>
-              <div>
-                <ul className="cursor-pointer list-none text-sm leading-7 text-lightgray">
-                  <li>Watch</li>
-                  <li>TV</li>
-                  <li>Camera</li>
-                  <li>Laptop</li>
-                </ul>
-              </div>
-            </div>
+            <ShopByCategories />
             <FilterBy />
             <ProductTags />
             <RandomProduct />
