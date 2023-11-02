@@ -174,7 +174,7 @@ export default function OurStore() {
               </h3>
               <div>
                 <div className="flex border-b-[1px]">
-                  <div className="w-36border-darkgray">
+                  <div className="w-36 border-darkgray">
                     <Image
                       width={0}
                       height={0}
@@ -196,7 +196,7 @@ export default function OurStore() {
                   </div>
                 </div>
                 <div className="flex border-b-[1px]">
-                  <div className="w-36 border-b-[1px] border-darkgray">
+                  <div className="w-36 border-darkgray">
                     <Image
                       width={0}
                       height={0}
