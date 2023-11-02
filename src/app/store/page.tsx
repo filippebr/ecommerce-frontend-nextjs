@@ -243,7 +243,7 @@ export default function OurStore() {
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{ width: 'auto', height: 'auto' }}
+                      style={{ width: '34px', height: '34px' }}
                       src="/images/gr4.svg"
                       alt="grid"
                     ></Image>
@@ -251,7 +251,7 @@ export default function OurStore() {
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{ width: 'auto', height: 'auto' }}
+                      style={{ width: '34px', height: '34px' }}
                       src="/images/gr3.svg"
                       alt="grid"
                     ></Image>
@@ -259,7 +259,7 @@ export default function OurStore() {
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{ width: 'auto', height: 'auto' }}
+                      style={{ width: '34px', height: '34px' }}
                       src="/images/gr2.svg"
                       alt="grid"
                     ></Image>
@@ -267,7 +267,7 @@ export default function OurStore() {
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{ width: 'auto', height: 'auto' }}
+                      style={{ width: '34px', height: '34px' }}
                       src="/images/gr.svg"
                       alt="grid"
                     ></Image>
