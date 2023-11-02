@@ -246,7 +246,6 @@ export default function OurStore() {
                       style={{ width: 'auto', height: 'auto' }}
                       src="/images/gr2.svg"
                       alt="grid"
-                      className="rounded-full p-1"
                     ></Image>
                     <Image
                       width={0}
@@ -255,7 +254,6 @@ export default function OurStore() {
                       style={{ width: 'auto', height: 'auto' }}
                       src="/images/gr3.svg"
                       alt="grid"
-                      className="rounded-full p-1"
                     ></Image>
                     <Image
                       width={0}
@@ -264,7 +262,6 @@ export default function OurStore() {
                       style={{ width: 'auto', height: 'auto' }}
                       src="/images/gr4.svg"
                       alt="grid"
-                      className="rounded-full p-1"
                     ></Image>
                     <Image
                       width={0}
@@ -273,7 +270,6 @@ export default function OurStore() {
                       style={{ width: 'auto', height: 'auto' }}
                       src="/images/gr.svg"
                       alt="grid"
-                      className="rounded-full p-1"
                     ></Image>
                   </div>
                 </div>
