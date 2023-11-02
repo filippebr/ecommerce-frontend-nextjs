@@ -173,8 +173,8 @@ export default function OurStore() {
                 Random Product
               </h3>
               <div>
-                <div className="flex">
-                  <div className="w-36 border-b-[1px] border-darkgray">
+                <div className="flex border-b-[1px]">
+                  <div className="w-36border-darkgray">
                     <Image
                       width={0}
                       height={0}
@@ -195,7 +195,7 @@ export default function OurStore() {
                     <b>$ 300</b>
                   </div>
                 </div>
-                <div className="flex">
+                <div className="flex border-b-[1px]">
                   <div className="w-36 border-b-[1px] border-darkgray">
                     <Image
                       width={0}
