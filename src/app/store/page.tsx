@@ -5,6 +5,7 @@ import BreadCrumb from '@/components/BreadCrumb'
 import ProductTags from '@/components/ProductTags'
 import RandomProduct from '@/components/RandomProduct'
 import ShopByCategories from '@/components/ShopByCategories'
+import hamburgerGridStoreData from '@/data/hamburgerGridStoreData'
 import FilterBy from '../../components/FilterBy'
 
 export default function OurStore() {
@@ -38,15 +39,19 @@ export default function OurStore() {
                 <div className="flex items-center gap-2">
                   <p className="totalproducts">21 Products</p>
                   <div className="flex items-center gap-2">
-                    <Image
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '34px', height: '34px' }}
-                      src="/images/gr4.svg"
-                      alt="grid"
-                    ></Image>
-                    <Image
+                    {hamburgerGridStoreData.map((data) => (
+                      <Image
+                        key={data.id}
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: data.width, height: data.height }}
+                        src={data.src}
+                        alt="grid"
+                      />
+                    ))}
+
+                    {/* <Image
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -69,7 +74,7 @@ export default function OurStore() {
                       style={{ width: '34px', height: '34px' }}
                       src="/images/gr.svg"
                       alt="grid"
-                    ></Image>
+                    ></Image> */}
                   </div>
                 </div>
               </div>
