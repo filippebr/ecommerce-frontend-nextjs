@@ -195,7 +195,7 @@ export default function OurStore() {
                     <b>$ 300</b>
                   </div>
                 </div>
-                <div className="flex border-b-[1px]">
+                <div className="flex w-72 border-b-[1px]">
                   <div className="w-36 border-darkgray">
                     <Image
                       width={0}
