@@ -174,7 +174,7 @@ export default function OurStore() {
               </h3>
               <div>
                 <div className="flex border-b-[1px]">
-                  <div className="w-36 border-darkgray">
+                  <div className="w-28 border-darkgray">
                     <Image
                       width={0}
                       height={0}
@@ -185,7 +185,7 @@ export default function OurStore() {
                       className="rounded-full p-1"
                     ></Image>
                   </div>
-                  <div className="w-36 text-base">
+                  <div className="w-28 text-base">
                     <h5 className="mb-2">
                       Kids headphones bulk 10 pack multi colored for students
                     </h5>
