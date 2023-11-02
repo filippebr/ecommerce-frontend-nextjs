@@ -244,7 +244,7 @@ export default function OurStore() {
                       height={0}
                       sizes="100vw"
                       style={{ width: 'auto', height: 'auto' }}
-                      src="/images/gr2.svg"
+                      src="/images/gr4.svg"
                       alt="grid"
                     ></Image>
                     <Image
@@ -260,7 +260,7 @@ export default function OurStore() {
                       height={0}
                       sizes="100vw"
                       style={{ width: 'auto', height: 'auto' }}
-                      src="/images/gr4.svg"
+                      src="/images/gr2.svg"
                       alt="grid"
                     ></Image>
                     <Image
