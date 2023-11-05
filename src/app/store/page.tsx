@@ -46,6 +46,7 @@ export default function OurStore() {
                         height={0}
                         sizes="100vw"
                         style={{ width: data.width, height: data.height }}
+                        className="px-2"
                         src={data.src}
                         alt="grid"
                       />
