@@ -6,7 +6,7 @@ export default function RandomProduct() {
     <div className="mb-1 rounded-lg bg-white px-3 py-4">
       <h3 className="mb-5 text-base font-semibold text-gray">Random Product</h3>
       <div>
-        <div className="flex w-72 border-b-[1px]">
+        <div className="flex w-72">
           <div className="w-36 border-darkgray">
             <Image
               width={0}
@@ -28,7 +28,7 @@ export default function RandomProduct() {
             <b>$ 300</b>
           </div>
         </div>
-        <div className="flex w-72 border-b-[1px]">
+        <div className="flex w-72">
           <div className="w-36 border-darkgray">
             <Image
               width={0}
