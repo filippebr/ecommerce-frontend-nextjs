@@ -13,7 +13,7 @@ import { useState } from 'react'
 
 export default function OurStore() {
   const [grid, setGrid] = useState(4)
-  alert(grid)
+  console.log(grid)
 
   return (
     <>
