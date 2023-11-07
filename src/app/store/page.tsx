@@ -42,8 +42,8 @@ export default function OurStore() {
                     {hamburgerGridStoreData.map((data) => (
                       <Image
                         key={data.id}
-                        width={100}
-                        height={100}
+                        width={24}
+                        height={24}
                         sizes="100vw"
                         // style={{ width: data.width, height: data.height }}
                         className="px-2"
