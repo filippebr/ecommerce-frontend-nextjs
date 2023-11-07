@@ -46,7 +46,7 @@ export default function OurStore() {
                         height={42}
                         sizes="100vw"
                         // style={{ width: data.width, height: data.height }}
-                        className="px-3"
+                        className="cursor-pointer bg-eastbay px-3"
                         src={data.src}
                         alt="grid"
                       />
