@@ -4,7 +4,7 @@ import ActionBar from './ActionBar'
 import ProductDetails from './ProductDetails'
 import ProductImage from './ProductImage'
 
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 // type ProductCardProps = {
 //   grid: number
