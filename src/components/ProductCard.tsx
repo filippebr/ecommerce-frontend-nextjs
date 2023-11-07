@@ -4,17 +4,17 @@ import ActionBar from './ActionBar'
 import ProductDetails from './ProductDetails'
 import ProductImage from './ProductImage'
 
-import { useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 // type ProductCardProps = {
 //   grid: number
 // }
 
 export default function ProductCard() {
-  const router = useRouter()
+  const path = usePathname()
   // const navigateTo = () => router.push('/dashboard/app')
 
-  console.log(router)
+  console.log(path)
 
   return (
     <div className="col-span-3">
