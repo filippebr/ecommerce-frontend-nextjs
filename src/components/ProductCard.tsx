@@ -6,18 +6,19 @@ import ProductImage from './ProductImage'
 
 import { usePathname } from 'next/navigation'
 
-// type ProductCardProps = {
-//   grid: number
-// }
+type ProductCardProps = {
+  grid: number
+}
 
-export default function ProductCard() {
+export default function ProductCard({ grid }: ProductCardProps) {
   const path = usePathname()
   // const navigateTo = () => router.push('/dashboard/app')
 
-  console.log(path)
+  console.log(path === '/store')
+  console.log(grid)
 
   return (
-    <div className={`${path === '/store' ? `col-span-1` : 'col-span-3'} `}>
+    <div className={`${path === '/store' ? `col-span-1` : 'col-span-3'}`}>
       <div className="group relative overflow-hidden rounded-lg bg-white p-4">
         {/* Wishlist */}
         <div className="absolute right-5 top-0">
