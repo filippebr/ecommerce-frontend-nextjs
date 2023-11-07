@@ -1,5 +1,3 @@
-'use client'
-
 import Image from 'next/image'
 import Link from 'next/link'
 import ActionBar from './ActionBar'
@@ -16,7 +14,7 @@ export default function ProductCard() {
   const router = useRouter()
   // const navigateTo = () => router.push('/dashboard/app')
 
-  console.log(router.asPath)
+  console.log(router)
 
   return (
     <div className="col-span-3">
