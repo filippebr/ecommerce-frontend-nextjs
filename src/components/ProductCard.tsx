@@ -6,16 +6,16 @@ import ProductImage from './ProductImage'
 
 import { usePathname } from 'next/navigation'
 
-type ProductCardProps = {
-  grid: number
-}
+// type ProductCardProps = {
+//   grid: number
+// }
 
-export default function ProductCard(grid: ProductCardProps) {
+export default function ProductCard() {
   const path = usePathname()
   // const navigateTo = () => router.push('/dashboard/app')
 
   console.log(path === '/store')
-  console.log(grid)
+  // console.log(grid)
 
   return (
     <div className={`${path === '/store' ? `col-span-1` : 'col-span-3'}`}>
