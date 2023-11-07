@@ -24,7 +24,9 @@ export default function OurStore() {
             <div className="rounded-lg bg-white p-2">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <p className="mb-0 block">Sort By:</p>
+                  <p className="mb-0 block" style={{ width: '100px' }}>
+                    Sort By:
+                  </p>
                   <select name="" className="" id="">
                     <option value="">Featured</option>
                     <option value="">Best selling</option>
