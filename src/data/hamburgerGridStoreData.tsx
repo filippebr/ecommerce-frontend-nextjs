@@ -21,7 +21,7 @@ const hamburgerGridStoreData = [
     id: 3,
     height: '28px',
     width: '28px',
-    src: '/images/g4.svg',
+    src: '/images/gr4.svg',
   },
 ]
 
