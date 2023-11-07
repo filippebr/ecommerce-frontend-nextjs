@@ -1,8 +1,8 @@
 const hamburgerGridStoreData = [
   {
     id: 0,
-    height: '30px',
-    width: '30px',
+    height: '32px',
+    width: '32px',
     src: '/images/gr4.svg',
   },
   {
@@ -13,14 +13,14 @@ const hamburgerGridStoreData = [
   },
   {
     id: 2,
-    height: '26px',
-    width: '26px',
+    height: '24px',
+    width: '24px',
     src: '/images/gr2.svg',
   },
   {
     id: 3,
-    height: '30px',
-    width: '30px',
+    height: '32px',
+    width: '32px',
     src: '/images/gr.svg',
   },
 ]
