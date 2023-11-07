@@ -16,7 +16,7 @@ export default function ProductCard({ grid }: ProductCardProps) {
   const router = useRouter()
   // const navigateTo = () => router.push('/dashboard/app')
 
-  console.log(router)
+  console.log(router.asPath)
 
   return (
     <div className="col-span-3">
