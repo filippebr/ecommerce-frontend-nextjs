@@ -10,7 +10,7 @@ type ProductCardProps = {
   grid: number
 }
 
-export default function ProductCard({ grid }: ProductCardProps) {
+export default function ProductCard(grid: ProductCardProps) {
   const path = usePathname()
   // const navigateTo = () => router.push('/dashboard/app')
 
