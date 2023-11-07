@@ -6,7 +6,18 @@ import ActionBar from './ActionBar'
 import ProductDetails from './ProductDetails'
 import ProductImage from './ProductImage'
 
-export default function ProductCard() {
+import { useRouter } from 'next/router'
+
+type ProductCardProps = {
+  grid: number
+}
+
+export default function ProductCard({ grid }: ProductCardProps) {
+  const router = useRouter()
+  // const navigateTo = () => router.push('/dashboard/app')
+
+  console.log(router)
+
   return (
     <div className="col-span-3">
       <div className="group relative overflow-hidden rounded-lg bg-white p-4">
@@ -22,6 +33,7 @@ export default function ProductCard() {
               alt="wishlist"
               className="rounded-full p-1 hover:bg-petiteorchid"
             ></Image>
+            {grid}
           </Link>
         </div>
         {/* Product Image */}

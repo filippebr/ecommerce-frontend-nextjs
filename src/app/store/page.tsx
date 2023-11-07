@@ -3,11 +3,12 @@ import Image from 'next/image'
 
 import BreadCrumb from '@/components/BreadCrumb'
 
+import FilterBy from '@/components/FilterBy'
+import ProductCard from '@/components/ProductCard'
 import ProductTags from '@/components/ProductTags'
 import RandomProduct from '@/components/RandomProduct'
 import ShopByCategories from '@/components/ShopByCategories'
 import hamburgerGridStoreData from '@/data/hamburgerGridStoreData'
-import FilterBy from '../../components/FilterBy'
 
 import { useState } from 'react'
 
@@ -67,7 +68,9 @@ export default function OurStore() {
               </div>
             </div>
           </div>
-          <div className="products-list pb-5"></div>
+          <div className="products-list pb-5">
+            <ProductCard grid={grid} />
+          </div>
         </div>
       </div>
     </>
