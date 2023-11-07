@@ -12,7 +12,7 @@ import { useRouter } from 'next/router'
 //   grid: number
 // }
 
-export default function ProductCard(grid: number) {
+export default function ProductCard() {
   const router = useRouter()
   // const navigateTo = () => router.push('/dashboard/app')
 
@@ -33,7 +33,7 @@ export default function ProductCard(grid: number) {
               alt="wishlist"
               className="rounded-full p-1 hover:bg-petiteorchid"
             ></Image>
-            {grid}
+            {/* {grid} */}
           </Link>
         </div>
         {/* Product Image */}
