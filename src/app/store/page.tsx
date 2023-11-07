@@ -67,9 +67,9 @@ export default function OurStore() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="products-list pb-5">
-            <ProductCard />
+            <div className="products-list pb-5">
+              <ProductCard />
+            </div>
           </div>
         </div>
       </div>
