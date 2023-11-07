@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 
 import BreadCrumb from '@/components/BreadCrumb'
@@ -8,7 +9,12 @@ import ShopByCategories from '@/components/ShopByCategories'
 import hamburgerGridStoreData from '@/data/hamburgerGridStoreData'
 import FilterBy from '../../components/FilterBy'
 
+import { useState } from 'react'
+
 export default function OurStore() {
+  const [grid, setGrid] = useState(4)
+  alert(grid)
+
   return (
     <>
       <BreadCrumb title="Our Store" />
@@ -24,7 +30,7 @@ export default function OurStore() {
             <div className="rounded-lg bg-white p-2">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <p className="mb-0 block" style={{ width: '100px' }}>
+                  <p className="mb-0 mr-2 block" style={{ width: '100px' }}>
                     Sort By:
                   </p>
                   <select name="" className="" id="">
@@ -43,6 +49,9 @@ export default function OurStore() {
                   <div className="flex items-center gap-2">
                     {hamburgerGridStoreData.map((data) => (
                       <Image
+                        onClick={() => {
+                          setGrid(data.id + 1)
+                        }}
                         key={data.id}
                         width={42}
                         height={42}
@@ -58,6 +67,7 @@ export default function OurStore() {
               </div>
             </div>
           </div>
+          <div className="products-list pb-5"></div>
         </div>
       </div>
     </>
