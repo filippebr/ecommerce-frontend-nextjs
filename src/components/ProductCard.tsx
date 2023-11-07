@@ -6,17 +6,17 @@ import ActionBar from './ActionBar'
 import ProductDetails from './ProductDetails'
 import ProductImage from './ProductImage'
 
-// import { useRouter } from 'next/router'
+import { useRouter } from 'next/router'
 
-type ProductCardProps = {
-  grid: number
-}
+// type ProductCardProps = {
+//   grid: number
+// }
 
-export default function ProductCard({ grid }: ProductCardProps) {
-  // const router = useRouter()
+export default function ProductCard(grid: number) {
+  const router = useRouter()
   // const navigateTo = () => router.push('/dashboard/app')
 
-  // console.log(router.asPath)
+  console.log(router.asPath)
 
   return (
     <div className="col-span-3">
