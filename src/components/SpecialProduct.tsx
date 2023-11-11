@@ -25,8 +25,9 @@ export default function SpecialProduct() {
               Samsung Galaxy Note10+ Mobile Phone; Sim...
             </h6>
             <div className="grid grid-cols-5">
-              <div className="flex justify-start">
+              <div className="flex flex-row">
                 <RatingStar sizeProp={20} />
+
               </div>
             </div>
             <p className="text-lg text-darkgray">

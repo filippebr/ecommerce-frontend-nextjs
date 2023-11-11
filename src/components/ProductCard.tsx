@@ -12,7 +12,6 @@ import { usePathname } from 'next/navigation'
 
 export default function ProductCard() {
   const path = usePathname()
-  // const navigateTo = () => router.push('/dashboard/app')
 
   console.log(path === '/store')
   // console.log(gridProps)
