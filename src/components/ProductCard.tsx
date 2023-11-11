@@ -6,20 +6,21 @@ import ProductImage from './ProductImage'
 
 import { usePathname } from 'next/navigation'
 
-// interface ProductCardProps {
-//   gridProps: number
-// }
+interface ProductCardProps {
+  gridProp: number
+}
 
-export default function ProductCard() {
+export default function ProductCard({ gridProp }: ProductCardProps) {
   const path = usePathname()
 
   console.log(path === '/store')
-  // console.log(gridProps)
+  console.log(gridProp)
 
   return (
     <div className={`${path === '/store' ? `col-span-1` : 'col-span-3'}`}>
       <div className="group relative overflow-hidden rounded-lg bg-white p-4">
         {/* Wishlist */}
+        {gridProp}
         <div className="absolute right-5 top-0">
           <Link href={'/'}>
             <Image
