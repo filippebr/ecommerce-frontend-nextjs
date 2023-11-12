@@ -13,7 +13,7 @@ interface ProductCardProps {
 export default function ProductCard({ gridProp }: ProductCardProps) {
   const path = usePathname()
 
-  console.log(path === '/store')
+  // console.log(path === '/store')
   console.log('gridProp: ', gridProp)
 
   return (
