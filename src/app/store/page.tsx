@@ -13,7 +13,7 @@ import hamburgerGridStoreData from '@/data/hamburgerGridStoreData'
 import { useState } from 'react'
 
 export default function OurStore() {
-  const [grid, setGrid] = useState(4)
+  const [grid, setGrid] = useState<number>(0)
   console.log('grid', grid)
 
   return (
@@ -68,7 +68,7 @@ export default function OurStore() {
               </div>
             </div>
             <div className="products-list pb-5">
-              <ProductCard />
+              <ProductCard gridProp={grid} />
             </div>
           </div>
         </div>
