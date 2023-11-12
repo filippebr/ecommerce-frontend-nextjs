@@ -13,7 +13,7 @@ import hamburgerGridStoreData from '@/data/hamburgerGridStoreData'
 import { useState } from 'react'
 
 export default function OurStore() {
-  const [grid, setGrid] = useState<number>(0)
+  const [grid, setGrid] = useState(0)
   console.log('grid', grid)
 
   return (
