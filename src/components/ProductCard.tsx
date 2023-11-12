@@ -14,7 +14,7 @@ export default function ProductCard({ gridProp }: ProductCardProps) {
   const path = usePathname()
 
   console.log(path === '/store')
-  console.log(gridProp)
+  console.log('gridProp: ', gridProp)
 
   return (
     <div className={`${path === '/store' ? `col-span-1` : 'col-span-3'}`}>

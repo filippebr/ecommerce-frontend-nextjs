@@ -14,7 +14,7 @@ import { useState } from 'react'
 
 export default function OurStore() {
   const [grid, setGrid] = useState(4)
-  console.log(grid)
+  console.log('grid', grid)
 
   return (
     <>
@@ -68,7 +68,7 @@ export default function OurStore() {
               </div>
             </div>
             <div className="products-list pb-5">
-              <ProductCard gridProp={grid} />
+              <ProductCard gridProp={4} />
             </div>
           </div>
         </div>
