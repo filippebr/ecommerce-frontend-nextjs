@@ -4,11 +4,7 @@ export const metadata = {
     'Ecommerce following Developers Corner, using Nextjs and Tailwind',
 }
 
-export default function StoreLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function StoreLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       {children}
