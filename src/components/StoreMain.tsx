@@ -2,16 +2,16 @@
 
 import hamburgerGridStoreData from '@/data/hamburgerGridStoreData'
 import Image from 'next/image'
-import { useState } from 'react'
 import BreadCrumb from './BreadCrumb'
 import FilterBy from './FilterBy'
 import ProductCard from './ProductCard'
 import ProductTags from './ProductTags'
 import RandomProduct from './RandomProduct'
 import ShopByCategories from './ShopByCategories'
+import { useGrid } from './StoreProvider'
 
 export default function StoreMain() {
-  const [grid, setGrid] = useState(0)
+  const { grid, setGrid } = useGrid()
 
   console.log('grid', grid)
 

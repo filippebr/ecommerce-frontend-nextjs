@@ -1,13 +1,10 @@
-'use client'
-
 import StoreMain from '@/components/StoreMain'
-
-// const UserContext = createContext()
+import { StoreProvider } from '@/components/StoreProvider'
 
 export default function OurStore() {
   return (
-    <>
+    <StoreProvider>
       <StoreMain />
-    </>
+    </StoreProvider>
   )
 }
