@@ -24,14 +24,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   )
 }
 
-const useGrid = () => {
+export function useGrid() {
   const context = useContext(GridContext)
   if (!context) {
     throw new Error('useGrid must be used within a GridProvider')
   }
   return context
 }
-
-export { useGrid }
-// eslint-disable-next-line prettier/prettier
-
