@@ -8,6 +8,7 @@ import ProductCard from './ProductCard'
 import ProductTags from './ProductTags'
 import RandomProduct from './RandomProduct'
 import ShopByCategories from './ShopByCategories'
+
 import { useGrid } from './StoreProvider'
 
 export default function StoreMain() {

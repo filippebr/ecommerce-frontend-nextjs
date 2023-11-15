@@ -1,3 +1,5 @@
+'use client'
+
 import {
   Dispatch,
   ReactNode,
@@ -12,7 +14,15 @@ type GridContextType = {
   setGrid: Dispatch<SetStateAction<number>>
 }
 
-const GridContext = createContext<GridContextType | undefined>(undefined)
+const gridContextDefaultValues: GridContextType = {
+  grid: 0,
+  // eslint-disable-next-line
+  setGrid: () => { },
+}
+
+const GridContext = createContext<GridContextType | undefined>(
+  gridContextDefaultValues,
+)
 
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [grid, setGrid] = useState(0)
@@ -24,10 +34,14 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   )
 }
 
+// export function useGrid() {
+//   return useContext(GridContext)
+// }
+
 export function useGrid() {
   const context = useContext(GridContext)
   if (!context) {
-    throw new Error('useGrid must be used within a GridProvider')
+    throw new Error('useGrid must be used within a StoreProvider')
   }
   return context
 }
