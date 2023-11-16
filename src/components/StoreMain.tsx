@@ -68,7 +68,7 @@ export default function StoreMain() {
               </div>
             </div>
             <div className="products-list pb-5">
-              <ProductCard />
+              <ProductCard gridProp={grid} />
             </div>
           </div>
         </div>

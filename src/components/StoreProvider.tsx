@@ -25,7 +25,7 @@ const GridContext = createContext<GridContextType | undefined>(
 )
 
 export function StoreProvider({ children }: { children: ReactNode }) {
-  const [grid, setGrid] = useState(0)
+  const [grid, setGrid] = useState(4)
 
   return (
     <GridContext.Provider value={{ grid, setGrid }}>
