@@ -5,7 +5,6 @@ import FamousProducts from '@/components/FamousProducts'
 import MainBanner from '@/components/MainBanners'
 import MainServices from '@/components/MainServices'
 import PopularProducts from '@/components/PopularProducts'
-// import ProductCard from '@/components/ProductCard'
 import ProductCardList from '@/components/ProductCardList'
 import SpecialProduct from '@/components/SpecialProduct'
 import { useGrid } from '@/components/StoreProvider'
@@ -25,10 +24,6 @@ export default function Main() {
             <h3 className="mb-8 text-2xl font-semibold">Featured Collection</h3>
           </div>
           <ProductCardList gridProp={grid} count={4} />
-          {/* <ProductCard gridProp={grid} />
-          <ProductCard gridProp={grid} />
-          <ProductCard gridProp={grid} />
-          <ProductCard gridProp={grid} /> */}
         </div>
       </section>
       <FamousProducts />
