@@ -1,6 +1,6 @@
 'use client'
 
-import ProductCard from './ProductCard'
+import ProductCardList from './ProductCardList'
 import { useGrid } from './StoreProvider'
 
 export default function PopularProducts() {
@@ -14,10 +14,7 @@ export default function PopularProducts() {
         </div>
       </div>
       <div className="grid grid-cols-12 px-4 text-3xl sm:px-8 lg:px-16">
-        <ProductCard gridProp={grid} />
-        <ProductCard gridProp={grid} />
-        <ProductCard gridProp={grid} />
-        <ProductCard gridProp={grid} />
+        <ProductCardList gridProp={grid} count={4} />
       </div>
     </section>
   )
