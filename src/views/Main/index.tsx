@@ -29,7 +29,6 @@ export default function Main() {
           <ProductCard gridProp={grid} />
         </div>
       </section>
-      {/* Famous Products */}
       <FamousProducts />
       {/* Special Products */}
       <section className="py-5">

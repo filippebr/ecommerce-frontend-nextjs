@@ -35,10 +35,8 @@ export default function ProductCard({ gridProp }: ProductCardProps) {
             {/* {grid} */}
           </Link>
         </div>
-        {/* Product Image */}
         <ProductImage />
         <ProductDetails />
-        {/* Action Bar */}
         <ActionBar />
       </div>
     </div>
