@@ -6,7 +6,7 @@ import MainBanner from '@/components/MainBanners'
 import MainServices from '@/components/MainServices'
 import PopularProducts from '@/components/PopularProducts'
 import ProductCardList from '@/components/ProductCardList'
-import SpecialProduct from '@/components/SpecialProduct'
+import SpecialProductList from '@/components/SpecialProductList'
 import { useGrid } from '@/components/StoreProvider'
 
 export default function Main() {
@@ -33,9 +33,7 @@ export default function Main() {
           <div className="col-span-12">
             <h3 className="mb-8 text-2xl font-semibold">Special Products</h3>
           </div>
-          <SpecialProduct />
-          <SpecialProduct />
-          <SpecialProduct />
+          <SpecialProductList count={3} />
         </div>
       </section>
       {/* Our Popular Products */}
