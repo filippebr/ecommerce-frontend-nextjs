@@ -33,7 +33,7 @@ export default function Main() {
           <div className="col-span-12">
             <h3 className="mb-8 text-2xl font-semibold">Special Products</h3>
           </div>
-          <SpecialProductList count={3} />
+          <SpecialProductList count={4} />
         </div>
       </section>
       {/* Our Popular Products */}
