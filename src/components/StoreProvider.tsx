@@ -34,10 +34,6 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   )
 }
 
-// export function useGrid() {
-//   return useContext(GridContext)
-// }
-
 export function useGrid() {
   const context = useContext(GridContext)
   if (!context) {
