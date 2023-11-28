@@ -1,6 +1,6 @@
-import HeaderBottom from '@/components/HeaderBottom'
-import HeaderMiddle from '@/components/HeaderMiddle'
-import HeaderTop from '@/components/HeaderTop'
+import HeaderBottom from '@/components/Header/HeaderBottom'
+import HeaderMiddle from '@/components/Header/HeaderMiddle'
+import HeaderTop from '@/components/Header/HeaderTop'
 
 export default function Header() {
   return (
