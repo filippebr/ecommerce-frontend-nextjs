@@ -40,44 +40,6 @@ export default function ProductCard({ gridProp }: ProductCardProps) {
         <ProductImage />
         <ProductDetails />
         <ActionBar />
-        {/* Wishlist */}
-        {/* {gridProp} */}
-        <div className="absolute right-5 top-0">
-          <Link href={'/'}>
-            <Image
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: 'auto', height: 'auto' }}
-              src="/images/wish.svg"
-              alt="wishlist"
-              className="rounded-full p-1 hover:bg-petiteorchid"
-            ></Image>
-            {/* {grid} */}
-          </Link>
-        </div>
-        <ProductImage />
-        <ProductDetails />
-        <ActionBar />
-        {/* Wishlist */}
-        {/* {gridProp} */}
-        <div className="absolute right-5 top-0">
-          <Link href={'/'}>
-            <Image
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: 'auto', height: 'auto' }}
-              src="/images/wish.svg"
-              alt="wishlist"
-              className="rounded-full p-1 hover:bg-petiteorchid"
-            ></Image>
-            {/* {grid} */}
-          </Link>
-        </div>
-        <ProductImage />
-        <ProductDetails />
-        <ActionBar />
       </div>
     </div>
   )
