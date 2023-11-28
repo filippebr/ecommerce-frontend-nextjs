@@ -2,8 +2,8 @@
 
 import BlogCardList from '@/components/BlogCardList'
 import FamousProducts from '@/components/FamousProducts'
-import MainBanner from '@/components/MainBanners'
-import MainServices from '@/components/MainServices'
+import MainBanner from '@/components/Main/MainBanners'
+import MainServices from '@/components/Main/MainServices'
 import PopularProducts from '@/components/PopularProducts'
 import ProductCardList from '@/components/ProductCardList'
 import SpecialProductList from '@/components/SpecialProductList'
