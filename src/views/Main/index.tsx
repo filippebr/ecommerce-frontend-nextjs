@@ -1,6 +1,6 @@
 'use client'
 
-import BlogCard from '@/components/BlogCard'
+import BlogCardList from '@/components/BlogCardList'
 import FamousProducts from '@/components/FamousProducts'
 import MainBanner from '@/components/MainBanners'
 import MainServices from '@/components/MainServices'
@@ -45,10 +45,7 @@ export default function Main() {
           <div className="col-span-4">
             <h3 className="mb-8 text-2xl font-semibold">Our latest Blogs</h3>
           </div>
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
+          <BlogCardList count={4} />
         </div>
       </section>
     </>
