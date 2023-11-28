@@ -1,6 +1,6 @@
-import FooterBottom from '@/components/FooterBottom'
-import FooterMiddle from '@/components/FooterMiddle'
-import FooterTop from '@/components/FooterTop'
+import FooterBottom from '@/components/Footer/FooterBottom'
+import FooterMiddle from '@/components/Footer/FooterMiddle'
+import FooterTop from '@/components/Footer/FooterTop'
 
 export default function Footer() {
   return (
