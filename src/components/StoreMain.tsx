@@ -49,7 +49,7 @@ export default function StoreMain() {
                     {hamburgerGridStoreData.map((data) => (
                       <Image
                         onClick={() => {
-                          setGrid(data.id + 1)
+                          setGrid(data.span)
                         }}
                         key={data.id}
                         width={42}
@@ -65,7 +65,7 @@ export default function StoreMain() {
                 </div>
               </div>
             </div>
-            <div className="products-list grid grid-cols-4 pb-5">
+            <div className="products-list grid grid-cols-12 pb-5">
               <ProductCard gridProp={grid} />
             </div>
           </div>
