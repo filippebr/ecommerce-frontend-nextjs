@@ -14,7 +14,7 @@ export default function RatingStar({ sizeProp }: RatingStarProps) {
   return (
     <>
       {[...Array(5)].map((_, index) => (
-        <label htmlFor="" key={index}>
+        <label key={index}>
           <FaStar
             className={`${index <= selectedStarCount - 1 ? 'text-sushi' : ''
               } cursor-pointer ${index + 1 <= selectedHoverStarCount ? 'text-sushi' : ''
