@@ -67,6 +67,10 @@ export default function StoreMain() {
             </div>
             <div className="products-list grid grid-cols-12 pb-5">
               <ProductCard gridProp={grid} />
+              <ProductCard gridProp={grid} />
+              <ProductCard gridProp={grid} />
+              <ProductCard gridProp={grid} />
+              <ProductCard gridProp={grid} />
             </div>
           </div>
         </div>
