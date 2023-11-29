@@ -17,9 +17,7 @@ export default function ProductCard({ gridProp }: ProductCardProps) {
   console.log('gridProp: ', gridProp)
 
   return (
-    <div
-      className={`${path === '/store' ? `col-span-${gridProp}` : 'col-span-3'}`}
-    >
+    <div className={`${path === '/store' ? `col-span-1` : 'col-span-3'}`}>
       <div className="group relative overflow-hidden rounded-lg bg-white p-4">
         {/* Wishlist */}
         {/* {gridProp} */}

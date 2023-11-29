@@ -14,8 +14,6 @@ import { useGrid } from './StoreProvider'
 export default function StoreMain() {
   const { grid, setGrid } = useGrid()
 
-  console.log('grid', grid)
-
   return (
     <>
       <BreadCrumb title="Our Store" />
