@@ -54,7 +54,7 @@ export default function StoreMain() {
                         key={data.id}
                         width={42}
                         height={42}
-                        sizes="100vw"
+                        // sizes="100vw"
                         // style={{ width: data.width, height: data.height }}
                         className="cursor-pointer px-3 py-2 hover:rounded-md hover:bg-spunpearl"
                         src={data.src}
@@ -65,7 +65,7 @@ export default function StoreMain() {
                 </div>
               </div>
             </div>
-            <div className="products-list grid grid-cols-12 pb-5">
+            <div className="grid grid-cols-12 pb-5">
               <ProductCard gridProp={grid} />
               <ProductCard gridProp={grid} />
               <ProductCard gridProp={grid} />
