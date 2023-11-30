@@ -13,14 +13,15 @@ interface ProductCardProps {
 export default function ProductCard({ gridProp }: ProductCardProps) {
   const path = usePathname()
 
-  console.log(path === '/store')
-  console.log('gridProp: ', gridProp)
+  console.table([
+    { 'gridProp: ': gridProp, 'gridProp type: ': typeof gridProp },
+    { 'gridPropstringify:': gridProp.toString() },
+  ])
 
   return (
-    // <div
-    //   className={`${path === '/store' ? `col-span-${gridProp}` : 'col-span-3'}`}
-    // >
-    <div className={`${path === '/store' ? `col-span-6` : 'col-span-3'}`}>
+    <div
+      className={`${path === '/store' ? `col-span-${gridProp}` : 'col-span-3'}`}
+    >
       <div className="group relative overflow-hidden rounded-lg bg-white p-4">
         {/* Wishlist */}
         <div className="absolute right-5 top-0">
