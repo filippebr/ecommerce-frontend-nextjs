@@ -11,6 +11,7 @@ export default function FilterBy() {
             className="mr-2 leading-tight accent-wildwillow shadow-none"
             type="checkbox"
             value="inStock"
+            id="inStock"
           />
           <label
             className="text-sm font-semibold text-lightgray"
@@ -24,6 +25,7 @@ export default function FilterBy() {
             className="mr-2 leading-tight accent-wildwillow shadow-none"
             type="checkbox"
             value="outStock"
+            id="outStock"
           />
           <label
             className="text-sm font-semibold text-lightgray"
