@@ -20,10 +20,8 @@ export default function ProductCard({ gridProp }: ProductCardProps) {
     <div
       className={`${path === '/store' ? `col-span-${gridProp}` : 'col-span-3'}`}
     >
-      {/* <div className="col-span-1"> */}
       <div className="group relative overflow-hidden rounded-lg bg-white p-4">
         {/* Wishlist */}
-        {/* {gridProp} */}
         <div className="absolute right-5 top-0">
           <Link href={'/'}>
             <Image
